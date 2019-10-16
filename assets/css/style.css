@@ -1,0 +1,37 @@
+
+.container-fluid {
+    height: 100vh;
+    background: url('../images/dancer2.jpg') no-repeat top right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-heading {
+    color: white;
+    font-family: "Italianno", sans-serif;
+    margin-bottom: 250px;
+    font-size: 4rem;
+} 
+.moto {
+    font-family: "Italianno", sans-serif;
+    color: white;
+    font-size: 2.5rem;
+
+}
