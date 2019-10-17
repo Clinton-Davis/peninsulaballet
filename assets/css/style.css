@@ -14,7 +14,14 @@
 
   position: inherit;
 }
-
+.grayout-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .main-heading {
   color: white;
   font-family: "Italianno", sans-serif;
@@ -51,11 +58,3 @@
   color: white;
 }
 /*---------------Gray-Overlay----------------*/
-.grayout-overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
