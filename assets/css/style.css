@@ -1,3 +1,4 @@
+/*---------Landing Page --------*/
 .container-fluid {
   height: 100vh;
   background: url("../images/dancer2.jpg") no-repeat top right fixed;
@@ -10,7 +11,7 @@
   align-items: center;
   justify-content: center;
 
-  position: relative;
+  position: inherit;
 }
 
 .grayout-overlay {
@@ -25,11 +26,17 @@
 .main-heading {
   color: white;
   font-family: "Italianno", sans-serif;
-  margin-bottom: 250px;
-  font-size: 4rem;
+  margin-bottom: 75px;
+  font-size: 4.5rem;
 }
-.moto {
+.motto {
   font-family: "Italianno", sans-serif;
   color: white;
   font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+/*---------------BUTTONS---------------*/
+.enter-btn {
+  justify-content: center;
 }
