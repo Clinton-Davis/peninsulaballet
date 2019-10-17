@@ -1,4 +1,5 @@
 /*---------Landing Page --------*/
+
 .container-fluid {
   height: 100vh;
   background: url("../images/dancer2.jpg") no-repeat top right fixed;
@@ -28,6 +29,7 @@
   font-family: "Italianno", sans-serif;
   margin-bottom: 75px;
   font-size: 4.5rem;
+  align-self: auto;
 }
 .motto {
   font-family: "Italianno", sans-serif;
@@ -38,5 +40,12 @@
 
 /*---------------BUTTONS---------------*/
 .enter-btn {
-  justify-content: center;
+  margin: 50px auto;
+  display: block;
+  font-family: "Italianno", sans-serif;
+  font-size: xx-large;
+  color: #fff;
+  background-color: transparent;
+  border-color: white;
 }
+/*---------------NavBar----------------*/
