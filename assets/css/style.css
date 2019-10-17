@@ -49,3 +49,13 @@
   border-color: white;
 }
 /*---------------NavBar----------------*/
+.navbar {
+  padding: 0;
+}
+.bg-dark {
+  background-color: black !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
