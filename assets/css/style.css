@@ -1,6 +1,6 @@
 /*---------Landing Page --------*/
 
-.container-fluid {
+.dancer {
   height: 100vh;
   background: url("../images/dancer2.jpg") no-repeat top right fixed;
   -webkit-background-size: cover;
@@ -65,3 +65,4 @@
   align-items: center;
   border: 0;
 }
+/*----------------------Picturs-------------------*/
