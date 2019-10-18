@@ -58,3 +58,10 @@
   color: white;
 }
 /*---------------Gray-Overlay----------------*/
+/*---------------Centering----------------*/
+
+.card {
+  display: flex;
+  align-items: center;
+  border: 0;
+}
