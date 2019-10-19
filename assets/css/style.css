@@ -69,7 +69,7 @@
 /*-------------------SCHEDULE------------------------*/
 /*--------------------Teachers------------------------*/
 
-/*.teachers {
+.teachers {
   height: 100vh;
   background: url("../images/jon-tyson-unsplash-cropped.jpg") no-repeat top left
     fixed;
@@ -82,9 +82,13 @@
   align-items: center;
   justify-content: center;
 
-  position: relative;
+  position: inherit;
 }
 .container-fluid .teachers {
   padding-left: 0px;
   padding-right: 0px;
-}*/
+}
+
+.pageheader {
+  display: block;
+}
