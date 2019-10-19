@@ -77,8 +77,8 @@
 
 .teachers {
   height: 100vh;
-  background: url("../images/jon-tyson-unsplash-cropped.jpg") no-repeat top
-    center fixed;
+  background: url("../images/jon-tyson-unsplash-cropped.jpg") no-repeat top left
+    fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
