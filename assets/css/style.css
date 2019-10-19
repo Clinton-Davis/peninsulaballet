@@ -88,5 +88,9 @@
   align-items: center;
   justify-content: center;
 
-  position: inherit;
+  position: relative;
+}
+.container-fluid .teachers {
+  padding-left: 0px;
+  padding-right: 0px;
 }
