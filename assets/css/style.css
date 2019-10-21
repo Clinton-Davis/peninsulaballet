@@ -67,7 +67,15 @@
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
   display: inline-block;
 }*/
-/*-------------------SCHEDULE------------------------*/
+/*-------------------Genural Stylesing------------------------*/
+
+.inline-block {
+	display: inline-block;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
 /*--------------------Teachers------------------------*/
 
 .teachers {
@@ -92,4 +100,16 @@
 
 .pageheader {
 	display: block;
+}
+/*---------------------------------FOOTER--------------*/
+.blockquote-footer {
+	background-color: #fff;
+	color: black;
+	margin-top: 10px;
+}
+footer {
+	background-color: black;
+	color: white;
+	padding-top: 15px;
+	text-align: center;
 }
