@@ -100,6 +100,8 @@
 
 .pageheader {
 	display: block;
+	font-family: "Italianno", sans-serif;
+	font-size: 50px;
 }
 /*---------------------------------FOOTER--------------*/
 .blockquote-footer {
@@ -112,4 +114,17 @@ footer {
 	color: white;
 	padding-top: 15px;
 	text-align: center;
+}
+
+footer i {
+	padding-left: 10px;
+	font-size: 15px;
+	color: #fff;
+	transition: all 0.35 ease-in-out;
+	-moz-transition: all 0.35 ease-in-out;
+	-webkit-transition: all 0.35 ease-in-out;
+	-o-transition: all 0.35 ease-in-out;
+}
+footer i:hover {
+	color: deeppink;
 }
