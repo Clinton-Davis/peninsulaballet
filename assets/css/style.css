@@ -1,61 +1,62 @@
 /*---------Landing Page --------*/
 
 .dancer {
-  height: 100vh;
-  background: url("../images/dancer2.jpg") no-repeat top right fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	height: 100vh;
+	background: url("../images/dancer2.jpg") no-repeat top
+		right fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-  position: inherit;
+	position: absolute;
 }
 .grayout-overlay {
-  position: inherit;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+	position: inherit;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 .main-heading {
-  color: white;
-  font-family: "Italianno", sans-serif;
-  margin-bottom: 75px;
-  font-size: 4.5rem;
-  align-self: auto;
+	color: white;
+	font-family: "Italianno", sans-serif;
+	margin-bottom: 75px;
+	font-size: 4.5rem;
+	align-self: auto;
 }
 .motto {
-  font-family: "Italianno", sans-serif;
-  color: white;
-  font-size: 2.5rem;
-  margin-bottom: 50px;
+	font-family: "Italianno", sans-serif;
+	color: white;
+	font-size: 2.5rem;
+	margin-bottom: 50px;
 }
 
 /*---------------BUTTONS---------------*/
 .enter-btn {
-  margin: 50px auto;
-  display: block;
-  font-family: "Italianno", sans-serif;
-  font-size: xx-large;
-  color: #fff;
-  background-color: transparent;
-  border-color: white;
+	margin: 50px auto;
+	display: block;
+	font-family: "Italianno", sans-serif;
+	font-size: xx-large;
+	color: #fff;
+	background-color: transparent;
+	border-color: white;
 }
 /*---------------NavBar----------------*/
 .navbar {
-  padding: 0;
+	padding: 0;
 }
 .bg-dark {
-  background-color: black !important;
+	background-color: black !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
+	color: white;
 }
 
 /*-----------------Teachers Page------------------*/
@@ -70,25 +71,25 @@
 /*--------------------Teachers------------------------*/
 
 .teachers {
-  height: 100vh;
-  background: url("../images/jon-tyson-unsplash-cropped.jpg") no-repeat top left
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	height: 100vh;
+	background: url("../images/jon-tyson-unsplash-cropped.jpg")
+		no-repeat top left fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-  position: inherit;
+	position: inherit;
 }
 .container-fluid .teachers {
-  padding-left: 0px;
-  padding-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .pageheader {
-  display: block;
+	display: block;
 }
