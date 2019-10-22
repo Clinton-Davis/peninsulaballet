@@ -76,6 +76,8 @@ a:hover {
 
 .navbar-dark .navbar-nav .nav-link {
 	color: white;
+	font-family: "Italianno", sans-serif;
+	font-size: 20px;
 }
 
 /*-------------------Genural Stylesing------------------------*/
