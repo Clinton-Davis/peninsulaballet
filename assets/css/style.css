@@ -2,8 +2,7 @@
 
 .dancer {
 	height: 100vh;
-	background: url("../images/dancer2.jpg") no-repeat top
-		right fixed;
+	background: url("../images/dancer2.jpg") no-repeat top right fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -45,7 +44,17 @@
 	font-size: xx-large;
 	color: #fff;
 	background-color: transparent;
-	border-color: white;
+	border-color: transparent;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.enter-btn:hover {
+	color: palevioletred;
+	background-color: transparent;
+	border-color: transparent;
 }
 /*---------------NavBar----------------*/
 .navbar {
@@ -59,14 +68,6 @@
 	color: white;
 }
 
-/*-----------------Teachers Page------------------*/
-
-/*.bio {
-  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
-  display: inline-block;
-}*/
 /*-------------------Genural Stylesing------------------------*/
 
 .inline-block {
@@ -80,8 +81,8 @@
 
 .teachers {
 	height: 100vh;
-	background: url("../images/jon-tyson-unsplash-cropped.jpg")
-		no-repeat top left fixed;
+	background: url("../images/jon-tyson-unsplash-cropped.jpg") no-repeat top left
+		fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -101,7 +102,7 @@
 .pageheader {
 	display: block;
 	font-family: "Italianno", sans-serif;
-	font-size: 50px;
+	font-size: 60px;
 }
 /*---------------------------------FOOTER--------------*/
 .blockquote-footer {
@@ -120,10 +121,10 @@ footer i {
 	padding-left: 10px;
 	font-size: 15px;
 	color: #fff;
-	transition: all 0.35 ease-in-out;
-	-moz-transition: all 0.35 ease-in-out;
-	-webkit-transition: all 0.35 ease-in-out;
-	-o-transition: all 0.35 ease-in-out;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
 }
 footer i:hover {
 	color: deeppink;
