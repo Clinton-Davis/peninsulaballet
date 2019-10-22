@@ -70,8 +70,8 @@ a:hover {
 	padding: 0;
 }
 
-.bg-dark {
-	background-color: black !important;
+.navbar.bg {
+	background-color: black;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -102,13 +102,14 @@ h5 {
 }
 
 .card {
-	background: #fff;
+	background: transparent;
 	border-radius: 2px;
 	display: inline-block;
-	height: 300px;
+	height: auto;
 	margin: 1rem;
 	position: relative;
 	width: auto;
+	border: 0;
 }
 
 .loc {
