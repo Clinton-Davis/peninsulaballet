@@ -55,6 +55,10 @@
 	color: palevioletred;
 	background-color: transparent;
 	border-color: transparent;
+	direction: none;
+}
+a:hover {
+	text-decoration: none;
 }
 /*---------------NavBar----------------*/
 .navbar {
@@ -127,5 +131,5 @@ footer i {
 	-o-transition: all 0.3s ease-in-out;
 }
 footer i:hover {
-	color: deeppink;
+	color: palevioletred;
 }
