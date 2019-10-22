@@ -81,6 +81,10 @@ a:hover {
 }
 
 /*-------------------Genural Stylesing------------------------*/
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
 
 .inline-block {
 	display: inline-block;
@@ -94,6 +98,7 @@ a:hover {
 	display: block;
 	font-family: "Italianno", sans-serif;
 	font-size: 60px;
+	text-align: center;
 }
 
 h5 {
