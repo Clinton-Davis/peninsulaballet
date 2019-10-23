@@ -189,3 +189,52 @@ footer i:hover {
 	font-size: 18px;
 	margin-bottom: 0px;
 }
+
+/*--------ABOUT PAGE --------------------*/
+
+.about-container {
+	background: url("../images/sittingDownDancers.jpeg") no-repeat top right fixed;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.grayout-overlay-about {
+	position: inherit;
+	left: 0;
+	top: 0;
+
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.blockquote-footer {
+
+
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 0;
+	text-align: center;
+	border-radius: 50px;
+}
+
+.about {
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 30px 30px 30px 30px;
+	text-align: center;
+	border-radius: 50px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.container-testimonials {
+	margin-top: 25px;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 30px 30px 30px 30px;
+	text-align: center;
+	border-radius: 50px;
+	color: rgba(255, 255, 255, 0.7);
+
+}
