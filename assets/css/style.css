@@ -134,6 +134,14 @@ h5 {
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
+.shops {
+	align-content: center;
+}
+
+.shops li {
+	list-style: none;
+}
+
 /*--------------------Teachers------------------------*/
 
 .teachers {
@@ -272,4 +280,26 @@ footer i:hover {
 	height: 100%;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.info {
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 50px;
+}
+
+.container-info {
+	height: 200vh;
+	background: url("../images/donald-giannatti-T8iPsixsYoE-unsplash.jpg") no-repeat top right fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	flex-direction: column;
 }
