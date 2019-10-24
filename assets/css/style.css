@@ -81,10 +81,7 @@ a:hover {
 }
 
 /*-------------------Genural Stylesing------------------------*/
-html {
-	position: relative;
-	min-height: 100%;
-}
+
 
 .container-fluid {
 	padding: 0;
@@ -233,7 +230,7 @@ footer i:hover {
 }
 
 .about {
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: blue;
 	padding: 30px 30px 30px 30px;
 	text-align: center;
 	border-radius: 50px;
@@ -242,7 +239,7 @@ footer i:hover {
 
 .container-testimonials {
 	margin-top: 25px;
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: pink;
 	padding: 30px 30px 30px 30px;
 	text-align: center;
 	border-radius: 50px;
@@ -264,6 +261,7 @@ footer i:hover {
 	justify-content: center;
 
 	position: absolute;
+	overflow: hidden;
 }
 
 .grayout-overlay-loc {
