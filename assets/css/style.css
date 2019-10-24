@@ -238,3 +238,29 @@ footer i:hover {
 	color: rgba(255, 255, 255, 0.7);
 
 }
+
+/*-----------------------------Lococation Page-----------------------*/
+.container-loc {
+	height: 100vh;
+	background: url("../images/Dancer_on_rock.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+}
+
+.grayout-overlay-loc {
+	position: inherit;
+	left: 0;
+	top: 0;
+
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
