@@ -104,7 +104,8 @@ a:hover {
 	font-family: "Italianno", sans-serif;
 	font-size: 60px;
 	text-align: center;
-	color: #F8F6F6;
+	color: rgba(255, 255, 255, 0.9);
+	;
 }
 
 h5,
@@ -114,6 +115,7 @@ h2 {
 	font-family: "Italianno", sans-serif;
 	font-size: 40px;
 	text-align: center;
+
 }
 
 
@@ -153,20 +155,75 @@ h2 {
 
 /*--------------------Teachers------------------------*/
 
-.teachers {
-	height: 100vh;
-	background: url("../images/jon-tyson-unsplash-cropped.jpg") no-repeat top left fixed;
+/*.teacher-pic {
+	height: 500vh;
+	background: url("../images/donald-giannatti-T8iPsixsYoE-unsplash.jpg") no-repeat center left fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	min-height: 667px;
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
 	position: inherit;
+	flex-direction: column;
+
+}*/
+.teacher-pic {
+	background: rgba(254, 254, 254, 1);
+	background: -moz-linear-gradient(left, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(254, 254, 254, 1)), color-stop(28%, rgba(31, 30, 31, 1)), color-stop(73%, rgba(36, 29, 36, 1)), color-stop(100%, rgba(247, 242, 247, 1)));
+	background: -webkit-linear-gradient(left, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
+	background: -o-linear-gradient(left, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
+	background: linear-gradient(to right, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#f7f2f7', GradientType=1);
 }
+
+.card-text {
+	color: rgba(255, 255, 255, 0.8);
+	font-family: "Exo", sans-serif;
+	padding: 10px;
+}
+
+.card-title {
+	color: rgba(255, 255, 255, 0.8);
+	;
+	font-family: "Exo", sans-serif;
+}
+
+#CIP {
+	border-radius: 50px;
+}
+
+p {
+	color: rgba(255, 255, 255, 0.8);
+	;
+	font-family: "Exo", sans-serif;
+}
+
+.history-container {
+	background-color: black;
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
+	-moz-box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
+	box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
+}
+
+.card-block {
+	background-color: black;
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
+	-moz-box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
+	box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
+}
+}
+
+
+
 
 .container-fluid .teachers {
 	padding-left: 0px;
