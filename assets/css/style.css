@@ -70,6 +70,7 @@ a:hover {
 /*---------------NavBar----------------*/
 .navbar {
 	padding: 0;
+
 }
 
 .navbar.bg {
@@ -188,6 +189,7 @@ h2 {
 /*--------ABOUT PAGE --------------------*/
 .about-pic {
 	height: 100vh;
+	min-height: 763px;
 	background: url("../images/ballerina-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -207,6 +209,7 @@ h2 {
 	border-radius: 50px;
 	margin: 20px;
 	text-align: center;
+
 }
 
 .about-container p {
