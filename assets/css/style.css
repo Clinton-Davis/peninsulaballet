@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Italianno&display=swap');
 
+
 /*---------Landing Page --------*/
 
 .dancer {
@@ -73,9 +74,6 @@ a:hover {
 
 }
 
-
-
-
 .navbar.bg {
 	background-color: rgb(0, 0, 0);
 }
@@ -96,7 +94,25 @@ a:hover {
 }
 
 /*-------------------Genural Stylesing------------------------*/
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: transparent;
+}
 
 .container-fluid {
 	padding: 0;
@@ -127,6 +143,7 @@ h2 {
 	font-family: "Italianno", sans-serif;
 	font-size: 40px;
 	text-align: center;
+	color: rgba(255, 255, 255, 0.9);
 
 }
 
@@ -163,6 +180,11 @@ h2 {
 
 .shops li {
 	list-style: none;
+
+}
+
+p {
+	font-family: "Exo", sans-serif;
 }
 
 /*--------------------Teachers------------------------*/
@@ -316,15 +338,21 @@ p {
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
+/*------------------------------------------Information Page--------------------------------------*/
 .info {
 	text-align: center;
-	border: 1px solid black;
+	border: 0;
 	border-radius: 50px;
+	margin: 10px;
+	color: white;
+	-webkit-box-shadow: 0px 0px 117px -31px rgba(10, 10, 10, 1);
+	-moz-box-shadow: 0px 0px 117px -31px rgba(10, 10, 10, 1);
+	box-shadow: 0px 0px 117px -31px rgba(10, 10, 10, 1);
 }
 
 .container-info {
 	height: 100vh;
-	max-height: 100%;
+	max-height: 100vh;
 	background: url("../images/donald-giannatti-T8iPsixsYoE-unsplash.jpg") no-repeat top right fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -334,13 +362,16 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	overflow: auto;
+
 	position: absolute;
 	flex-direction: column;
 }
 
 #P-container {
 	max-height: 100vh;
+	width: 100%;
 	flex-direction: column;
-	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+
 }
