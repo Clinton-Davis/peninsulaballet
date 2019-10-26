@@ -323,8 +323,9 @@ p {
 }
 
 .container-info {
-	height: 200vh;
-	background: url("../images/donald-giannatti-T8iPsixsYoE-unsplash.jpg") no-repeat top right;
+	height: 100vh;
+	max-height: 100%;
+	background: url("../images/donald-giannatti-T8iPsixsYoE-unsplash.jpg") no-repeat top right fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -333,7 +334,13 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+	overflow: auto;
 	position: absolute;
 	flex-direction: column;
+}
+
+#P-container {
+	max-height: 100vh;
+	flex-direction: column;
+	overflow: auto;
 }
