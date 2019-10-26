@@ -23,7 +23,7 @@
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .main-heading {
@@ -36,7 +36,7 @@
 
 .motto {
 	font-family: "Italianno", sans-serif;
-	color: white;
+	color: rgba(255, 255, 255, 0.8);
 	font-size: 2.5rem;
 	margin-bottom: 50px;
 }
@@ -47,7 +47,7 @@
 	display: block;
 	font-family: "Italianno", sans-serif;
 	font-size: xx-large;
-	color: #fff;
+	color: rgba(255, 255, 255, 0.8);
 	background-color: transparent;
 	border-color: transparent;
 	transition: all 0.5s ease-in-out;
@@ -73,14 +73,26 @@ a:hover {
 
 }
 
+
+
+
 .navbar.bg {
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color: white;
+	color: rgba(255, 255, 255, 0.8);
 	font-family: "Italianno", sans-serif;
 	font-size: 30px;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: palevioletred;
 }
 
 /*-------------------Genural Stylesing------------------------*/
@@ -220,7 +232,7 @@ p {
 	-moz-box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
 	box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
 }
-}
+
 
 
 
@@ -312,7 +324,7 @@ p {
 
 .container-info {
 	height: 200vh;
-	background: url("../images/donald-giannatti-T8iPsixsYoE-unsplash.jpg") no-repeat top right fixed;
+	background: url("../images/donald-giannatti-T8iPsixsYoE-unsplash.jpg") no-repeat top right;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
