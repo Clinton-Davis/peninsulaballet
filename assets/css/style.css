@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Italianno&display=swap');
 
+html {
+	scroll-behavior: smooth;
+}
 
 /*---------Landing Page --------*/
 
@@ -279,9 +282,9 @@ p {
 
 /*--------ABOUT PAGE --------------------*/
 .about-pic {
-	height: 100vh;
+	height: 90vh;
 	min-height: 763px;
-	background: url("../images/ballerina-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
+	background: url("../images/ballerina-standing-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -314,7 +317,7 @@ p {
 /*-----------------------------Lococation Page-----------------------*/
 .container-loc {
 	height: 100vh;
-	background: url("../images/stockfresh_4083478_mystic-pictures-ballet-dancer-stands-on-the-cliff-edge_sizeL.jpg") no-repeat top left fixed;
+	background: url("../images/Dancer_on_rock-min.jpg") no-repeat top left fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -351,9 +354,9 @@ p {
 }
 
 .container-info {
-	height: 100vh;
+	height: 90vh;
 	max-height: 100vh;
-	background: url("../images/donald-giannatti-T8iPsixsYoE-unsplash.jpg") no-repeat top right fixed;
+	background: url("../images/donald-giannatti.jpg") no-repeat top right fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -365,6 +368,7 @@ p {
 
 	position: absolute;
 	flex-direction: column;
+	overscroll-behavior: auto;
 }
 
 #P-container {
