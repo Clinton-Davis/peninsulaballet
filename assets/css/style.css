@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Italianno&display=swap');
 
-html {
-	scroll-behavior: smooth;
-}
-
 /*---------Landing Page --------*/
 
 .dancer {
@@ -41,16 +37,16 @@ html {
 .motto {
 	font-family: "Italianno", sans-serif;
 	color: rgba(255, 255, 255, 0.8);
-	font-size: 2.5rem;
+	font-size: 3.5em;
 	margin-bottom: 50px;
 }
 
 /*---------------BUTTONS---------------*/
 .enter-btn {
-	margin: 50px auto;
+	margin: 80px auto;
 	display: block;
 	font-family: "Italianno", sans-serif;
-	font-size: xx-large;
+	font-size: 60px;
 	color: rgba(255, 255, 255, 0.8);
 	background-color: transparent;
 	border-color: transparent;
@@ -171,6 +167,8 @@ h2 {
 .loc {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	border-radius: 50px;
+
 }
 
 .loc:hover {
@@ -192,9 +190,9 @@ p {
 
 /*--------------------Teachers------------------------*/
 
-/*.teacher-pic {
-	height: 500vh;
-	background: url("../images/donald-giannatti-T8iPsixsYoE-unsplash.jpg") no-repeat center left fixed;
+.teacher-pic {
+	height: 100vh;
+	background: url("../images/sittingDownDancers.jpeg") no-repeat center left fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -205,11 +203,13 @@ p {
 	align-items: center;
 	justify-content: center;
 
-	position: inherit;
+	position: absolute;
 	flex-direction: column;
 
-}*/
-.teacher-pic {
+
+}
+
+/*.teacher-pic {
 	background: rgba(254, 254, 254, 1);
 	background: -moz-linear-gradient(left, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(254, 254, 254, 1)), color-stop(28%, rgba(31, 30, 31, 1)), color-stop(73%, rgba(36, 29, 36, 1)), color-stop(100%, rgba(247, 242, 247, 1)));
@@ -218,7 +218,7 @@ p {
 	background: -ms-linear-gradient(left, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
 	background: linear-gradient(to right, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#f7f2f7', GradientType=1);
-}
+}*/
 
 .card-text {
 	color: rgba(255, 255, 255, 0.8);
@@ -299,7 +299,7 @@ p {
 }
 
 .about-container {
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: transparent;
 	border-radius: 50px;
 	margin: 20px;
 	text-align: center;
@@ -328,7 +328,8 @@ p {
 	justify-content: center;
 
 	position: absolute;
-	overflow: hidden;
+
+	flex-direction: column;
 }
 
 .grayout-overlay-loc {
@@ -340,6 +341,7 @@ p {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.4);
 }
+
 
 /*------------------------------------------Information Page--------------------------------------*/
 .info {
@@ -371,8 +373,8 @@ p {
 	overscroll-behavior: auto;
 }
 
-#P-container {
-	max-height: 100vh;
+#Pic-container {
+	max-height: 90vh;
 	width: 100%;
 	flex-direction: column;
 	overflow-x: hidden;
