@@ -18,7 +18,7 @@
 }
 
 .grayout-overlay {
-	position: inherit;
+	position: relative;
 	left: 0;
 	top: 0;
 	height: 100%;
@@ -190,35 +190,18 @@ p {
 
 /*--------------------Teachers------------------------*/
 
-.teacher-pic {
-	height: 100vh;
-	background: url("../images/sittingDownDancers.jpeg") no-repeat center left fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	min-height: 667px;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	position: absolute;
-	flex-direction: column;
 
 
+.bg-teacher {
+	background: rgba(1, 7, 10, 1);
+	background: -moz-linear-gradient(top, rgba(1, 7, 10, 1) 0%, rgba(1, 7, 10, 1) 22%, rgba(28, 149, 186, 1) 58%, rgba(5, 53, 71, 1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(1, 7, 10, 1)), color-stop(22%, rgba(1, 7, 10, 1)), color-stop(58%, rgba(28, 149, 186, 1)), color-stop(100%, rgba(5, 53, 71, 1)));
+	background: -webkit-linear-gradient(top, rgba(1, 7, 10, 1) 0%, rgba(1, 7, 10, 1) 22%, rgba(28, 149, 186, 1) 58%, rgba(5, 53, 71, 1) 100%);
+	background: -o-linear-gradient(top, rgba(1, 7, 10, 1) 0%, rgba(1, 7, 10, 1) 22%, rgba(28, 149, 186, 1) 58%, rgba(5, 53, 71, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(1, 7, 10, 1) 0%, rgba(1, 7, 10, 1) 22%, rgba(28, 149, 186, 1) 58%, rgba(5, 53, 71, 1) 100%);
+	background: linear-gradient(to bottom, rgba(1, 7, 10, 1) 0%, rgba(1, 7, 10, 1) 22%, rgba(28, 149, 186, 1) 58%, rgba(5, 53, 71, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#01070a', endColorstr='#053547', GradientType=0);
 }
-
-/*.teacher-pic {
-	background: rgba(254, 254, 254, 1);
-	background: -moz-linear-gradient(left, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(254, 254, 254, 1)), color-stop(28%, rgba(31, 30, 31, 1)), color-stop(73%, rgba(36, 29, 36, 1)), color-stop(100%, rgba(247, 242, 247, 1)));
-	background: -webkit-linear-gradient(left, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
-	background: -o-linear-gradient(left, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
-	background: -ms-linear-gradient(left, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
-	background: linear-gradient(to right, rgba(254, 254, 254, 1) 0%, rgba(31, 30, 31, 1) 28%, rgba(36, 29, 36, 1) 73%, rgba(247, 242, 247, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#f7f2f7', GradientType=1);
-}*/
 
 .card-text {
 	color: rgba(255, 255, 255, 0.8);
@@ -243,19 +226,21 @@ p {
 }
 
 .history-container {
-	background-color: black;
+	background-color: transparent;
 	border-radius: 50px;
-	-webkit-box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
-	-moz-box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
-	box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
+	-webkit-box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
+	-moz-box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
+	box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
+
 }
 
 .card-block {
-	background-color: black;
+	background-color: transparent;
 	border-radius: 50px;
-	-webkit-box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
-	-moz-box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
-	box-shadow: 0px 8px 37px 13px rgba(250, 242, 250, 1);
+	-webkit-box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
+	-moz-box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
+	box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
+
 }
 
 
@@ -377,15 +362,31 @@ p {
 	border-radius: 50px;
 	margin: 10px;
 	color: white;
-	-webkit-box-shadow: 0px 0px 117px -31px rgba(10, 10, 10, 1);
-	-moz-box-shadow: 0px 0px 117px -31px rgba(10, 10, 10, 1);
-	box-shadow: 0px 0px 117px -31px rgba(10, 10, 10, 1);
+	-webkit-box-shadow: 0px 0px 35px -7px rgba(245, 242, 245, 1);
+	-moz-box-shadow: 0px 0px 35px -7px rgba(245, 242, 245, 1);
+	box-shadow: 0px 0px 35px -7px rgba(245, 242, 245, 1);
+}
+
+.col-12 {
+
+	flex: 0 0 100%;
+	max-width: 100%;
 }
 
 .container-info {
+	/*background: rgba(1, 23, 31, 1);
+	background: -moz-linear-gradient(top, rgba(1, 23, 31, 1) 0%, rgba(41, 184, 229, 1) 99%, rgba(179, 220, 237, 1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(1, 23, 31, 1)), color-stop(99%, rgba(41, 184, 229, 1)), color-stop(100%, rgba(179, 220, 237, 1)));
+	background: -webkit-linear-gradient(top, rgba(1, 23, 31, 1) 0%, rgba(41, 184, 229, 1) 99%, rgba(179, 220, 237, 1) 100%);
+	background: -o-linear-gradient(top, rgba(1, 23, 31, 1) 0%, rgba(41, 184, 229, 1) 99%, rgba(179, 220, 237, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(1, 23, 31, 1) 0%, rgba(41, 184, 229, 1) 99%, rgba(179, 220, 237, 1) 100%);
+	background: linear-gradient(to bottom, rgba(1, 23, 31, 1) 0%, rgba(41, 184, 229, 1) 99%, rgba(179, 220, 237, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#01171f', endColorstr='#b3dced', GradientType=0);
+}*/
+
 	height: 90vh;
-	max-height: 100vh;
-	background: url("../images/gaelle-marcel-1PKjyPsH8sw-unsplash.jpg") no-repeat top right fixed;
+
+	background: url("../images/gaelle-marcel-1PKjyPsH8sw-unsplash.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
