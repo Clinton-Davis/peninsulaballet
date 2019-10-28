@@ -11,6 +11,7 @@
 	background-size: cover;
 
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 
@@ -195,7 +196,7 @@ p {
 .pic-teacher {
 	height: 90vh;
 	min-height: 763px;
-	background: url("../images/ballerina-standing-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
+	background: url("../images/pexels-photo-manygirls.jpeg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -214,12 +215,15 @@ p {
 	color: rgba(255, 255, 255, 0.8);
 	font-family: "Exo", sans-serif;
 	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50px;
 }
 
 .card-title {
 	color: rgba(255, 255, 255, 0.8);
 	;
 	font-family: "Exo", sans-serif;
+
 }
 
 #CIP {
@@ -235,10 +239,8 @@ p {
 .history-container {
 	background-color: transparent;
 	border-radius: 50px;
-	-webkit-box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
-	-moz-box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
-	box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
-
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50px;
 }
 
 .card-block {
@@ -247,6 +249,7 @@ p {
 	-webkit-box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
 	-moz-box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
 	box-shadow: 0px 0px 45px 2px rgba(15, 1, 15, 1);
+	border-radius: 50px;
 
 }
 
