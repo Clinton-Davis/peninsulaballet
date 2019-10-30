@@ -206,15 +206,6 @@ h2 {
 }
 
 
-
-
-
-
-
-/*.loc:hover {
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}*/
-
 .shops {
 	align-content: center;
 }
@@ -314,7 +305,7 @@ p {
 /*--------ABOUT PAGE --------------------*/
 .about-pic {
 
-	min-height: 763px;
+
 	background: url("../images/ballerina-standing-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -474,4 +465,49 @@ p {
 	overflow-x: hidden;
 	overflow-y: auto;
 
+}
+
+/*-----------------------------------------CONTACT PAGE-----------------------------------------*/
+
+.contact-container {
+
+	background: url("../images/Little_dancer.jpg") no-repeat center bottom fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50px;
+}
+
+.contact-btn {
+
+	display: inline-block;
+	font-family: "Italianno", sans-serif;
+	font-weight: 400;
+	color: palevioletred;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+	background-color: transparent;
+	border: .5px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 2.5rem;
+	line-height: 1.5;
+	border-radius: 1rem;
+	transition: color .25s ease-in-out,
+		background-color .25s ease-in-out,
+		border-color .25s ease-in-out,
+		box-shadow .25s ease-in-out;
+}
+
+.contact-btn:hover {
+	color: rgb(255, 0, 255);
+	text-decoration: none;
 }
