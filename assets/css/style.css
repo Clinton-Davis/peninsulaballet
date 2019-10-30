@@ -9,7 +9,7 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
+	overflow: hidden;
 
 	flex-direction: column;
 	align-items: center;
@@ -24,7 +24,12 @@
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lp {
+	margin-top: auto;
+	text-align: center;
 }
 
 .main-heading {
@@ -44,7 +49,7 @@
 
 /*---------------BUTTONS---------------*/
 .enter-btn {
-	margin: 80px auto;
+	margin: 50px auto;
 	display: block;
 	font-family: "Italianno", sans-serif;
 	font-size: 60px;
@@ -308,7 +313,7 @@ p {
 
 /*--------ABOUT PAGE --------------------*/
 .about-pic {
-	height: 90vh;
+
 	min-height: 763px;
 	background: url("../images/ballerina-standing-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
@@ -383,7 +388,18 @@ p {
 
 /*------------------------------------------Schedule--------------------------------------*/
 
-.container-times {}
+.container-schedule {
+
+
+	background: url("../images/donald-giannatti.jpg") no-repeat top left fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
 
 .table {
 	border-radius: 30px;
@@ -391,11 +407,24 @@ p {
 	-webkit-box-shadow: 0px 0px 29px -7px rgba(13, 12, 13, 1);
 	-moz-box-shadow: 0px 0px 29px -7px rgba(13, 12, 13, 1);
 	box-shadow: 0px 0px 29px -7px rgba(13, 12, 13, 1);
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 1);
+	table-layout: fixed;
 }
+
 
 .table td,
 .table th {
-	border-top: none
+	border-top: none;
+
+}
+
+.day {
+	color: rgba(255, 255, 255, 1);
+	background: rgba(0, 0, 0, 0.5);
+	margin-bottom: 10px;
+	border-radius: 50px;
+	display: block;
 }
 
 
@@ -407,7 +436,7 @@ p {
 	border-radius: 50px;
 	margin: 10px;
 	color: white;
-	-webkit-box-shadow: 0px 0px 35px -7px rgba(245, 242, 245, 1);
+	-webkit-box-shadow: 0px 0px 35px -7px rgb(245, 242, 245);
 	-moz-box-shadow: 0px 0px 35px -7px rgba(245, 242, 245, 1);
 	box-shadow: 0px 0px 35px -7px rgba(245, 242, 245, 1);
 }
@@ -419,18 +448,6 @@ p {
 }
 
 .container-info {
-	/*background: rgba(1, 23, 31, 1);
-	background: -moz-linear-gradient(top, rgba(1, 23, 31, 1) 0%, rgba(41, 184, 229, 1) 99%, rgba(179, 220, 237, 1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(1, 23, 31, 1)), color-stop(99%, rgba(41, 184, 229, 1)), color-stop(100%, rgba(179, 220, 237, 1)));
-	background: -webkit-linear-gradient(top, rgba(1, 23, 31, 1) 0%, rgba(41, 184, 229, 1) 99%, rgba(179, 220, 237, 1) 100%);
-	background: -o-linear-gradient(top, rgba(1, 23, 31, 1) 0%, rgba(41, 184, 229, 1) 99%, rgba(179, 220, 237, 1) 100%);
-	background: -ms-linear-gradient(top, rgba(1, 23, 31, 1) 0%, rgba(41, 184, 229, 1) 99%, rgba(179, 220, 237, 1) 100%);
-	background: linear-gradient(to bottom, rgba(1, 23, 31, 1) 0%, rgba(41, 184, 229, 1) 99%, rgba(179, 220, 237, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#01171f', endColorstr='#b3dced', GradientType=0);
-}*/
-
-	height: 90vh;
-
 	background: url("../images/gaelle-marcel-1PKjyPsH8sw-unsplash.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
