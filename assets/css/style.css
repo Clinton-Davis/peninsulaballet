@@ -96,7 +96,17 @@ a:hover {
 /*---------------NavBar----------------*/
 .navbar {
 	padding: 0;
+}
 
+#logo {
+	height: 50px;
+	width: 50px;
+	transition: all 0.25s ease-in-out;
+}
+
+#logo:hover {
+	outline: 1px palevioletred solid;
+	border-radius: 10px;
 }
 
 .navbar.bg {
