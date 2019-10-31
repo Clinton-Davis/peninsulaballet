@@ -103,6 +103,7 @@ a:hover {
 	height: 50px;
 	width: 50px;
 	transition: all 0.25s ease-in-out;
+	margin-left: 25px;
 }
 
 #logo:hover {
@@ -125,6 +126,10 @@ a:hover {
 	display: flex;
 	justify-content: flex-end;
 
+}
+
+.navbar-nav {
+	margin-left: 20%;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
