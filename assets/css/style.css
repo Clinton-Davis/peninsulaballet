@@ -138,6 +138,8 @@ a:hover {
 }
 
 /*-------------------Genural Stylesing------------------------*/
+
+
 /* width */
 ::-webkit-scrollbar {
 	width: 5px;
@@ -238,6 +240,7 @@ p {
 	font-family: "Exo", sans-serif;
 }
 
+
 /*--------------------Teachers------------------------*/
 
 
@@ -329,8 +332,12 @@ p {
 
 /*---------------------------------FOOTER--------------*/
 
+.footer-foot {
+	background-color: black;
+	margin: 0;
+	color: white;
 
-
+}
 
 
 
