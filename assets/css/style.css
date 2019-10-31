@@ -96,6 +96,7 @@ a:hover {
 /*---------------NavBar----------------*/
 .navbar {
 	padding: 0;
+
 }
 
 #logo {
@@ -114,13 +115,15 @@ a:hover {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(255, 255, 255, 0.9);
 	font-family: "Italianno", sans-serif;
 	font-size: 30px;
 	transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
+	display: flex;
+	justify-content: flex-end;
 
 }
 
