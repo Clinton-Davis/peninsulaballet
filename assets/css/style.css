@@ -3,7 +3,7 @@
 /*---------Landing Page --------*/
 
 .dancer {
-	height: 100vh;
+
 	background: url("../images/dancer2.jpg") no-repeat top right fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -480,20 +480,16 @@ footer {
 /*------------------------------------------Information Page--------------------------------------*/
 .info {
 	text-align: center;
-	border: 0;
 	border-radius: 50px;
-	margin: 10px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 	color: white;
-	-webkit-box-shadow: 0px 0px 35px -7px rgb(245, 242, 245);
-	-moz-box-shadow: 0px 0px 35px -7px rgba(245, 242, 245, 1);
-	box-shadow: 0px 0px 35px -7px rgba(245, 242, 245, 1);
+
+
+
 }
 
-.col-12 {
 
-	flex: 0 0 100%;
-	max-width: 100%;
-}
 
 .container-info {
 	background: url("../images/gaelle-marcel-1PKjyPsH8sw-unsplash.jpg") no-repeat center center fixed;
@@ -502,22 +498,11 @@ footer {
 	-o-background-size: cover;
 	background-size: cover;
 
-	display: flex;
-	align-items: center;
-	justify-content: center;
 
-	position: absolute;
-	flex-direction: column;
-	overscroll-behavior: auto;
 }
 
 #Pic-container {
-	max-height: 90vh;
-	width: 100%;
-	flex-direction: column;
-	overflow-x: hidden;
-	overflow-y: auto;
-
+	padding-bottom: 10px;
 }
 
 /*-----------------------------------------CONTACT PAGE-----------------------------------------*/
