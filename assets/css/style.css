@@ -120,10 +120,10 @@ a:hover {
 	color: rgba(255, 255, 255, 0.9);
 	font-family: "Italianno", sans-serif;
 	font-size: 30px;
-	transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
 	display: flex;
 	justify-content: flex-end;
 
@@ -265,21 +265,13 @@ p {
 
 
 .pic-teacher {
-	height: 90vh;
-	min-height: 763px;
+
+
 	background: url("../images/pexels-photo-manygirls.jpeg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
-
-	align-items: center;
-	justify-content: center;
-
-	position: absolute;
-	flex-direction: column;
-	overflow: auto;
 }
 
 .teacher-header {
@@ -318,20 +310,22 @@ p {
 	border-radius: 50px;
 }
 
-#CIP {
+#teacher-image {
 	border-radius: 50px;
+
 }
 
 p {
 	color: rgba(255, 255, 255, 1);
-	;
 	font-family: "Exo", sans-serif;
+	padding: 10px;
 }
 
 /*-------------------------------HISTORY-----SECTION---------------------*/
 .history-container {
 	background-color: transparent;
 	border-radius: 50px;
+	margin-bottom: 1em;
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 50px;
 	-webkit-box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.3);
