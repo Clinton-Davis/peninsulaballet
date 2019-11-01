@@ -325,6 +325,7 @@ footer {
 	margin: 10px;
 	font-family: "Exo", sans-serif;
 	text-align: center;
+	list-style: none;
 
 }
 
@@ -336,6 +337,15 @@ footer {
 
 span {
 	font-size: 20px;
+
+}
+
+dl,
+ol,
+ul {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding: 0;
 }
 
 
