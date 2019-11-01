@@ -201,7 +201,7 @@ h4,
 h3,
 h2 {
 	font-family: "Italianno", sans-serif;
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
 	color: rgba(255, 255, 255, 0.9);
 
@@ -211,15 +211,6 @@ h2 {
 
 .sm-txt {
 	font-size: xx-small;
-
-}
-
-.shops {
-	align-content: center;
-}
-
-.shops li {
-	list-style: none;
 
 }
 
@@ -484,12 +475,22 @@ footer {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	color: white;
-
-
-
 }
 
+.shops {
+	align-content: center;
+}
 
+.shops li {
+	list-style: none;
+	font-family: "Exo", sans-serif;
+	font-size: 1.2em;
+}
+
+ul a {
+	color: palevioletred;
+	transition: 0.3s;
+}
 
 .container-info {
 	background: url("../images/gaelle-marcel-1PKjyPsH8sw-unsplash.jpg") no-repeat center center fixed;
