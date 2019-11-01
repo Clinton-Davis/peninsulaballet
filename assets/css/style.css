@@ -176,6 +176,10 @@ body {
 	margin: 0;
 }
 
+.container {
+	padding: 0px;
+}
+
 .inline-block {
 	display: inline-block;
 }
@@ -351,8 +355,12 @@ footer {
 	margin-top: auto;
 	overflow: hidden;
 	min-height: 75px;
+}
 
-
+.footer-text {
+	margin: 10px;
+	font-family: "Exo", sans-serif;
+	text-align: center;
 }
 
 
