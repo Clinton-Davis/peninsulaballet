@@ -138,12 +138,19 @@ a:hover {
 }
 
 /*-------------------Genural Stylesing------------------------*/
-
-html,
-body {
+html {
 	height: 100%;
 }
 
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+}
+
+/*-----------SCROLLBAR--CUSTOM-----------*/
 /* width */
 ::-webkit-scrollbar {
 	width: 5px;
@@ -161,7 +168,7 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: transparent;
+	background: palevioletred;
 }
 
 .container-fluid {
@@ -244,6 +251,10 @@ p {
 	font-family: "Exo", sans-serif;
 }
 
+.full-lenth {
+	padding: 1rem;
+}
+
 
 /*--------------------Teachers------------------------*/
 
@@ -280,7 +291,7 @@ p {
 	border-radius: 20px;
 }
 
-
+/*--------------------------TEACHER---CARDS--------------------*/
 .card-text {
 	color: rgba(255, 255, 255, 1);
 	font-family: "Exo", sans-serif;
@@ -294,6 +305,15 @@ p {
 
 }
 
+.card-block {
+	background-color: transparent;
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.3);
+	box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.3);
+	border-radius: 50px;
+}
+
 #CIP {
 	border-radius: 50px;
 }
@@ -304,6 +324,7 @@ p {
 	font-family: "Exo", sans-serif;
 }
 
+/*-------------------------------HISTORY-----SECTION---------------------*/
 .history-container {
 	background-color: transparent;
 	border-radius: 50px;
@@ -314,19 +335,6 @@ p {
 	box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.3);
 }
 
-.card-block {
-	background-color: transparent;
-	border-radius: 50px;
-	-webkit-box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.3);
-	-moz-box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.3);
-	box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.3);
-	border-radius: 50px;
-}
-
-
-
-
-
 .container-fluid .teachers {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -336,10 +344,14 @@ p {
 
 /*---------------------------------FOOTER--------------*/
 
-.footer-foot {
+footer {
 	background-color: black;
 	margin: 0;
 	color: white;
+	margin-top: auto;
+	overflow: hidden;
+	min-height: 75px;
+
 
 }
 
@@ -350,40 +362,24 @@ p {
 
 /*--------ABOUT PAGE --------------------*/
 .about-pic {
-
-
 	background: url("../images/ballerina-standing-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	position: absolute;
-	flex-direction: column;
 }
 
-
-.about-grayout-overlay {
-	position: absolute;
-	left: 0;
-	top: 0;
-	bottom: 0px;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.3);
-}
 
 .about-container {
 	background-color: transparent;
 	border-radius: 50px;
-	margin: 20px;
+
 	text-align: center;
+}
 
-
+.about-section {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 }
 
 .about-container p {
@@ -391,6 +387,16 @@ p {
 	font-size: medium;
 	text-align: center;
 	color: #F8F6F6;
+}
+
+.blockquote-footer {
+	border-radius: 25px;
+	background: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 0.9);
+	padding: 1em;
+
+	font-size: 95%;
+	display: inline-block;
 }
 
 
