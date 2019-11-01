@@ -152,6 +152,12 @@ body {
 
 }
 
+a {
+	color: palevioletred;
+	transition: 0.3s;
+}
+
+
 /*-----------SCROLLBAR--CUSTOM-----------*/
 /* width */
 ::-webkit-scrollbar {
@@ -210,12 +216,6 @@ h2 {
 }
 
 
-
-.sm-txt {
-	font-size: xx-small;
-
-}
-
 p {
 	font-family: "Exo", sans-serif;
 }
@@ -259,6 +259,7 @@ p {
 	position: relative;
 	width: auto;
 	border: 0;
+
 }
 
 .card-text {
@@ -324,8 +325,18 @@ footer {
 	margin: 10px;
 	font-family: "Exo", sans-serif;
 	text-align: center;
+
 }
 
+.footer-phrase {
+	font-family: "Italianno", sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+span {
+	font-size: 20px;
+}
 
 
 
@@ -482,10 +493,6 @@ footer {
 	font-size: 1.2em;
 }
 
-ul a {
-	color: palevioletred;
-	transition: 0.3s;
-}
 
 .container-info {
 	background: url("../images/gaelle-marcel-1PKjyPsH8sw-unsplash.jpg") no-repeat center center fixed;
