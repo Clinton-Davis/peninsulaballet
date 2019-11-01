@@ -139,6 +139,10 @@ a:hover {
 
 /*-------------------Genural Stylesing------------------------*/
 
+html,
+body {
+	height: 100%;
+}
 
 /* width */
 ::-webkit-scrollbar {
