@@ -112,15 +112,6 @@ p {
 /*---------------------------------------------NAVBAR------------------------------------------*/
 .navbar {
 	padding: 0;
-
-<<<<<<< HEAD
-=======
-	background: url("../images/agility-1850711_1280.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
->>>>>>> 30ad238fcf181ed73d3ca952e4ff6b59fa1d7839
 }
 
 #logo {
@@ -441,7 +432,7 @@ a:hover {
 /*-----------------------------------------------------TEACHERS-------------------------------------*/
 
 .pic-teacher {
-	background: url("../images/pexels-photo-manygirls.jpeg") no-repeat center center fixed;
+	background: url("../images/agility-1850711_1280.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
