@@ -29,7 +29,7 @@ body {
 }
 
 a {
-	color: palevioletred;
+	color: rgba(235, 134, 235, 1);
 	transition: 0.3s;
 }
 
@@ -62,7 +62,7 @@ a {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: palevioletred;
+	background: rgba(235, 134, 235, 1);
 }
 
 .container-fluid {
@@ -127,7 +127,7 @@ p {
 }
 
 #logo:hover {
-	outline: 1px palevioletred solid;
+	outline: 1px rgba(235, 134, 235, 1) solid;
 
 }
 
@@ -153,7 +153,7 @@ p {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: palevioletred;
+	color: rgba(235, 134, 235, 1);
 }
 
 
@@ -250,7 +250,7 @@ p {
 	display: inline-block;
 	font-family: "Italianno", sans-serif;
 	font-weight: 400;
-	color: palevioletred;
+	color: rgba(235, 134, 235, 1);
 	text-align: center;
 	vertical-align: middle;
 	user-select: none;
@@ -267,7 +267,7 @@ p {
 }
 
 .contact-btn:hover {
-	color: rgb(255, 0, 255);
+	color: rgba(235, 134, 235, 1);
 	text-decoration: none;
 }
 
@@ -316,19 +316,25 @@ p {
 	font-family: "Italianno", sans-serif;
 	font-size: 60px;
 	color: rgba(255, 255, 255, 0.8);
+	border-radius: 30px;
 	background-color: transparent;
 	border-color: transparent;
-	transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-box-shadow: 0px 0px 38px -22px rgba(196, 186, 196, 1);
+	-moz-box-shadow: 0px 0px 38px -22px rgba(196, 186, 196, 1);
+	box-shadow: 0px 0px 38px -22px rgba(196, 186, 196, 1);
 }
 
 .enter-btn:hover {
-	color: palevioletred;
-	background-color: transparent;
+	color: rgba(235, 134, 235, 1) background-color: transparent;
 	border-color: transparent;
 	direction: none;
+	-webkit-box-shadow: 0px 0px 42px -12px rgba(235, 134, 235, 1);
+	-moz-box-shadow: 0px 0px 42px -12px rgba(235, 134, 235, 1);
+	box-shadow: 0px 0px 42px -12px rgba(235, 134, 235, 1);
 }
 
 a:hover {
