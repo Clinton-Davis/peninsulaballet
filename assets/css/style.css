@@ -1,6 +1,275 @@
+/*---------------------------------CSS INDEX---------------------------------------*/
+/*---------------------
+1 .GENERAL CSS STYLINGS
+2. NAV BAR
+3. ABOUT PAGE
+4. ATTIRE PAGE
+5. CONTACT PAGE
+6. INDEX (LANDING PAGE)
+7. LOCATION PAGE
+8. SCHEDULE PAGE
+9. TEACHERS
+10.FOOTER
+-----------------------*/
+/*--------------------------------Genural Stylesing--------------------------------*/
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+}
+
+a {
+	color: palevioletred;
+	transition: 0.3s;
+}
+
+.grayout-overlay {
+	position: relative;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0;
+}
+
+
+/*--SCROLLBAR--CUSTOM---*/
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: palevioletred;
+}
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	padding: 0px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.pageheader {
+	display: block;
+	font-family: "Italianno", sans-serif;
+	font-size: 60px;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+}
+
+h5,
+h4,
+h3,
+h2 {
+	font-family: "Italianno", sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.9);
+
+}
+
+
+p {
+	font-family: "Exo", sans-serif;
+}
+
+.full-lenth {
+	padding: 1rem;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Exo|Italianno&display=swap');
 
-/*---------Landing Page --------*/
+
+/*---------------------------------------------NAVBAR------------------------------------------*/
+.navbar {
+	padding: 0;
+
+}
+
+#logo {
+	height: 50px;
+	width: 50px;
+	transition: all 0.25s ease-in-out;
+	margin-left: 25px;
+
+}
+
+#logo:hover {
+	outline: 1px palevioletred solid;
+
+}
+
+.navbar.bg {
+	background-color: rgb(0, 0, 0);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255, 255, 255, 0.9);
+	font-family: "Italianno", sans-serif;
+	font-size: 30px;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.navbar-nav {
+	margin-left: 25%;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: palevioletred;
+}
+
+
+/*-----------------------------------------------ABOUT PAGE ---------------------------------------------*/
+.about-pic {
+	background: url("../images/ballerina-standing-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.about-container {
+	background-color: transparent;
+	border-radius: 50px;
+
+	text-align: center;
+}
+
+.about-section {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.about-container p {
+	font-family: "Exo", sans-serif;
+	font-size: medium;
+	text-align: center;
+	color: #F8F6F6;
+}
+
+.blockquote-footer {
+	border-radius: 25px;
+	background: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 0.9);
+	padding: 1em;
+
+	font-size: 95%;
+	display: inline-block;
+}
+
+/*-------------------------------------------------ATTIRE PAGE--------------------------------------*/
+.info {
+	text-align: center;
+	border-radius: 50px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	color: white;
+}
+
+.shops {
+	align-content: center;
+}
+
+.shops li {
+	list-style: none;
+	font-family: "Exo", sans-serif;
+	font-size: 1.2em;
+}
+
+
+.container-info {
+	background: url("../images/gaelle-marcel-1PKjyPsH8sw-unsplash.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
+}
+
+/*-------------------------------------------------CONTACT PAGE-----------------------------------------*/
+
+.contact-container {
+
+	background: url("../images/Little_dancer.jpg") no-repeat center bottom fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 95vh;
+}
+
+.contact {
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 50px;
+}
+
+.contact-btn {
+
+	display: inline-block;
+	font-family: "Italianno", sans-serif;
+	font-weight: 400;
+	color: palevioletred;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+	background-color: transparent;
+	border: .5px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 2.5rem;
+	line-height: 1.5;
+	border-radius: 1rem;
+	transition: color .25s ease-in-out,
+		background-color .25s ease-in-out,
+		border-color .25s ease-in-out,
+		box-shadow .25s ease-in-out;
+}
+
+.contact-btn:hover {
+	color: rgb(255, 0, 255);
+	text-decoration: none;
+}
+
+/*---------------------------------------------INDEX (Landing Page) ----------------------------------*/
 
 .dancer {
 
@@ -87,314 +356,8 @@ a:hover {
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-/*---------------NavBar----------------*/
-.navbar {
-	padding: 0;
 
-}
-
-#logo {
-	height: 50px;
-	width: 50px;
-	transition: all 0.25s ease-in-out;
-	margin-left: 25px;
-
-}
-
-#logo:hover {
-	outline: 1px palevioletred solid;
-
-}
-
-.navbar.bg {
-	background-color: rgb(0, 0, 0);
-}
-
-.navbar-dark .navbar-nav .nav-link {
-	color: rgba(255, 255, 255, 0.9);
-	font-family: "Italianno", sans-serif;
-	font-size: 30px;
-	transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	display: flex;
-	justify-content: flex-end;
-
-}
-
-.navbar-nav {
-	margin-left: 25%;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-	color: palevioletred;
-}
-
-/*-------------------Genural Stylesing------------------------*/
-html {
-	height: 100%;
-}
-
-body {
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-
-}
-
-a {
-	color: palevioletred;
-	transition: 0.3s;
-}
-
-.grayout-overlay {
-	position: relative;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-	margin: 0;
-}
-
-
-/*-----------SCROLLBAR--CUSTOM-----------*/
-/* width */
-::-webkit-scrollbar {
-	width: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-	background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-	background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-	background: palevioletred;
-}
-
-.container-fluid {
-	padding: 0;
-	margin: 0;
-}
-
-.container {
-	padding: 0px;
-}
-
-.inline-block {
-	display: inline-block;
-}
-
-.uppercase {
-	text-transform: uppercase;
-}
-
-.pageheader {
-	display: block;
-	font-family: "Italianno", sans-serif;
-	font-size: 60px;
-	text-align: center;
-	color: rgba(255, 255, 255, 1);
-}
-
-h5,
-h4,
-h3,
-h2 {
-	font-family: "Italianno", sans-serif;
-	font-size: 50px;
-	text-align: center;
-	color: rgba(255, 255, 255, 0.9);
-
-}
-
-
-p {
-	font-family: "Exo", sans-serif;
-}
-
-.full-lenth {
-	padding: 1rem;
-}
-
-
-/*--------------------Teachers------------------------*/
-
-
-
-.pic-teacher {
-
-
-	background: url("../images/pexels-photo-manygirls.jpeg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.teacher-header {
-	margin-top: 20px;
-	font-family: "Italianno", sans-serif;
-	font-size: 60px;
-	text-align: center;
-	color: rgba(255, 255, 255, 0.9);
-
-	border-radius: 20px;
-}
-
-/*--------------------------TEACHER---CARDS--------------------*/
-.card {
-	background: transparent;
-	border-radius: 2px;
-	display: inline-block;
-	height: auto;
-	margin: 1rem;
-	position: relative;
-	width: auto;
-	border: 0;
-
-}
-
-.card-text {
-	color: rgba(255, 255, 255, 1);
-	font-family: "Exo", sans-serif;
-	padding: 10px;
-}
-
-.card-title {
-	color: rgba(255, 255, 255, 1);
-
-	font-family: "Exo", sans-serif;
-
-}
-
-.card-block {
-	background-color: transparent;
-	border-radius: 50px;
-
-	border-radius: 50px;
-}
-
-#teacher-image {
-	border-radius: 50px;
-
-}
-
-p {
-	color: rgba(255, 255, 255, 1);
-	font-family: "Exo", sans-serif;
-	padding: 10px;
-}
-
-/*-------------------------------HISTORY-----SECTION---------------------*/
-.history-container {
-	background-color: transparent;
-	border-radius: 50px;
-	margin-bottom: 1em;
-	background-color: transparent;
-	border-radius: 50px;
-
-}
-
-.container-fluid .teachers {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-
-
-/*---------------------------------FOOTER--------------*/
-
-footer {
-	background-color: black;
-	margin: 0;
-	color: white;
-	margin-top: auto;
-	overflow: hidden;
-	min-height: 75px;
-}
-
-.footer-text {
-	margin: 10px;
-	font-family: "Exo", sans-serif;
-	text-align: center;
-	list-style: none;
-
-}
-
-.footer-phrase {
-	font-family: "Italianno", sans-serif;
-	text-align: center;
-	font-size: 30px;
-}
-
-span {
-	font-size: 20px;
-
-}
-
-dl,
-ol,
-ul {
-	margin-top: 0;
-	margin-bottom: 1rem;
-	padding: 0;
-}
-
-
-
-
-
-/*--------ABOUT PAGE --------------------*/
-.about-pic {
-	background: url("../images/ballerina-standing-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-
-.about-container {
-	background-color: transparent;
-	border-radius: 50px;
-
-	text-align: center;
-}
-
-.about-section {
-	margin-top: 5rem;
-	margin-bottom: 5rem;
-}
-
-.about-container p {
-	font-family: "Exo", sans-serif;
-	font-size: medium;
-	text-align: center;
-	color: #F8F6F6;
-}
-
-.blockquote-footer {
-	border-radius: 25px;
-	background: rgba(0, 0, 0, 0.7);
-	color: rgba(255, 255, 255, 0.9);
-	padding: 1em;
-
-	font-size: 95%;
-	display: inline-block;
-}
-
-
-/*-----------------------------Lococation Page-----------------------*/
+/*--------------------------------------------------LOCATIONS PAGE-----------------------------------------*/
 .location-header {
 	margin-top: 5rem;
 	margin-left: 3rem;
@@ -411,7 +374,7 @@ ul {
 
 }
 
-
+/*---LOCATION PICTURE-------*/
 .container-loc {
 	background: url("../images/Dancer_on_rock-min.jpg") no-repeat top left fixed;
 	-webkit-background-size: cover;
@@ -419,7 +382,6 @@ ul {
 	-o-background-size: cover;
 	background-size: cover;
 }
-
 
 .loc {
 
@@ -439,11 +401,9 @@ ul {
 	margin: 5px;
 }
 
-/*------------------------------------------Schedule--------------------------------------*/
+/*---------------------------------------------------------Schedule--------------------------------------*/
 
 .container-schedule {
-
-
 	background: url("../images/donald-giannatti.jpg") no-repeat top left fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -466,7 +426,6 @@ ul {
 .table td,
 .table th {
 	border-top: none;
-
 }
 
 .day {
@@ -475,85 +434,120 @@ ul {
 	margin-bottom: 10px;
 	border-radius: 50px;
 	display: block;
-
 }
 
 
-
-/*------------------------------------------Information Page--------------------------------------*/
-.info {
-	text-align: center;
-	border-radius: 50px;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	color: white;
-}
-
-.shops {
-	align-content: center;
-}
-
-.shops li {
-	list-style: none;
-	font-family: "Exo", sans-serif;
-	font-size: 1.2em;
-}
+/*-----------------------------------------------------TEACHERS-------------------------------------*/
 
 
-.container-info {
-	background: url("../images/gaelle-marcel-1PKjyPsH8sw-unsplash.jpg") no-repeat center center fixed;
+
+.pic-teacher {
+	background: url("../images/pexels-photo-manygirls.jpeg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
-
 }
 
-
-
-/*-----------------------------------------CONTACT PAGE-----------------------------------------*/
-
-.contact-container {
-
-	background: url("../images/Little_dancer.jpg") no-repeat center bottom fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 95vh;
-}
-
-.contact {
-	background-color: rgba(0, 0, 0, 0.7);
-	border-radius: 50px;
-}
-
-.contact-btn {
-
-	display: inline-block;
+.teacher-header {
+	margin-top: 20px;
 	font-family: "Italianno", sans-serif;
-	font-weight: 400;
-	color: palevioletred;
+	font-size: 60px;
 	text-align: center;
-	vertical-align: middle;
-	user-select: none;
-	background-color: transparent;
-	border: .5px solid transparent;
-	padding: .375rem .75rem;
-	font-size: 2.5rem;
-	line-height: 1.5;
-	border-radius: 1rem;
-	transition: color .25s ease-in-out,
-		background-color .25s ease-in-out,
-		border-color .25s ease-in-out,
-		box-shadow .25s ease-in-out;
+	color: rgba(255, 255, 255, 0.9);
+	border-radius: 20px;
 }
 
-.contact-btn:hover {
-	color: rgb(255, 0, 255);
-	text-decoration: none;
+/*-------TEACHER-CARDS---------*/
+
+.card {
+	background: transparent;
+	border-radius: 2px;
+	display: inline-block;
+	height: auto;
+	margin: 1rem;
+	position: relative;
+	width: auto;
+	border: 0;
 }
+
+.card-text {
+	color: rgba(255, 255, 255, 1);
+	font-family: "Exo", sans-serif;
+	padding: 10px;
+}
+
+.card-title {
+	color: rgba(255, 255, 255, 1);
+	font-family: "Exo", sans-serif;
+}
+
+.card-block {
+	background-color: transparent;
+	border-radius: 50px;
+	border-radius: 50px;
+}
+
+#teacher-image {
+	border-radius: 50px;
+}
+
+p {
+	color: rgba(255, 255, 255, 1);
+	font-family: "Exo", sans-serif;
+	padding: 10px;
+}
+
+/*-----------HISTORY-SECTION-------------*/
+.history-container {
+	background-color: transparent;
+	border-radius: 50px;
+	margin-bottom: 1em;
+	background-color: transparent;
+	border-radius: 50px;
+}
+
+.container-fluid .teachers {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+/*----------------------------------------------FOOTER----------------------------------------*/
+
+footer {
+	background-color: black;
+	margin: 0;
+	color: white;
+	margin-top: auto;
+	overflow: hidden;
+	min-height: 75px;
+}
+
+.footer-text {
+	margin: 10px;
+	font-family: "Exo", sans-serif;
+	text-align: center;
+	list-style: none;
+}
+
+.footer-phrase {
+	font-family: "Italianno", sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+span {
+	font-size: 20px;
+}
+
+dl,
+ol,
+ul {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding: 0;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
