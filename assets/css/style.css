@@ -249,6 +249,7 @@ p {
 	min-height: 95vh;
 }
 
+
 .contact {
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 50px;
@@ -277,7 +278,19 @@ p {
 .contact-btn:hover {
 	color: rgba(235, 134, 235, 1);
 	text-decoration: none;
+	-webkit-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
 }
+
+.jumbotron {
+	background: rgba(0, 0, 0, 0.3);
+	display: block;
+	-webkit-box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+}
+
 
 /*---------------------------------------------INDEX (Landing Page) ----------------------------------*/
 /*----Landing Page(index)--pic-*/
@@ -292,10 +305,7 @@ p {
 
 }
 
-.jumbotron {
-	background: transparent;
-	display: block;
-}
+
 
 .lp {
 	margin-top: auto;
