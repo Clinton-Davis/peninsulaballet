@@ -12,6 +12,10 @@ Essentially, this part is your sales pitch.
 
 
 UX
+I Asked my client what was it they wanted from the web page, and She said Information and a way to Enroll into the school.
+There are manly two groups of people that would be looking at the webpage, Mums and young ladys what want to do Ballet, With this in mind I wanted the webpage in do a fow things,
+(1.) I wonted it to be elegant, as its inspiring to the younger viewers and Inpormative for the Exsiting clients and a good source of information.
+I achieve this with a easy to read information and interactive as much as posiable. 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
