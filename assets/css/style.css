@@ -75,7 +75,7 @@ p {
 }
 
 .container {
-	padding: 0px 40px;
+	padding: 0px 20px;
 }
 
 .inline-block {
@@ -97,12 +97,11 @@ p {
 h5,
 h4,
 h3,
-h2 {
+h2,
+h1 {
 	font-family: "Italianno", sans-serif;
-	font-size: 50px;
 	text-align: center;
 	color: rgba(255, 255, 255, 0.8);
-
 }
 
 
@@ -224,13 +223,14 @@ p {
 	font-size: 1.2em;
 }
 
-
+/*---------ATTIRE CONTAINER------*/
 .container-info {
 	background: url("../images/three-little-ballet-girls-.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding-bottom: 20px;
 
 
 }
@@ -462,6 +462,7 @@ a:hover {
 	margin-bottom: 10px;
 	border-radius: 50px;
 	display: block;
+	font-size: 40px;
 
 }
 
