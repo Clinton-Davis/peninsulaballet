@@ -207,7 +207,7 @@ p {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	color: rgba(255, 255, 255, 0.8);
-	padding: 0 50px;
+	padding: 0 10px;
 	background: rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
@@ -348,7 +348,8 @@ p {
 }
 
 .enter-btn:hover {
-	color: rgba(235, 134, 235, 1) background-color: transparent;
+	color: rgba(235, 134, 235, 1);
+	background-color: transparent;
 	border-color: transparent;
 	direction: none;
 	-webkit-box-shadow: 0px 0px 42px -12px rgba(235, 134, 235, 1);
@@ -386,10 +387,7 @@ a:hover {
 
 /*--------------------------------------------------LOCATIONS PAGE-----------------------------------------*/
 .location-header {
-	margin-top: 5rem;
-	margin-left: 3rem;
-	margin-right: 3rem;
-	margin-bottom: 5rem;
+	margin: 5rem 3rem;
 	background: transparent;
 	border-radius: 75px;
 	display: block;
@@ -411,14 +409,21 @@ a:hover {
 }
 
 .loc {
-
 	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-	border-radius: 50px;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	background: transparent;
+	border-radius: 20px;
+	margin: 2rem 1rem;
+	background: rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+}
+
+.h-bg {
+	border-radius: 18px;
+	background: rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
 }
 
 .btn-loc {
