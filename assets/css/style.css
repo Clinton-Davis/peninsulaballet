@@ -316,24 +316,24 @@ p {
 .main-heading {
 	color: rgba(255, 255, 255, 0.8);
 	font-family: "Italianno", sans-serif;
-	margin-bottom: 2rem;
-	font-size: 4.5rem;
+	margin-bottom: 1rem;
+	font-size: 4rem;
 	align-self: auto;
 }
 
 .motto {
 	font-family: "Italianno", sans-serif;
 	color: rgba(255, 255, 255, 0.8);
-	font-size: 3.5em;
-	margin-bottom: 50px;
+	font-size: 2rem;
+	/*margin-bottom: 50px;*/
 }
 
 /*---------------BUTTONS---------------*/
 .enter-btn {
-	margin: 50px auto;
+	margin: 1rem auto;
 	display: block;
 	font-family: "Italianno", sans-serif;
-	font-size: 60px;
+	font-size: 2rem;
 	color: rgba(255, 255, 255, 0.8);
 	border-radius: 30px;
 	background-color: transparent;
