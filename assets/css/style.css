@@ -56,7 +56,7 @@ p {
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: #f1f1f1;
+	background: rgba(255, 255, 255, 0.8);
 }
 
 /* Handle */
@@ -75,7 +75,7 @@ p {
 }
 
 .container {
-	padding: 0px;
+	padding: 0px 40px;
 }
 
 .inline-block {
@@ -91,7 +91,7 @@ p {
 	font-family: "Italianno", sans-serif;
 	font-size: 60px;
 	text-align: center;
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 0.8);
 }
 
 h5,
@@ -101,7 +101,7 @@ h2 {
 	font-family: "Italianno", sans-serif;
 	font-size: 50px;
 	text-align: center;
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(255, 255, 255, 0.8);
 
 }
 
@@ -187,13 +187,13 @@ p {
 	font-family: "Exo", sans-serif;
 	font-size: medium;
 	text-align: center;
-	color: #F8F6F6;
+	color: rgba(255, 255, 255, 0.8);
 }
 
 .blockquote-footer {
 	border-radius: 25px;
 	background: rgba(0, 0, 0, 0.7);
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(255, 255, 255, 0.8);
 	padding: 1em;
 
 	font-size: 95%;
@@ -206,9 +206,9 @@ p {
 	border-radius: 50px;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
-	color: white;
+	color: rgba(255, 255, 255, 0.8);
 	padding: 0 50px;
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
 	box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
@@ -314,7 +314,7 @@ p {
 }
 
 .main-heading {
-	color: white;
+	color: rgba(255, 255, 255, 0.8);
 	font-family: "Italianno", sans-serif;
 	margin-bottom: 2rem;
 	font-size: 4.5rem;
@@ -422,7 +422,7 @@ a:hover {
 }
 
 .btn-loc {
-	color: #fff;
+	color: rgba(255, 255, 255, 0.8);
 	background-color: rgba(255, 208, 0, 0.5);
 	border-color: #6c757d;
 	margin: 5px;
@@ -442,7 +442,7 @@ a:hover {
 	border-radius: 30px;
 	font-family: "Exo", sans-serif;
 	background-color: rgba(0, 0, 0, 0.4);
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 0.8);
 	table-layout: fixed;
 }
 
@@ -452,11 +452,12 @@ a:hover {
 }
 
 .day {
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 0.8);
 	background: transparent;
 	margin-bottom: 10px;
 	border-radius: 50px;
 	display: block;
+
 }
 
 
@@ -475,7 +476,7 @@ a:hover {
 	font-family: "Italianno", sans-serif;
 	font-size: 60px;
 	text-align: center;
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(255, 255, 255, 0.8);
 	border-radius: 20px;
 }
 
@@ -490,16 +491,22 @@ a:hover {
 	position: relative;
 	width: auto;
 	border: 0;
+
 }
 
 .card-text {
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 0.8);
 	font-family: "Exo", sans-serif;
 	padding: 10px;
+	border-radius: 50px;
+	background: rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
 }
 
 .card-title {
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 0.8);
 	font-family: "Exo", sans-serif;
 }
 
@@ -514,7 +521,7 @@ a:hover {
 }
 
 p {
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 0.8);
 	font-family: "Exo", sans-serif;
 	padding: 10px;
 }
@@ -540,7 +547,7 @@ p {
 footer {
 	background-color: black;
 	margin: 0;
-	color: white;
+	color: rgba(255, 255, 255, 0.8);
 	margin-top: auto;
 	overflow: hidden;
 	min-height: 75px;
