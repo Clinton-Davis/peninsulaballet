@@ -306,7 +306,14 @@ p {
 
 }
 
-
+.jumbotron-landing {
+	background: rgba(0, 0, 0, 0.3);
+	display: block;
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 44px -9px rgba(0, 0, 0, 0.75);
+}
 
 .lp {
 	margin-top: auto;
@@ -316,7 +323,6 @@ p {
 .main-heading {
 	color: rgba(255, 255, 255, 0.8);
 	font-family: "Italianno", sans-serif;
-	margin-bottom: 1rem;
 	font-size: 4rem;
 	align-self: auto;
 }
