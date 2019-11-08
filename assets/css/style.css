@@ -45,8 +45,26 @@ a {
 
 p {
 	padding: 10px 30px 10px 30px;
+	font-family: "Exo", sans-serif;
 }
 
+/*----------------------email - form---------------*/
+input {
+	margin: 0;
+	font-family: inherit;
+	font-size: 10px;
+	line-height: 15px;
+	background-color: rgba(235, 134, 235, 1);
+	border-radius: 10px;
+
+}
+
+label {
+	display: inline-block;
+	margin-bottom: .5rem;
+	font-family: "Exo", sans-serif;
+	color: rgba(255, 255, 255, 0.8);
+}
 
 /*--SCROLLBAR--CUSTOM---*/
 /* width */
@@ -104,10 +122,6 @@ h1 {
 	color: rgba(255, 255, 255, 0.8);
 }
 
-
-p {
-	font-family: "Exo", sans-serif;
-}
 
 .full-lenth {
 	padding: 1rem;
