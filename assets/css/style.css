@@ -39,7 +39,7 @@ a {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.5);
 	margin: 0;
 }
 
@@ -93,7 +93,7 @@ label {
 }
 
 .container {
-	padding: 0px 20px;
+	padding: 40px 20px;
 }
 
 .inline-block {
@@ -313,7 +313,7 @@ h1 {
 /**--------------------------------------------INDEX (Landing Page) ----------------------------------*/
 /*----Landing Page(index)--pic-*/
 .dancer {
-	background: url("../images/david-hofmann-4QPVQuf0WMQ-unsplash.jpg") no-repeat center center fixed;
+	background: url("../images/stockfresh_female-ballet-dancer_sizeM_custom.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -326,6 +326,7 @@ h1 {
 .jumbotron-landing {
 	background: transparent;
 	display: block;
+	border-radius: 50px;
 
 
 }
