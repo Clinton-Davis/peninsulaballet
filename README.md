@@ -72,7 +72,7 @@ This page has an easy to read table with the different classes and times at each
  </details>
 
 ### Skeletons 
-
+C:\Users\35386\Documents\GitHub\peninsulaballet\wireframes\about-page.png
 
 
 ### Surface
