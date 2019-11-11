@@ -124,7 +124,7 @@ Reading the user storeys, gave me a good insight as to where  and what the site 
 
 I use Visual Studio, to make the site which has an Extention called live server, which let me open an instance of Chrome to see live updates on what changes I have made. When I make a change to a design element, I have a look in the Developer tool that is provided to see how it works on different screen sizes and resolutions. 
 
-I used GitHub web hosting service called Gitpages to host an instance of the page, I then went through all the pages and links in the Nav Bar and footer to make sure they work, and make sure my:  *target="_blank"* - is working as planned.
+I used GitHub web hosting service called Gitpages to host an instance of the page, I then went through all the pages and links in the Nav Bar and footer to make sure they work, and make sure my:  *target="_blank"* - is working and pointing in the right direction.
 
 I do this for every page, and I use the different browsers, *Chrome, FireFox, Windows Edge, Safari.** In each browser, I try to break the layout. In *Chrome and FireFox*, I make use of the preset they have for mobile/tablets. On the other browsers, I resize the window manually to see their response.
 I also had a look at different mobile phone types to see how it worked.
@@ -138,6 +138,8 @@ I also had a look at different mobile phone types to see how it worked.
 <li>iPad</li>
 </details>
 <br>
+
+If you try to enter an email address, that's invalid you get an **"Invalid email"** worrying.
 The next stage of testing was external testing. I send the code and the webpage into peer-to-peer code testing in Code Institute section on Slack. 
 
 the results are still to be given back.
