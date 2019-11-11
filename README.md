@@ -199,7 +199,7 @@ I created the design of the web page,
 The whiskey drop projects heavily inspired me.
 
 ##### Content:
-All information and bios credited to Tracy Davis and Lielanie Beer.
+All information and bios credited to Tracy Davis and Leilani Beer .
 
 ##### Media:
 * [Pixabay](https://pixabay.com/)
