@@ -178,6 +178,7 @@ I hosted this site using GitHub pages, GitHub pages are part of GitHud. It is de
 <li>Type ‘’’git clone’’’ and then paste the URL you copied in Step 2.</li>
 <li>Press Enter. Your local Clone will be created.</li>
 <ol>
+</details>
 
 
 
