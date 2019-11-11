@@ -74,15 +74,13 @@ This page has an easy to read table with the different classes and times at each
 ### Skeletons 
 #### Wireframe Mockups
 
-[Landing page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/landing-page-(Index.html).png)
-[About Page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/about-page.png)
-[Tachers page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/teachers-page.png)
-[Locations page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/locations.png)
-[Schedule page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/schedule-page.png)
-[Contact page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/contact-page%20.png)
-[Attire page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/attire-page%20%20.png)
-
-
+* [Landing page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/landing-page-(Index.html).png)
+* [About Page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/about-page.png)
+* [Tachers page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/teachers-page.png)
+* [Locations page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/locations.png)
+* [Schedule page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/schedule-page.png)
+* [Contact page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/contact-page%20.png)
+* [Attire page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/attire-page%20%20.png)
 
 ### Surface
 * Pictures that are hole page backgrounds are choosen for there grace and elegance witch gives an almost romantic feel that ballet has, they were chosen to inspire and instil the desire for the inner ballerina, each page has a different picture, depending on what information is in the forefront. 
