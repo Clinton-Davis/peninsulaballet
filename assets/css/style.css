@@ -93,7 +93,7 @@ label {
 }
 
 .container {
-	padding: 40px 20px;
+	padding: 20px;
 }
 
 .inline-block {
@@ -343,10 +343,10 @@ h1 {
 	align-self: auto;
 }
 
-.motto {
+.sub-headings {
 	font-family: "Italianno", sans-serif;
 	color: rgba(255, 255, 255, 0.8);
-	font-size: 2rem;
+	font-size: 3rem;
 	/*margin-bottom: 50px;*/
 }
 
@@ -355,11 +355,11 @@ h1 {
 	margin: 1rem auto;
 	display: block;
 	font-family: "Italianno", sans-serif;
-	font-size: 2rem;
+	font-size: 3rem;
 	color: rgba(255, 255, 255, 0.8);
 	border-radius: 30px;
 	background-color: transparent;
-	border-color: transparent;
+	border-color: rgba(0, 0, 0, 0.5);
 	transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
