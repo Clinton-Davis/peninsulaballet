@@ -72,7 +72,16 @@ This page has an easy to read table with the different classes and times at each
  </details>
 
 ### Skeletons 
-C:\Users\35386\Documents\GitHub\peninsulaballet\wireframes\about-page.png
+#### Wireframe Mockups
+
+[Landing page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/landing-page-(Index.html).png)
+[About Page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/about-page.png)
+[Tachers page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/teachers-page.png)
+[Locations page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/locations.png)
+[Schedule page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/schedule-page.png)
+[Contact page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/contact-page%20.png)
+[Attire page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/attire-page%20%20.png)
+
 
 
 ### Surface
