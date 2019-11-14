@@ -104,10 +104,11 @@ label {
 	margin: 0;
 }
 
-.container {
-	padding: 20px;
-}
 
+.max-container {
+	padding:20px;
+	min-height: 86vh;
+}
 .inline-block {
 	display: inline-block;
 }
@@ -364,6 +365,8 @@ h1 {
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100vh;
+	overflow: hidden;
+	
 }
 /*--Main jumbotron / headings / subheading ----*/
 .jumbotron-landing {
