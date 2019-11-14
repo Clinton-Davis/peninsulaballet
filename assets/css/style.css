@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Italianno&display=swap');
 
-/*---------------------------------CSS INDEX---------------------------------------*/
-/*---------------------
-1 .GENERAL CSS STYLINGS
-2. NAV BAR
-3. ABOUT PAGE
-4. ATTIRE PAGE
-5. CONTACT PAGE
-6. INDEX (LANDING PAGE)
-7. LOCATION PAGE
-8. SCHEDULE PAGE
-9. TEACHERS
-10.FOOTER
------------------------*/
+/*---------------------------------CSS INDEX-------------------------*/
+								/*---------------------
+								1 .GENERAL CSS STYLINGS
+								2. NAV BAR
+								3. ABOUT PAGE
+								4. ATTIRE PAGE
+								5. CONTACT PAGE
+								6. INDEX (LANDING PAGE)
+								7. LOCATION PAGE
+								8. SCHEDULE PAGE
+								9. TEACHERS
+								10.FOOTER
+								-----------------------
+
 /**--------------------------------Genural Stylesing--------------------------------*/
+							         /*
+							          *
+								      *
+									  *
+								      */
 
 
 html {
@@ -139,9 +145,11 @@ h1 {
 	padding: 1rem;
 }
 
-
-
-
+							   /*******
+							          *
+								*******
+								*
+								*******/
 /**---------------------------------------------NAVBAR------------------------------------------*/
 .navbar {
 	padding: 0;
@@ -192,7 +200,12 @@ h1 {
 }
 
 
-/**-----------------------------------------------ABOUT PAGE ---------------------------------------------*/
+/**-----------------------------ABOUT PAGE ----------------------------*/
+                               /*******
+									  *
+								*******
+								      *
+								*******/
 .about-pic {
 	background: url("../images/ballerina-standing-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
@@ -231,7 +244,12 @@ h1 {
 	display: inline-block;
 }
 
-/**-------------------------------------------------ATTIRE PAGE--------------------------------------*/
+/**--------------------------------------ATTIRE PAGE-------------------------------*/
+                               /*
+								*
+								*   *
+								*******
+								    */
 .info {
 	text-align: center;
 	border-radius: 50px;
@@ -267,7 +285,12 @@ h1 {
 
 }
 
-/**------------------------------------------------CONTACT PAGE-----------------------------------------*/
+/**-----------------------------CONTACT PAGE-------------------------------*/
+							   /*******
+							    *
+								*******
+								      *
+								*******/
 
 .contact-container {
 
@@ -327,7 +350,12 @@ h1 {
 }
 
 
-/**--------------------------------------------INDEX (Landing Page) ----------------------------------*/
+/**------------------------INDEX (Landing Page) ----------------------------*/
+							   /*****
+								*
+								*****
+								*   *
+								*****/
 /*----Landing Page(index)--pic-*/
 .dancer {
 	background: url("../images/stockfresh_female-ballet-dancer_sizeM_custom.jpg") no-repeat center center fixed;
@@ -337,7 +365,7 @@ h1 {
 	background-size: cover;
 	height: 100vh;
 }
-
+/*--Main jumbotron / headings / subheading ----*/
 .jumbotron-landing {
 	background: transparent;
 	display: block;
@@ -364,7 +392,7 @@ h1 {
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
-/*---------------BUTTONS---------------*/
+/*--------------- Index Pg Entry BUTTON---------------*/
 .enter-btn {
 	margin: 1rem auto;
 	display: block;
@@ -426,7 +454,12 @@ a:hover {
 }
 
 
-/**-------------------------------------------------LOCATIONS PAGE-----------------------------------------*/
+/**---------------------------------LOCATIONS PAGE----------------------------------*/
+							    /******
+							          *
+								      *
+								      *
+								      */
 .location-header {
 	margin: 5rem 3rem;
 	background: transparent;
@@ -474,7 +507,12 @@ a:hover {
 	margin: 5px;
 }
 
-/**-------------------------------------------------------Schedule--------------------------------------*/
+/**--------------------------------------Schedule Pg---------------------------*/
+							   /*******
+							    *     *
+								*******
+								*     *
+								*******/
 /*---schedule-Pic--*/
 .container-schedule {
 	background: url("../images/sittingDownDancers.jpeg") no-repeat top left fixed;
@@ -518,7 +556,12 @@ position: relative;
 
 }
 
-/**-------------------------------------------------TEACHERS-------------------------------------*/
+/**-------------------------------------TEACHERS--------------------------------*/
+							   /*******
+								*     *
+								*******
+							          *
+								      */
 
 .pic-teacher {
 	background: url("../images/agility-1850711_1280.jpg") no-repeat center center fixed;
@@ -610,7 +653,12 @@ p {
 
 
 
-/**---------------------------------------------FOOTER----------------------------------------*/
+/**------------------------------------FOOTER-----------------------------------*/
+							   /*	****
+							    *	*  *
+								*	*  *
+								*   *  *  
+								*   ****/
 
 footer {
 	background: rgba(250,250,250,0);
