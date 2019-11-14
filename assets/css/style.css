@@ -336,16 +336,12 @@ h1 {
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100vh;
-	
-
 }
 
 .jumbotron-landing {
 	background: transparent;
 	display: block;
 	border-radius: 50px;
-
-
 }
 
 .lp {
@@ -366,7 +362,6 @@ h1 {
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 3rem;
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
-	/*margin-bottom: 50px;*/
 }
 
 /*---------------BUTTONS---------------*/
@@ -390,10 +385,12 @@ h1 {
 }
 
 .enter-btn:hover {
-	color: rgb(255,255,255,1);
+	color: rgb(5, 5, 5);
 	border: 5px solid rgba(245, 245, 245, 0.562);
-	
-	
+	text-shadow: 1px 1px 2px rgb(248, 246, 246);
+	-webkit-box-shadow: inset 0px 0px 19px 0px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 0px 19px 0px rgba(255,255,255,1);
+	box-shadow: inset 0px 0px 19px 0px rgba(255,255,255,1);
 	direction: none;
 }
 
