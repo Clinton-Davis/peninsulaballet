@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Italianno&display=swap');
 
 /*---------------------------------CSS INDEX-------------------------*/
-								/*---------------------
+/*---							------------------
 								1 .GENERAL CSS STYLINGS
 								2. NAV BAR
 								3. ABOUT PAGE
@@ -12,10 +12,10 @@
 								8. SCHEDULE PAGE
 								9. TEACHERS
 								10.FOOTER
-								-----------------------
+								--------------------
 
 /**--------------------------------Genural Stylesing--------------------------------*/
-							         /*
+/*
 							          *
 								      *
 									  *
@@ -38,6 +38,7 @@ a {
 	color: rgba(255, 255, 255, 0.9);
 	transition: 0.3s;
 }
+
 a:hover {
 	color: rgb(248, 245, 245);
 	text-shadow: 1px 1px 2px rgb(205, 139, 207);
@@ -52,7 +53,7 @@ a:hover {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
 	margin: 0;
-	
+
 }
 
 p {
@@ -106,9 +107,10 @@ label {
 
 
 .max-container {
-	padding:20px;
+	padding: 20px;
 	min-height: 86vh;
 }
+
 .inline-block {
 	display: inline-block;
 }
@@ -125,6 +127,7 @@ label {
 	color: rgba(255, 255, 255, 0.8);
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
+
 /* --txt-sd --Text-Shadow to helo with controst-*/
 .txt-sd {
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
@@ -146,7 +149,7 @@ h1 {
 	padding: 1rem;
 }
 
-							   /*******
+/*								*******
 							          *
 								*******
 								*
@@ -166,7 +169,6 @@ h1 {
 
 #logo:hover {
 	outline: rgba(255, 255, 255, 0.9)
-
 }
 
 .navbar.bg {
@@ -183,7 +185,7 @@ h1 {
 	-o-transition: all 0.3s ease-in-out;
 	display: flex;
 	justify-content: flex-end;
-	border-radius: 5px;		
+	border-radius: 5px;
 }
 
 .navbar-nav {
@@ -193,7 +195,7 @@ h1 {
 .navbar-dark .navbar-nav .nav-link:hover {
 	color: rgba(0, 0, 0, 1);
 	text-shadow: 1px 1px 2px rgb(255, 255, 255);
-	
+
 }
 
 .navbar-dark .navbar-nav .nav-link:focus {
@@ -202,7 +204,7 @@ h1 {
 
 
 /**-----------------------------ABOUT PAGE ----------------------------*/
-                               /*******
+/*								*******
 									  *
 								*******
 								      *
@@ -246,7 +248,7 @@ h1 {
 }
 
 /**--------------------------------------ATTIRE PAGE-------------------------------*/
-                               /*
+/*								*
 								*
 								*   *
 								*******
@@ -281,13 +283,13 @@ h1 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
+
 
 
 }
 
 /**-----------------------------CONTACT PAGE-------------------------------*/
-							   /*******
+/*								******
 							    *
 								*******
 								      *
@@ -352,7 +354,7 @@ h1 {
 
 
 /**------------------------INDEX (Landing Page) ----------------------------*/
-							   /*****
+/*								*****
 								*
 								*****
 								*   *
@@ -366,8 +368,9 @@ h1 {
 	background-size: cover;
 	height: 100vh;
 	overflow: hidden;
-	
+
 }
+
 /*--Main jumbotron / headings / subheading ----*/
 .jumbotron-landing {
 	background: transparent;
@@ -419,14 +422,14 @@ h1 {
 	color: rgb(5, 5, 5);
 	border: 5px solid rgba(245, 245, 245, 0.562);
 	text-shadow: 1px 1px 2px rgb(248, 246, 246);
-	-webkit-box-shadow: inset 0px 0px 19px 0px rgba(255,255,255,1);
-	-moz-box-shadow: inset 0px 0px 19px 0px rgba(255,255,255,1);
-	box-shadow: inset 0px 0px 19px 0px rgba(255,255,255,1);
+	-webkit-box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);
 	direction: none;
 }
 
 button:active {
-    border-style: outset;
+	border-style: outset;
 }
 
 a:hover {
@@ -458,7 +461,7 @@ a:hover {
 
 
 /**---------------------------------LOCATIONS PAGE----------------------------------*/
-							    /******
+/*								 ******
 							          *
 								      *
 								      *
@@ -511,7 +514,7 @@ a:hover {
 }
 
 /**--------------------------------------Schedule Pg---------------------------*/
-							   /*******
+/*								*******
 							    *     *
 								*******
 								*     *
@@ -524,9 +527,10 @@ a:hover {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
 /*-- Gray overlay for  schedule --*/
 .gray-scedule {
-position: relative;
+	position: relative;
 	left: 0;
 	top: 0;
 	bottom: 0;
@@ -560,7 +564,7 @@ position: relative;
 }
 
 /**-------------------------------------TEACHERS--------------------------------*/
-							   /*******
+/*   							*******
 								*     *
 								*******
 							          *
@@ -573,6 +577,7 @@ position: relative;
 	-o-background-size: cover;
 	background-size: cover;
 }
+
 /*--Gray Overlay for teachers page--*/
 .teachers-gray {
 	position: relative;
@@ -657,21 +662,20 @@ p {
 
 
 /**------------------------------------FOOTER-----------------------------------*/
-							   /*	****
-							    *	*  *
-								*	*  *
+/*								*	****
+							    *	*  *							
 								*   *  *  
 								*   ****/
 
 footer {
-	background: rgba(250,250,250,0);
-	background: -moz-linear-gradient(top, rgba(250,250,250,0) 0%, rgba(5,5,5,1) 35%, rgba(5,5,5,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,250,250,0)), color-stop(35%, rgba(5,5,5,1)), color-stop(100%, rgba(5,5,5,1)));
-	background: -webkit-linear-gradient(top, rgba(250,250,250,0) 0%, rgba(5,5,5,1) 35%, rgba(5,5,5,1) 100%);
-	background: -o-linear-gradient(top, rgba(250,250,250,0) 0%, rgba(5,5,5,1) 35%, rgba(5,5,5,1) 100%);
-	background: -ms-linear-gradient(top, rgba(250,250,250,0) 0%, rgba(5,5,5,1) 35%, rgba(5,5,5,1) 100%);
-	background: linear-gradient(to bottom, rgba(250,250,250,0) 0%, rgba(5,5,5,1) 35%, rgba(5,5,5,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#050505', GradientType=0 );
+	background: rgba(250, 250, 250, 0);
+	background: -moz-linear-gradient(top, rgba(250, 250, 250, 0) 0%, rgba(5, 5, 5, 1) 35%, rgba(5, 5, 5, 1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250, 250, 250, 0)), color-stop(35%, rgba(5, 5, 5, 1)), color-stop(100%, rgba(5, 5, 5, 1)));
+	background: -webkit-linear-gradient(top, rgba(250, 250, 250, 0) 0%, rgba(5, 5, 5, 1) 35%, rgba(5, 5, 5, 1) 100%);
+	background: -o-linear-gradient(top, rgba(250, 250, 250, 0) 0%, rgba(5, 5, 5, 1) 35%, rgba(5, 5, 5, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(250, 250, 250, 0) 0%, rgba(5, 5, 5, 1) 35%, rgba(5, 5, 5, 1) 100%);
+	background: linear-gradient(to bottom, rgba(250, 250, 250, 0) 0%, rgba(5, 5, 5, 1) 35%, rgba(5, 5, 5, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#050505', GradientType=0);
 	margin: 0;
 	color: rgba(255, 255, 255, 0.8);
 	margin-top: auto;
