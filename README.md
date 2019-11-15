@@ -171,7 +171,7 @@ body {
 everything sealed down, and the footer stayed at the foot.
 
 Another bug I have is on the landing page portrait view on a mobile the screen is not scrolling. Looking into this further I fond that the *Landing page (index HTML)* and the *Contact page* were not filling the iPad resolutions at all, only 1/2 of the page was being utilised. 
-My fix was to give the to pages a separate class with its own *min-height* giving the footer *(14vh)* the rest of the height. 
+My fix was to give the to pages a separate class with its own *min-height* giving the footer *(12vh)* the rest of the height. 
 ```
 .max-container {
     padding: 20px;
