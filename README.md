@@ -7,7 +7,7 @@ ___
 The *Peninsula Ballet school* website is to show potential students and parents what the school is all about, 
 It has five pages that have the essential information that the client and User stories have highlighted.
 
-My Clients brief was that she wanted ***elegant*** and ***simple*** to use website with information at a click of a button, 
+My Clients brief was that she wanted ***elegant*** website with information at a click of a button.
 Her overall goal is to get more new students and give information to the existing one and parents.
 
 ----
@@ -20,8 +20,8 @@ A live demo can found ***[Here](https://clinton-davis.github.io/peninsulaballet/
 
 ### User Stories
 
-To get the user stories, I contacted the client and asked for her target demographic, Parents with a child between the ages of 3 and 18 years.
-I contacted several parents I know and asked the question: What is the top 3 things what you would be looking for in a ballet school?
+To get the user stories, I contacted the client and asked for her target demographic, Parents with a child or children between the ages of 3 and 18 years.
+I contacted several parents that fitted the demographic, and I asked the question: What are the top 3 things what you would be looking for in a ballet school?
 Here are the most common answers we got back:
 
 1. I would be looking for details on the Ballet school, its history, are the teachers qualified?
@@ -29,10 +29,10 @@ Here are the most common answers we got back:
 3. I should be able to find the schedule of the classes and the studios quickly.
 
 ### Strategy
-My Strategy was simple to keep within the clients wants and needs, by having a page layout with an elegant image that inspires and invokes the inner ballerina in the children and the parents alike when they see the website. By having a clean, easy to read and navigate. That invokes confidence in the school and a sense of confidence that their children would are after.
+My Strategy was simple to keep within the clients wants and needs, by having a page layout with an elegant image that inspires and invokes the inner ballerina in the children and the parents alike when they see the website. By having a clean, easy to read and navigate. That invokes confidence in the school and a good feeling that their children would be looked after.
 
 ### Scope
-To show all the information in a clean and precise way, I decided to split up the website into five pages. Each page is dedicated to a different aspect of the school. The market research I did showed me the top 5 things that had to display.
+To show all the information in a clean and precise way, I decided to split up the website into five pages. Each page is dedicated to a different aspect of the school. The market research and user storeys showed me the top 5 things that had to display.
 
 ### Structure.
 <details>
@@ -82,10 +82,11 @@ This page has an easy to read table with the different classes and times at each
 * [Contact page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/contact-page%20.png)
 * [Attire page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/attire-page%20%20.png)
 
+
 ### Surface
-* Pictures that are hole page backgrounds are choosen for there grace and elegance witch gives an almost romantic feel that ballet has, they were chosen to inspire and instil the desire for the inner ballerina, each page has a different picture, depending on what information is in the forefront. 
-* Font I have chosen for the Heading, I opted for its easy to read and elegance, slightly slanty but clear.
-The paragraphs font is clear and easy to read and gives it a nice modern feel, the synergy of the two fonts gives the impression of keeping with tradition while staying modern.
+* Pictures that are hole page backgrounds are chosen for there grace and elegance witch gives an almost romantic feel that ballet has, they were chosen to inspire and instil the desire for the inner ballerina, each page has a different picture, depending on what information is in the forefront. 
+* Font I have chosen for the Headings, I opted for its easy to read and elegance, slightly slanty but clear.
+The paragraphs font is clear and easy to read and gives it a modern feel, the synergy of the two fonts gives the impression of keeping with tradition with modern stylings.
 * There are multiple options for downloading pdfs.
 
 ---
@@ -98,6 +99,7 @@ The paragraphs font is clear and easy to read and gives it a nice modern feel, t
 * [Font-Awesome v 5.6.1](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [RBGA Color picker](https://www.december.com/html/spec/colorrgbadec.html)
+* [TinyPNG](https://tinypng.com/)
 * [Bitly \| URL Shortener](https://bitly.com/)
 * [Google maps](https://www.google.com/maps)
 * [Visual Studio Code](https://code.visualstudio.com/)
@@ -110,7 +112,7 @@ The paragraphs font is clear and easy to read and gives it a nice modern feel, t
 ---
 ## Features
 
-- Collapsable Navbar - I used the bootstrap collapse nav (link)bar feature in screen-sized under 992px, this gives more room in the smaller devices. I was inspired by the Whiskey Drop project I did in Code institute.
+- Collapsable Navbar - I used the bootstrap collapse [Navbar](https://getbootstrap.com/docs/4.3/components/navbar/) bar feature in screen-sized under 992px, this gives more room in the smaller devices. I was inspired by the Whiskey Drop project I did in Code institute.
 - Google Maps Links - I have links to various locations for Outlets and physical address, From there they can get directions and links to other webpages.
 - Downloadable PDF's - there are hyperlinks to downloadable Schedule PDF and enrollment form PDF.
 - NewsLetter Email input - to enter email address it they would like to get information on upcoming events and schedule changes
@@ -131,9 +133,10 @@ Reading the user storeys, gave me a good insight as to where  and what the site 
 
 I use Visual Studio, to make the site which has an Extention called live server, which let me open an instance of Chrome to see live updates on what changes I have made. When I make a change to a design element, I have a look in the Developer tool that is provided to see how it works on different screen sizes and resolutions. 
 
-I used GitHub web hosting service called Gitpages to host an instance of the page, I then went through all the pages and links in the Nav Bar and footer to make sure they work, and make sure my:  *target="_blank"* - is working and pointing in the right direction.
+I used GitHub web hosting service called Gitpages to host an instance of the page, I then went through all the pages and links in the Nav Bar and footer to make sure they work, and make sure my:  *target="_blank"* - is working as planned.
 
 I do this for every page, and I use the different browsers, *Chrome, FireFox, Windows Edge, Safari.** In each browser, I try to break the layout. In *Chrome and FireFox*, I make use of the preset they have for mobile/tablets. On the other browsers, I resize the window manually to see their response.
+
 I also had a look at different mobile phone types to see how it worked.
 <details>
 <summary>List of Moblie devices I've tested on</summary> 
@@ -145,23 +148,42 @@ I also had a look at different mobile phone types to see how it worked.
 <li>iPad</li>
 </details>
 <br>
-
-If you try to enter an email address, that's invalid you get an **"Invalid email"** worrying.
 The next stage of testing was external testing. I send the code and the webpage into peer-to-peer code testing in Code Institute section on Slack. 
 
 the results are still to be given back.
 
 ### Bugs
 
-I fond a bug in the footer section on the page, The Ones that had less information and used less real state, the footer kept on creeping up, and on some devices, the page length was not filling the full screen, I reached out to the Slack community and was pointed in the right direction. After a little figgering out I what able to fix it.
-The Fix was relatively easy, the reason it was creeping up as I hadn't given the browsers the height it was looking for, once I set the height off the HTML page: *HTML height:100%;* , everything sealed down, and the footer stayed at the foot.
+I fond a bug in the footer section on the page, Pages that had less information and used less real state, the footer kept on creeping up, and on some devices, the page length was not filling the full screen, I reached out to the Slack community and was pointed in the right direction. After a little figgering out I what able to fix it.
+The fix was relatively easy, the reason it was creeping up as I hadn't given the browsers the height it was looking for, once I set the height of the HTML and the Body of the page:
+```
+html {
+    height: 100%;
+}
 
--Another bug I have is on the landing page portrait view on a mobile the screen is not scrolling, and I am still trying to figure this one out.
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+```
+everything sealed down, and the footer stayed at the foot.
+
+Another bug I have is on the landing page portrait view on a mobile the screen is not scrolling. Looking into this further I fond that the *Landing page (index HTML)* and the *Contact page* were not filling the iPad resolutions at all, only 1/2 of the page was being utilised. 
+My fix was to give the to pages a separate class with its own *min-height* giving the footer *(14vh)* the rest of the height. 
+```
+.max-container {
+    padding: 20px;
+    min-height: 86vh;
+}
+```
+That fix has worked.
 
 ---
 
 ## Deployment
-I hosted this site using GitHub pages, GitHub pages are part of GitHud. It is deployed directly from the *master* branch or any *other branch* your choosing. The beautiful thing about using GitHub Pages is that is updates the feed as you *git push* changes to brach you are using to deploy. 
+I hosted this site using GitHub pages, GitHub pages are part of GitHud. It is deployed directly from the *master* branch or any * other branches* of your choosing. The beautiful thing about using GitHub Pages is that is updates the feed as you *git push* changes to brach you are using to deploy. 
 
 
 <details>
@@ -187,7 +209,6 @@ I hosted this site using GitHub pages, GitHub pages are part of GitHud. It is de
 <li>Type ‘’’git clone’’’ and then paste the URL you copied in Step 2.</li>
 <li>Press Enter. Your local Clone will be created.</li>
 <ol>
-</details>
 
 
 
@@ -195,18 +216,19 @@ I hosted this site using GitHub pages, GitHub pages are part of GitHud. It is de
 
 ### Credits
 ##### Design:
-I created the design of the web page, 
-The whiskey drop projects heavily inspired me.
+I created the design of the web page, and I was heavily inspired by the 
+The whiskey drop project.
 
 ##### Content:
-All information and bios credited to Tracy Davis and Leilani Beer .
+All information and bios credited to Tracy Davis and Lielanie Beer.
 
 ##### Media:
+All pictures used are from:
 * [Pixabay](https://pixabay.com/)
 * [Shutterstock](https://www.shutterstock.com/home) 
 * [Unsplash](https://unsplash.com/) 
 * [Stockfresh](https://stockfresh.com/)
-All pictures used have [CC licences](https://en.wikipedia.org/wiki/Creative_Commons_license) or paid Standard licences.
+and have [CC licences](https://en.wikipedia.org/wiki/Creative_Commons_license) or paid Standard licences.
 
 ### Acknowledgements
 For the use of code and knowledge.
