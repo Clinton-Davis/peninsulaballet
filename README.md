@@ -175,7 +175,7 @@ My fix was to give the to pages a separate class with its own *min-height* givin
 ```
 .max-container {
     padding: 20px;
-    min-height: 86vh;
+    min-height: 88vh;
 }
 ```
 That fix has worked.
