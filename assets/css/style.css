@@ -390,12 +390,20 @@ h1 {
 	text-align: center;
 }
 
-.main-heading {
-	color: rgba(255, 255, 255, 0.8);
+/*--Landong-Page Main Heading (Black with White shadow)---*/
+.landing-heading {
+	color: rgba(0, 0, 0, 1);
 	font-family: "Italianno", sans-serif;
 	font-size: 4rem;
 	align-self: auto;
-	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+	text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.landing-sub-headings {
+	font-family: "Italianno", sans-serif;
+	color: rgba(0, 0, 0, 1);
+	font-size: 3rem;
+	text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .sub-headings {
@@ -405,14 +413,16 @@ h1 {
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
+
+
 /*--------------- Index Pg Entry BUTTON---------------*/
 .enter-btn {
 	margin: 1rem auto;
 	display: block;
 	font-family: "Italianno", sans-serif;
 	font-size: 3rem;
-	text-shadow: 1px 1px 2px rgb(0, 0, 0);
-	color: rgba(255, 255, 255, 0.8);
+	text-shadow: 1px 1px 2px rgb(255, 255, 255);
+	color: rgba(0, 0, 0, 1);
 	border-radius: 18px;
 	background-color: transparent;
 	border: .5px solid rgba(245, 245, 245, 0.3);
@@ -426,9 +436,9 @@ h1 {
 }
 
 .enter-btn:hover {
-	color: rgb(5, 5, 5);
+	color: rgb(0, 0, 0, );
 	border: 5px solid rgba(245, 245, 245, 0.562);
-	text-shadow: 1px 1px 2px rgb(248, 246, 246);
+	text-shadow: 1px 1px 2px rgb(205, 139, 207);
 	-webkit-box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);
 	-moz-box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);
 	box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);
