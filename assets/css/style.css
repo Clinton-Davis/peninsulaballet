@@ -35,7 +35,7 @@ body {
 }
 
 a {
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(235, 134, 235, 1);
 	transition: 0.3s;
 }
 
@@ -51,7 +51,7 @@ a:hover {
 	bottom: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.4);
 	margin: 0;
 
 }
@@ -59,6 +59,7 @@ a:hover {
 p {
 	padding: 10px 30px 10px 30px;
 	font-family: "Exo", sans-serif;
+	font-size: 1rem;
 }
 
 /*----email - form----*/
@@ -111,14 +112,6 @@ label {
 	min-height: 88vh;
 }
 
-.inline-block {
-	display: inline-block;
-}
-
-.uppercase {
-	text-transform: uppercase;
-}
-
 .pageheader {
 	display: block;
 	font-family: "Italianno", sans-serif;
@@ -142,11 +135,6 @@ h1 {
 	text-align: center;
 	color: rgba(255, 255, 255, 0.8);
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
-}
-
-
-.full-lenth {
-	padding: 1rem;
 }
 
 /*								*******
@@ -196,7 +184,8 @@ h1 {
 }
 
 .navbar-nav {
-	margin-left: 25%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -228,7 +217,6 @@ h1 {
 .about-container {
 	background-color: transparent;
 	border-radius: 50px;
-
 	text-align: center;
 }
 
@@ -237,12 +225,7 @@ h1 {
 	margin-bottom: 5rem;
 }
 
-.about-container p {
-	font-family: "Exo", sans-serif;
-	font-size: medium;
-	text-align: center;
-	color: rgba(255, 255, 255, 0.8);
-}
+
 
 .blockquote-footer {
 	border-radius: 25px;
@@ -301,9 +284,8 @@ h1 {
 								*******
 								      *
 								*******/
-
+/*--this tcontainer has the picture---*/
 .contact-container {
-
 	background: url("../images/Little_dancer.jpg") no-repeat center bottom fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -312,13 +294,14 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-
 }
-
-
+/*--Contact Page Jumbotron--*/
 .contact {
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 50px;
+	max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-btn {
@@ -504,9 +487,8 @@ a:hover {
 	-o-background-size: cover;
 	background-size: cover;
 }
-
+/*--Studio Locations--*/
 .loc {
-	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 	border-radius: 20px;
 	margin: 2rem 0;
 	background: rgba(0, 0, 0, 0.3);
@@ -556,7 +538,7 @@ a:hover {
 	background-color: rgba(0, 0, 0, 0.25);
 	margin: 0;
 }
-
+/*--schedule Page Table--*/
 .table {
 	border-radius: 30px;
 	font-family: "Exo", sans-serif;
@@ -571,7 +553,7 @@ a:hover {
 }
 
 .day {
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(255, 255, 255, 0.9);
 	background: transparent;
 	margin: 15px;
 	border-radius: 50px;
@@ -659,7 +641,7 @@ a:hover {
 p {
 	color: rgba(255, 255, 255, 0.8);
 	font-family: "Exo", sans-serif;
-	padding: 10px;
+	padding: 1.5rem;
 }
 
 /*-----------HISTORY-SECTION-------------*/
@@ -699,7 +681,9 @@ footer {
 	overflow: hidden;
 	min-height: 75px;
 }
-
+.a-footer {
+	color: rgba(255, 255, 255, 0.8);
+} 
 .footer-text {
 	margin: 10px;
 	font-family: "Exo", sans-serif;
