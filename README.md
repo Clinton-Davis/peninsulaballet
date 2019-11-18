@@ -5,10 +5,10 @@ ___
 
 
 The *Peninsula Ballet school* website is to show potential students and parents what the school is all about, 
-It has five pages that have the essential information that the client and User stories have highlighted.
+It has five pages that contain the essential information that the client and User stories have highlighted.
 
-My Clients brief was that she wanted ***elegant*** website with information at a click of a button.
-Her overall goal is to get more new students and give information to the existing one and parents.
+My clients brief was that she wanted an ***elegant*** website, with information at a click of a button.
+The overall goal is to get more new students and give information to the existing students and parents.
 
 ----
 ## Demo
@@ -20,24 +20,28 @@ A live demo can found ***[Here](https://clinton-davis.github.io/peninsulaballet/
 
 ### User Stories
 
-To get the user stories, I contacted the client and asked for her target demographic, Parents with a child or children between the ages of 3 and 18 years.
-I contacted several parents that fitted the demographic, and I asked the question: What are the top 3 things what you would be looking for in a ballet school?
+To get the user stories, I contacted the client and asked for her target demographic; Parents with a child or children between the ages of 3 and 18 years.
+I contacted several parents that fitted the demographic, and I asked the question: 
+What are the top 3 things what you would be looking for in a ballet school?
 Here are the most common answers we got back:
 
 1. I would be looking for details on the Ballet school, its history, are the teachers qualified?
-2. I want to get details of where to buy the attire and what I would be needing.
-3. I should be able to find the schedule of the classes and the studios quickly.
+2. I want to get details of where to buy the uniforms and what I would need.
+3. To be able to find the schedule of the classes and the studios quickly.
 
 ### Strategy
-My Strategy was simple to keep within the clients wants and needs, by having a page layout with an elegant image that inspires and invokes the inner ballerina in the children and the parents alike when they see the website. By having a clean, easy to read and navigate. That invokes confidence in the school and a good feeling that their children would be looked after.
+My Strategy was simple; to keep within the clients wants and needs.
+This entailed having a page layout that was simple yet elegant and containing images that would inspire the young dancers inner ballerina.
+In having a clean, easy to read and navigate website it would instill parental confidence in the school and allow them a sense of sercurity. They would feel their child would be well looked after.
+
 
 ### Scope
-To show all the information in a clean and precise way, I decided to split up the website into five pages. Each page is dedicated to a different aspect of the school. The market research and user storeys showed me the top 5 things that had to display.
+To show all the information in a clean and precise way, I decided to split up the website into five pages. Each page is dedicated to a different aspect of the school. The market research and user stories showed me the top 5 things that had to be displayed.
 
 ### Structure.
 <details>
 <summary>Landing page (index.html)</summary><br> 
-Is the first thing they would see. In this page, I wanted to give a general overall feed for the site, Elegant and simple with a direct link to the enrollment form and to enter the cite. 
+This is the first thing they would see. In this page, I wanted to give a general overall feed for the site, Elegant and simple with a direct link to the enrollment form and to enter the cite. 
 </details>
 <br>
 <details>
@@ -47,11 +51,11 @@ The About page with has all the reasons to do ballet, selling points and benefit
 <br>
 <details>
 <summary>Teachers Page</summary><br>
-Here you will be able to read all about the two teachers bios and qualifications. There is also a history section on it,is a brief history of the school.
+Here you will be able to read the teachers bios and qualifications. There is also a history section on it,is a brief history of the school.
  </details>
  <br>
 <details>
-<summary>location page</summary><br>
+<summary>Location page</summary><br>
 Has a list of the studios the physical address and a button that links to a Google maps page that gives a pin if they need direction.
 </details><br>
 <details>
@@ -62,13 +66,13 @@ This page has an easy to read table with the different classes and times at each
  <br>
 <details>
 <summary>Contact Page</summary><br>
- This is simple clean with a downloadable enrollment form and email address for the teachers if they have any questions.
- As per request from my client, I made did not add a pricing page because they have different prices for different Reagan, Prices given per request.
+ This is a simple clean page with a downloadable enrollment form and email address for the teachers if any of the parents or studets have any questions.
+ As per request from my client, I did not add a pricing page because the school has different prices for different Regions, Prices available on request.
 </details>
  <br>
  <details>
  <summary>Attire Page</summary><br>
- As ballet is an art-form set uniform for male and female, everything from hair to shoes has a strict rule on how and what to wear, this page gives an overview on how to tye hair and where to go for the gear — links to Outlets and videos on how-tos.
+ Ballet is an art-form with a set uniform for male and female, everything from hair to shoes has a strict rule on how and what to wear. This page gives an overview on how to tie hair (With Video) and where to go for the approriate iniforms — links to Outlets and videos on "how-to's".
  </details>
 
 ### Skeletons 
@@ -84,9 +88,9 @@ This page has an easy to read table with the different classes and times at each
 
 
 ### Surface
-* Pictures that are hole page backgrounds are chosen for there grace and elegance witch gives an almost romantic feel that ballet has, they were chosen to inspire and instil the desire for the inner ballerina, each page has a different picture, depending on what information is in the forefront. 
-* Font I have chosen for the Headings, I opted for its easy to read and elegance, slightly slanty but clear.
-The paragraphs font is clear and easy to read and gives it a modern feel, the synergy of the two fonts gives the impression of keeping with tradition with modern stylings.
+* The whole page background pictures were chosen for there grace and elegance, whitch gives an almost romantic feel that ballet has. They were chosen to inspire and instil the desire for the inner ballerina. Each page has a different picture, depending on what information is in the forefront. 
+* The heading font I Chose is *Italianno*. I chose it for its readability and elegant apperance. It has a script like apperance but is clear.
+The paragraphs font I chose is *Exo*. It is clear and easy to read and gives a moden feel.
 * There are multiple options for downloading pdfs.
 
 ---
@@ -113,8 +117,8 @@ The paragraphs font is clear and easy to read and gives it a modern feel, the sy
 ## Features
 
 - Collapsable Navbar - I used the bootstrap collapse [Navbar](https://getbootstrap.com/docs/4.3/components/navbar/) bar feature in screen-sized under 992px, this gives more room in the smaller devices. I was inspired by the Whiskey Drop project I did in Code institute.
-- Google Maps Links - I have links to various locations for Outlets and physical address, From there they can get directions and links to other webpages.
-- Downloadable PDF's - there are hyperlinks to downloadable Schedule PDF and enrollment form PDF.
+- Google Maps Links - I have links to various locations for outlets and physical address, From there they can get directions and links to other webpages.
+- Downloadable PDFs - there are hyperlinks to the downloadable Schedule PDF and enrollment form PDF.
 - NewsLetter Email input - to enter email address it they would like to get information on upcoming events and schedule changes
 
 
@@ -126,18 +130,18 @@ The paragraphs font is clear and easy to read and gives it a modern feel, the sy
 ---
 
 ## Testing
-Reading the user storeys, gave me a good insight as to where  and what the site needed to be and what to show,
-* In the Teachers section of the website, you will be able to see the Bios of the teachers and a brief description of the history of the school.
-* On the Attire page with is a description of the clothes (uniforms) that are needed and links to outlets Google maps pages,  Here they can get direction to the physical address and webpages.
-* In the Locations page there are address and Google Maps links to the studios, On the Schedule page there is a detailed table with Location Grade and Times, with a downloadable PDF 
+Reading the user stories, gave me a good insight as to where  and what the site needed to be and what to show,
+* In the Teachers section, you will be able to find information on the teachers and their qualifications and also a brief description of the history of the school.
+* On the Attire page is a description of the clothes (uniforms) that are needed and links to outlets/shops on a  Google maps page.  Here they can get directions to the physical address and webpages.
+* In the Locations page there are addresses and Google Maps links to the studios. On the Schedule page there is a detailed table with Location Grade and Times, with a downloadable PDF 
 
-I use Visual Studio, to make the site which has an Extention called live server, which let me open an instance of Chrome to see live updates on what changes I have made. When I make a change to a design element, I have a look in the Developer tool that is provided to see how it works on different screen sizes and resolutions. 
+I used Visual Studio to make the site which has an extention called live server, this enabled me open an instance of Chrome to see live updates on what changes I have made. When I make a change to a design element, I then a look in the Developer tool that is provided to see how it works on different screen sizes and resolutions. 
 
 I used GitHub web hosting service called Gitpages to host an instance of the page, I then went through all the pages and links in the Nav Bar and footer to make sure they work, and make sure my:  *target="_blank"* - is working as planned.
 
 I do this for every page, and I use the different browsers, *Chrome, FireFox, Windows Edge, Safari.** In each browser, I try to break the layout. In *Chrome and FireFox*, I make use of the preset they have for mobile/tablets. On the other browsers, I resize the window manually to see their response.
 
-I also had a look at different mobile phone types to see how it worked.
+I also viewed it on different mobile phone types to see how it worked.
 <details>
 <summary>List of Moblie devices I've tested on</summary> 
 <ul>
@@ -148,14 +152,12 @@ I also had a look at different mobile phone types to see how it worked.
 <li>iPad</li>
 </details>
 <br>
-The next stage of testing was external testing. I send the code and the webpage into peer-to-peer code testing in Code Institute section on Slack. 
-
-the results are still to be given back.
+The next stage of testing was external testing. I sent the code and the webpage into peer-to-peer code testing in Code Institute section on Slack. 
 
 ### Bugs
 
-I fond a bug in the footer section on the page, Pages that had less information and used less real state, the footer kept on creeping up, and on some devices, the page length was not filling the full screen, I reached out to the Slack community and was pointed in the right direction. After a little figgering out I what able to fix it.
-The fix was relatively easy, the reason it was creeping up as I hadn't given the browsers the height it was looking for, once I set the height of the HTML and the Body of the page:
+I found a bug in the footer section on the page. On pages that had less information and used less real state, the footer kept on creeping up, and on some devices, the page length was not filling the entire screen. I reached out to the Slack community and was pointed in the right direction. After a little figgering out I what able to fix it.
+The fix was relatively easy, the reason it was creeping up was I hadn't given the browsers the height it was looking for, once I set the height of the HTML and the Body of the page:
 ```
 html {
     height: 100%;
@@ -170,7 +172,7 @@ body {
 ```
 everything sealed down, and the footer stayed at the foot.
 
-Another bug I have is on the landing page portrait view on a mobile the screen is not scrolling. Looking into this further I fond that the *Landing page (index HTML)* and the *Contact page* were not filling the iPad resolutions at all, only 1/2 of the page was being utilised. 
+Another bug I have is on the landing page, portrait view on a mobile the screen is not scrolling. Looking into this further I fond that the *Landing page (index HTML)* and the *Contact page* were not filling the iPad resolutions at all, only half of the page was being utilised. 
 My fix was to give the to pages a separate class with its own *min-height* giving the footer *(12vh)* the rest of the height. 
 ```
 .max-container {
@@ -183,7 +185,7 @@ That fix has worked.
 ---
 
 ## Deployment
-I hosted this site using GitHub pages, GitHub pages are part of GitHud. It is deployed directly from the *master* branch or any * other branches* of your choosing. The beautiful thing about using GitHub Pages is that is updates the feed as you *git push* changes to brach you are using to deploy. 
+I hosted this site using GitHub pages, GitHub pages are part of GitHub. It is deployed directly from the *master* branch or any *other branches* of your choosing. The beautiful thing about using GitHub Pages is that it updates the feed as you *git push* changes to brach you are using to deploy. 
 
 
 <details>
@@ -218,7 +220,7 @@ I hosted this site using GitHub pages, GitHub pages are part of GitHud. It is de
 ### Credits
 ##### Design:
 I created the design of the web page, and I was heavily inspired by the 
-The whiskey drop project.
+"The Whiskey Drop project".
 
 ##### Content:
 All information and bios credited to Tracy Davis and Lielanie Beer.
