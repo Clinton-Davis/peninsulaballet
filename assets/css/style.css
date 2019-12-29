@@ -351,7 +351,7 @@ h1 {
 								*****/
 /*----Landing Page(index)--pic-*/
 .dancer {
-	background: url("../images/stockfresh_female-ballet-dancer_sizeM_custom.jpg") no-repeat center center fixed;
+	background: url("../images/hudson-hintze-pzgn0feLJwg-unsplash\ 1\ \(1\).jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -375,18 +375,18 @@ h1 {
 
 /*--Landong-Page Main Heading (Black with White shadow)---*/
 .landing-heading {
-	color: rgba(0, 0, 0, 1);
+	color: rgba(255,255, 255, 1);
 	font-family: "Italianno", sans-serif;
 	font-size: 4rem;
 	align-self: auto;
-	text-shadow: 1px 1px 2px rgb(255, 255, 255);
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .landing-sub-headings {
 	font-family: "Italianno", sans-serif;
-	color: rgba(0, 0, 0, 1);
+	color: rgba(255,255, 255, 1);
 	font-size: 3rem;
-	text-shadow: 1px 1px 2px rgb(255, 255, 255);
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .sub-headings {
@@ -404,8 +404,8 @@ h1 {
 	display: block;
 	font-family: "Italianno", sans-serif;
 	font-size: 3rem;
-	text-shadow: 1px 1px 2px rgb(255, 255, 255);
-	color: rgba(0, 0, 0, 1);
+	/*text-shadow: 1px 1px 1px rgb(255, 255, 255);*/
+	color: rgba(255,255, 255, 1);
 	border-radius: 18px;
 	background-color: transparent;
 	border: .5px solid rgba(245, 245, 245, 0.3);
@@ -420,11 +420,11 @@ h1 {
 
 .enter-btn:hover {
 	color: rgb(0, 0, 0, );
-	border: 5px solid rgba(245, 245, 245, 0.562);
-	text-shadow: 1px 1px 2px rgb(205, 139, 207);
-	-webkit-box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);
+	border: 2px solid rgba(245, 245, 245, 0.562);
+	text-shadow: 1px 1px 1px rgb(205, 139, 207);
+	/*-webkit-box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);
 	-moz-box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);
-	box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);
+	/*box-shadow: inset 0px 0px 19px 0px rgba(255, 255, 255, 1);*/
 	direction: none;
 }
 
