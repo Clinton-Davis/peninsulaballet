@@ -15,11 +15,6 @@
 								--------------------
 
 /**--------------------------------Genural Stylesing--------------------------------*/
-/*
-							          *
-								      *
-									  *
-								      */
 
 
 html {
@@ -120,7 +115,7 @@ label {
 	font-family: "Italianno", sans-serif;
 	font-size: 60px;
 	text-align: center;
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(255, 255, 255, 1);
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
@@ -140,11 +135,6 @@ h1 {
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
-/*								*******
-							          *
-								*******
-								*
-								*******/
 /**---------------------------------------------NAVBAR------------------------------------------*/
 .navbar {
 	padding: 0;
@@ -687,7 +677,7 @@ footer {
 	font-family: "Italianno", sans-serif;
 	text-align: center;
 	font-size: 30px;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 
@@ -706,7 +696,9 @@ ul {
 	margin-top: 10px;
 	padding: 10px;
 }
-
+.marfoot {
+	margin-top: 20px;
+}
 #facebook {
 	text-align: center;
 	font-size: 40px;
