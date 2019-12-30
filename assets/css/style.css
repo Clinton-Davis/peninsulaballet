@@ -42,6 +42,7 @@ a:hover {
 	text-shadow: 1px 1px 2px rgb(205, 139, 207);
 }
 
+
 .grayout-overlay {
 	position: relative;
 	left: 0;
@@ -131,10 +132,15 @@ h2,
 h1 {
 	font-family: "Italianno", sans-serif;
 	text-align: center;
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(255, 255, 255, 0.9);
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
-
+h2 {
+	font-size: 3.5rem;
+}
+h3 {
+	font-size: 2rem;
+}
 /**---------------------------------------------NAVBAR------------------------------------------*/
 .navbar {
 	padding: 0;
@@ -235,7 +241,7 @@ h1 {
 	margin-bottom: 2em;
 	color: rgba(255, 255, 255, 0.8);
 	padding: 0 10px;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.6);
 	-webkit-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
 	box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
@@ -680,7 +686,9 @@ footer {
 	margin-bottom: 10px;
 }
 
-
+#fti{
+	padding-left: 0.3em;
+}
 
 dl,
 ol,
