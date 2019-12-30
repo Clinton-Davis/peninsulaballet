@@ -436,10 +436,11 @@ a:hover {
 	font-size: 1rem;
 	line-height: 1.5;
 	border-radius: 1rem;
-	transition: color .15s ease-in-out,
-		background-color .15s ease-in-out,
-		border-color .15s ease-in-out,
-		box-shadow .15s ease-in-out;
+	transition: color .30s ease-in-out,		background-color .30s ease-in-out,		border-color .30s ease-in-out,		box-shadow .30s ease-in-out;
+	-webkit-transition: color .30s ease-in-out,		background-color .30s ease-in-out,		border-color .30s ease-in-out,		box-shadow .30s ease-in-out;
+	-moz-transition: color .30s ease-in-out,		background-color .30s ease-in-out,		border-color .30s ease-in-out,		box-shadow .30s ease-in-out;
+	-ms-transition: color .30s ease-in-out,		background-color .30s ease-in-out,		border-color .30s ease-in-out,		box-shadow .30s ease-in-out;
+	-o-transition: color .30s ease-in-out,		background-color .30s ease-in-out,		border-color .30s ease-in-out,		box-shadow .30s ease-in-out;
 }
 
 .btn:hover {
@@ -500,11 +501,7 @@ a:hover {
 }
 
 /**--------------------------------------Schedule Pg---------------------------*/
-/*								*******
-							    *     *
-								*******
-								*     *
-								*******/
+
 /*---schedule-Pic--*/
 .container-schedule {
 	background: url("../images/sittingDownDancers.jpeg") no-repeat top left fixed;
@@ -550,11 +547,7 @@ a:hover {
 }
 
 /**-------------------------------------TEACHERS--------------------------------*/
-/*   							*******
-								*     *
-								*******
-							          *
-								      */
+
 
 .pic-teacher {
 	background: url("../images/agility-1850711_1280.jpg") no-repeat center center fixed;
@@ -677,15 +670,16 @@ footer {
 	font-family: "Exo", sans-serif;
 	text-align: center;
 	list-style: none;
+	padding-top: 1rem;
 }
 
 .footer-phrase {
 	font-family: "Italianno", sans-serif;
 	text-align: center;
 	font-size: 30px;
-	margin-bottom: 10px;
+	padding-top: 2.5rem;
 }
-
+/* --footer icon spacing --*/
 #fti{
 	padding-left: 0.3em;
 }
