@@ -35,12 +35,15 @@ body {
 }
 
 a {
-	color: rgba(235, 134, 235, 1);
+	font-family:"Italianno", sans-serif; 
+	font-size: 2rem;
+	color: rgb(248, 245, 245);
+	text-shadow: 1px 1px 2px rgb(205, 139, 207);
 	transition: 0.3s;
 }
 
 a:hover {
-	color: rgb(248, 245, 245);
+	color: rgba(235, 134, 235, 1);
 	text-shadow: 1px 1px 2px rgb(205, 139, 207);
 }
 
@@ -189,8 +192,8 @@ h1 {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: rgba(235, 134, 235, 1);
-	text-shadow: 1px 1px 2px rgb(255, 255, 255);
+	color: rgba(255, 255, 235, 0.5);
+	text-shadow: 1px 1px 1px (235, 134, 235, 0.5);
 
 }
 
@@ -200,11 +203,7 @@ h1 {
 
 
 /**-----------------------------ABOUT PAGE ----------------------------*/
-/*								*******
-									  *
-								*******
-								      *
-								*******/
+
 .about-pic {
 	background: url("../images/ballerina-standing-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
@@ -238,11 +237,7 @@ h1 {
 }
 
 /**--------------------------------------ATTIRE PAGE-------------------------------*/
-/*								*
-								*
-								*   *
-								*******
-								    */
+
 .info {
 	text-align: center;
 	border-radius: 50px;
@@ -344,11 +339,7 @@ h1 {
 
 
 /**------------------------INDEX (Landing Page) ----------------------------*/
-/*								*****
-								*
-								*****
-								*   *
-								*****/
+
 /*----Landing Page(index)--pic-*/
 .dancer {
 	background: url("../images/hudson-hintze-pzgn0feLJwg-unsplash\ 1\ \(1\).jpg") no-repeat center center fixed;
@@ -683,9 +674,10 @@ footer {
 }
 .a-footer {
 	color: rgba(255, 255, 255, 0.8);
+	text-shadow: none;
 } 
 .footer-text {
-	margin: 10px;
+	margin: 20px,10px,10px,10px;
 	font-family: "Exo", sans-serif;
 	text-align: center;
 	list-style: none;
@@ -712,7 +704,7 @@ ul {
 	text-align: center;
 	font-size: 20px;
 	margin-top: 10px;
-	padding: 0px;
+	padding: 10px;
 }
 
 #facebook {
