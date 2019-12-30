@@ -59,41 +59,41 @@
                     </div>
                 </nav>	
         <section class="enroll-form container">
-            <h2>ENROLMENT </h2>
+            <h1>Enrolment Form </h1>
             <form>
                 <div class="row">
                   <div class="col form-div">
                       <label for="first-name">First Name</label>
-                    <input type="text" class="form-control" id="first-name" placeholder="First name">
+                    <input type="text" class="form-control" id="first-name" placeholder="First name" required>
                   </div>
                   <div class="col form-div">
                     <label for="last-name">Last Name</label>
-                    <input type="text" class="form-control" id="last-name" placeholder="Last name">
+                    <input type="text" class="form-control" id="last-name" placeholder="Last name" required>
                   </div>
                 </div>
                 
                     <div class="row">
                       <div class="col form-div">
                         <label for="dateOfbirth">Date of Birth</label>
-                        <input type="text" class="form-control" id="dateOfbirth" placeholder="Date of Birth">
+                        <input type="text" class="form-control" id="dateOfbirth" placeholder="Date of Birth" required>
                       </div>
                       <div class="col form-div">
                         <label for="age">Age</label>
-                        <input type="text" class="form-control" id="age" placeholder="Age">
+                        <input type="text" class="form-control" id="age" placeholder="Age" required>
                       </div>
                     </div>
                     <div class="row">
                         <div class="col form-div">
                           <label for="guardian-name">Parent/Guardian Name:</label>
-                          <input type="text" class="form-control" id="guardian-name" placeholder="Name">
+                          <input type="text" class="form-control" id="guardian-name" placeholder="Name" required>
                         </div>
                         <div class="col form-div">
                           <label for="contact-number">Contact Number</label>
-                          <input type="text" class="form-control" id="contact-number" placeholder="Number">
+                          <input type="text" class="form-control" id="contact-number" placeholder="Number" required>
                         </div>
                         <div class="col form-div">
-                            <label for="contact-number">Emergency Number</label>
-                            <input type="text" class="form-control" id="contact-number" placeholder="Number">
+                            <label for="emergency-number">Emergency Number</label>
+                            <input type="text" class="form-control" id="emergency-number" placeholder="Number" required>
                           </div>
                     </div>
                     <div class="row">
@@ -104,17 +104,41 @@
                       </div>
                       <div class="form-group form-div">
                         <label for="parent-email">Email address</label>
-                        <input type="email" class="form-control" id="parent-email" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="parent-email" placeholder="name@example.com" required>
                       </div>
                 </form>
-                <h3>Terms and Conditions of Enrolment</h3>
+                <h1>Terms and Conditions of Enrolment</h1>
                 <ul class="t-c-enrol">
                     <li>Ballet fees may be paid PER MONTH on the 1st of the month, ORPER  TERM  IN ADVANCE in the first two weeks of the ballet term</li>
                     <li>Ballet  terms  follow  the  Western  Cape  Education  Department  (WCED)  School  terms, and may commence in the second weekof the WCED school term.</li>
                     <li>EFT  payments  may  be  made  into: <br>The Peninsula  Ballet  School<br>Business  Savings Account  622961  99675<br>FNB Longbeach  Mall<br>With the reference as student’s name. <br>CASH payments are also accepted</li>
                     <li>Regular  and  committed  attendance  is  encouraged,  and  is  important  for  progress.  A formal watching dayis held at the end of each term to view student progress.</li>
-                    <li>Please note there are unfortunately NO REFUNDS for missed classes</li>
+                    <li>Please note there are unfortunately <b>No Refunds</b> for missed classes</li>
+                    <li>RAD registered teachers are trained in Safe Dance Practice, and while upholding this ethic, the Peninsula Ballet School will <b>Not</b> be held responsible for any losses which may occur, or any injury sustained, on the premises, or any venue occupied by the studio</li>
+                    <li>Please also note the parent/guardian is responsible for informing the teacher of any limitation (physical, emotional), which may prevent full participation in class.</li>
                 </ul>
+                    <h3>Check Box</h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="termsandConditions" required>
+                    <label class="form-check-label" for="termsandConditions">
+                        I have read, and accept, the terms of enrolment at The Peninsula Ballet School.
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="balletFeesBox" required>
+                    <label class="form-check-label" for="balletFeesBox">
+                        I am responsible for settling the Ballet fees
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="virtualSign" required>
+                    <label class="form-check-label" for="virtualSign">
+                        I acknowledge that checking this box is my virtual signature
+                    </label>
+                  </div>
+                  <div class="enroll-button-div"> 
+                    <button type="submit" class="btn-primary">Sign up</button>
+                  </div>
         </section>
 
      

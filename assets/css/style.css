@@ -289,9 +289,41 @@ h3 {
 
 .form-div {
 	margin: 1rem;
+	font-family: "Exo", sans-serif;
+}
+
+.t-c-enrol {
+	font-family: "Exo", sans-serif;
+	color: rgba(255,255, 255, 1);
 }
 #issues {
 	width: 90%;
+}
+.enroll-button-div{
+	text-align: center;
+	margin: 1rem;
+}
+.btn-primary {
+	font-family: "Exo",sans-serif;
+	background-color: rgb(255, 255, 255);
+	color: rgba(0, 0, 0, 1);
+
+	font-size: 2rem;
+	border: #495057;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	
+}
+.btn-primary:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem hsla(293, 86%, 71%, 0.5);
 }
 /*--this tcontainer has the picture---*/
 .contact-container {
