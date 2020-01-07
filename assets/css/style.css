@@ -114,9 +114,9 @@ label {
 .pageheader {
 	display: block;
 	font-family: "Italianno", sans-serif;
-	font-size: 60px;
+	font-size: 3.75rem;
 	text-align: center;
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 0.8);
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
@@ -132,7 +132,7 @@ h2,
 h1 {
 	font-family: "Italianno", sans-serif;
 	text-align: center;
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(255, 255, 255, 0.8);
 	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 h2 {
@@ -188,13 +188,13 @@ h3 {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: rgba(255, 255, 235, 0.5);
-	text-shadow: 1px 1px 1px (235, 134, 235, 0.5);
+	text-decoration: underline;
 
 }
 
 .navbar-dark .navbar-nav .nav-link:focus {
-	color: rgba(235, 134, 235, 1);
+	text-decoration: underline;
+	color: palevioletred;
 }
 
 
@@ -220,7 +220,10 @@ h3 {
 	margin-bottom: 5rem;
 }
 
-
+.benefits {
+	margin-top: 1em;
+}
+.
 
 .blockquote-footer {
 	border-radius: 25px;
@@ -367,7 +370,7 @@ h3 {
 }
 
 .contact-btn:hover {
-	color: rgba(0, 0, 0, 1);
+	
 	text-shadow: 1px 1px 2px rgb(205, 139, 207);
 	text-decoration: none;
 	-webkit-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
@@ -379,9 +382,9 @@ h3 {
 	background: rgba(0, 0, 0, 0.4);
 	display: block;
 	border-radius: 2em;
-	-webkit-box-shadow: 0px 0px 44px -5px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 0px 0px 44px -5px rgba(0, 0, 0, 0.75);
-	box-shadow: 0px 0px 44px -5px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: -8px 5px 28px -1px rgba(0,0,0,1);
+	-moz-box-shadow: -8px 5px 28px -1px rgba(0,0,0,1);
+	box-shadow: -8px 5px 28px -1px rgba(0,0,0,1);
 	-webkit-border-radius: 2em;
 	-moz-border-radius: 2em;
 	-ms-border-radius: 2em;
@@ -581,6 +584,9 @@ a:hover {
 	background-color: rgba(0, 0, 0, 0.4);
 	color: rgba(255, 255, 255, 0.8);
 	table-layout: fixed;
+	-webkit-box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
+-moz-box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
+box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
 }
 
 .table td,
@@ -607,6 +613,9 @@ a:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	-webkit-box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
+	box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
 }
 
 /*--Gray Overlay for teachers page--*/
@@ -650,9 +659,9 @@ a:hover {
 	padding: 10px;
 	border-radius: 50px;
 	background: rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
-	box-shadow: 0px 0px 44px -1px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
+	box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
 }
 
 .card-title {
@@ -683,6 +692,9 @@ p {
 	margin-bottom: 1em;
 	background-color: transparent;
 	border-radius: 50px;
+	-webkit-box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
+	box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
 }
 
 .container-fluid .teachers {
@@ -711,7 +723,7 @@ footer {
 	color: rgba(255, 255, 255, 0.8);
 	margin-top: auto;
 	overflow: hidden;
-	min-height: 75px;
+	
 }
 .a-footer {
 	color: rgba(255, 255, 255, 0.8);
