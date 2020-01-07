@@ -201,7 +201,7 @@ h3 {
 /**-----------------------------ABOUT PAGE ----------------------------*/
 
 .about-pic {
-	background: url("../images/ballerina-standing-backstage-before-going-on-stage.jpg") no-repeat top center fixed;
+	background: url("../images/hudson-hintze-pzgn0feLJwg-unsplash\ 1\ \(1\).jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -675,7 +675,10 @@ box-shadow: 0px 5px 28px 5px rgba(0,0,0,1);
 	border-radius: 50px;
 }
 
-#teacher-image {
+#teacher-image_tracy {
+	border-radius: 50px;
+}
+#teacher-image_lielanie{
 	border-radius: 50px;
 }
 
