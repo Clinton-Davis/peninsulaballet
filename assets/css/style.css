@@ -19,3 +19,22 @@ nav {
     min-height: 8vh;
     background-color: rgb(81, 112, 138);
 }
+.logo {
+    color: rgba(255, 255, 255, 0.767);
+    text-transform: capitalize;
+}
+.nav-links {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+   
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    list-style: none;
+}
