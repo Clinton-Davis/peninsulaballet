@@ -38,3 +38,33 @@ nav {
     font-weight: 400;
     list-style: none;
 }
+.burger {
+    display: none;
+}
+.burger div {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 5px;
+}
+@media screen and (max-width: 790px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: rgb(81, 112, 138);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 35%;
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+}
+}
