@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Exo|Italianno&display=swap');
-
 
 /**--------------------------------Genural Stylesing--------------------------------*/
 
@@ -8,10 +6,24 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
 
+body {
+    height: 100vh;
+}
+
+:root {
+    --hf: "Italianno", sans-serif; /* --hf = Heading Fonts*/
+    --mf: "Roboto", sans-serif;    /* --mf = Main Fonts*/
+    --fw: 300;                     /* --fw = Fonts weight*/
+    --lg: rgba(87, 87, 87, 0.9);
+}
+
+p {
+    padding: 0 0.5em;
+}
+/*-=-=-=-=-=-=-=-=-=-=NAV BAR-=-=-=-=-=-=-=-=-=-=--*/
 nav {
     display: flex;
     justify-content: space-around;
@@ -22,6 +34,8 @@ nav {
 .logo {
     color: rgba(255, 255, 255, 0.767);
     text-transform: capitalize;
+    font-family: var(--hf);
+    font-size: 2.2rem;
 }
 .nav-links {
     display: flex;
@@ -53,6 +67,25 @@ nav {
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
 }
+.toggle .line1 {
+    transform: rotate(-405deg) translate(-5px,5px);
+    -webkit-transform: rotate(-405deg) translate(-5px,5px);
+    -moz-transform: rotate(-405deg) translate(-5px,5px);
+    -ms-transform: rotate(-405deg) translate(-5px,5px);
+    -o-transform: rotate(-405deg) translate(-5px,5px);
+}
+.toggle .line2 {
+    opacity: 0;
+
+}
+.toggle .line3 {
+    transform: rotate(405deg) translate(-5px,-5px);
+    -webkit-transform: rotate(405deg) translate(-5px,-5px);
+    -moz-transform: rotate(405deg) translate(-5px,-5px);
+    -ms-transform: rotate(405deg) translate(-5px,-5px);
+    -o-transform: rotate(405deg) translate(-5px,-5px);
+}
+/*-=-=-=-BURGER ANIMATIONS*/
 @media screen and (max-width: 790px) {
     body {
         overflow-x: hidden;
@@ -77,13 +110,13 @@ nav {
         -moz-transition: transform 0.5s ease-in;
         -ms-transition: transform 0.5s ease-in;
         -o-transition: transform 0.5s ease-in;
-}
-.nav-links li {
-    opacity: 0;
-}
-.burger {
-    display: block;
-}
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+    }
 }
 
 .nav-active {
@@ -112,21 +145,50 @@ nav {
 }
 }
 
-.toggle .line1 {
-    transform: rotate(-405deg) translate(-5px,5px);
-    -webkit-transform: rotate(-405deg) translate(-5px,5px);
-    -moz-transform: rotate(-405deg) translate(-5px,5px);
-    -ms-transform: rotate(-405deg) translate(-5px,5px);
-    -o-transform: rotate(-405deg) translate(-5px,5px);
+section {
+    height: 100vh;
+    display: flex;
 }
-.toggle .line2 {
-    opacity: 0;
+.infoWrap{
+    border: 1px black solid;
+}
+.infoCol{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.imageDiv {
+   height: 100vh;
+   width: 200%;
+   background-image: url(../images/ballerina-standing-backstage-before-going-on-stage.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.headings {
+    font-family: var(--hf);
+    font-size: 5rem;
 
 }
-.toggle .line3 {
-    transform: rotate(405deg) translate(-5px,-5px);
-    -webkit-transform: rotate(405deg) translate(-5px,-5px);
-    -moz-transform: rotate(405deg) translate(-5px,-5px);
-    -ms-transform: rotate(405deg) translate(-5px,-5px);
-    -o-transform: rotate(405deg) translate(-5px,-5px);
+.subHeadings {
+    font-family: var(--hf);
+    font-size: 3rem;
+}
+.centered {
+    text-align: center;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=WELCOME PAGE-=-=-=-=-=-=---=-=-*/
+
+#welcomeSubHead{
+    margin-top: -0.7em;
+    margin-bottom: .7em;
+}
+#welcomePara{
+    line-height: 27.5px;
+    color: var(--lg);
+}
+#welcomeWrap {
+    background-image: linear-gradient(to bottom right,  rgb(189, 235, 229), white);
 }
