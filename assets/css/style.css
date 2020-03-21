@@ -37,6 +37,7 @@ body {
 
 p {
     padding: 0 0.5em;
+    max-width: 500px;
 }
 ul {
     list-style: none;
@@ -62,7 +63,7 @@ ul {
 
 .headFont {
     font-family: var(--hf);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 /*-=-=-=-=-=-=-=-=-=-=NAV BAR-=-=-=-=-=-=-=-=-=-=--*/
@@ -81,10 +82,13 @@ nav {
 .logo {
     color: rgba(255, 255, 255, 0.767);
     text-transform: capitalize;
-    font-family: var(--hf);
-    font-size: 2.2rem;
+   
 }
-
+#navLogo {
+    font-size: 2rem;
+    color: var(--white);
+    text-decoration: none;
+}
 .nav-links {
     display: flex;
     width: 600px;
@@ -152,7 +156,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: rgb(81, 112, 138);
+        background-color: rgb(20, 41, 49);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -236,7 +240,8 @@ section {
 
 .headings {
     font-family: var(--hf);
-    font-size: 5rem;
+    font-size: 4.3rem;
+    margin-top: 1em;
 
 }
 
@@ -244,7 +249,7 @@ section {
     display: flex;
     justify-content: center;
     font-family: var(--hf);
-    font-size: 3rem;
+    font-size: 2.3rem;
 
 
 }
@@ -258,7 +263,7 @@ section {
 
 #welcomeSection {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
 }
 
 #welcomeSubHead {
@@ -312,6 +317,11 @@ blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 blockquote:before {
@@ -524,7 +534,9 @@ textarea {
 }
 /*-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=ATTIRE-=-=--=-=-=-=-=-=-=-=-=*/
 #attireHeading {
-    background-color: yellow;
+    background-color: var(--lightBlack);
+    border-bottom: 1px black solid;
+    color: var(--offwhite);
 }
 
 #attireSection {
