@@ -38,10 +38,15 @@ body {
 p {
     padding: 0 0.5em;
 }
+.centered {
+    text-align: center;
+}
+
 /* Topics are one lower than subHeadings*/
 .topics {
     margin: 0.5em 0;
 }
+
 .btn {
     padding: 0.5em;
     margin: 0 auto;
@@ -51,17 +56,20 @@ p {
     font-weight: 400;
     border-radius: 10px;
 }
+
 .headFont {
     font-family: var(--hf);
     font-size: 2.5rem;
 }
+
 /*-=-=-=-=-=-=-=-=-=-=NAV BAR-=-=-=-=-=-=-=-=-=-=--*/
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgb(81, 112, 138);
+    /* background-color: rgb(81, 112, 138);*/
+    background-color: rgb(20, 41, 49);
 }
 
 .logo {
@@ -285,24 +293,28 @@ section {
     background-size: cover;
     background-position: center;
 }
+
 blockquote {
     background: rgb(238, 237, 237);
     border-left: 10px solid rgb(204, 204, 204);
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
-  }
-  blockquote:before {
+}
+
+blockquote:before {
     color: rgb(187, 185, 185);
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
-  }
-  blockquote p {
+}
+
+blockquote p {
     display: inline;
-  }
+}
+
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=TEACHERS==-=-=-=-=-=-=--=-=-*/
 #teachersSection {
     display: flex;
@@ -398,7 +410,10 @@ blockquote {
 /*-=-=-==-=-=-=-=-=-=-=-=-=-=--=--=ENROLMENT-=-=-=--=-=-=-=-=-=-*/
 #enrolHeading {
     background-color: rgba(83, 74, 67, 1);
+    border-bottom: 1px black solid;
+    color: var(--offwhite);
 }
+
 #enrolmentSection {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -406,9 +421,12 @@ blockquote {
 
 #enrolemtFormWrapper {
     width: 60%;
-    border: 1px black solid;
+    border-right: 1px black solid;
     padding: 0.7em 2em;
-    color: var(--offwhite)
+    color: var(--offwhite);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #enrolmentImg {
@@ -421,10 +439,28 @@ blockquote {
 .formInputs {
     display: flex;
     flex-direction: column;
+    align-items: center;
     max-width: 300px;
 }
+
 input {
+    background-color: var(--offwhite);
     margin-bottom: 1em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+textarea {
+    background-color: var(--offwhite);
+    border-radius: 5px;
+
+}
+.inputStyle {
+    min-width: 250px;
 }
 
 
