@@ -19,6 +19,10 @@ body {
     --fw: 300;                     /* --fw = Fonts weight*/
     --lg: rgba(87, 87, 87, 0.9);
     --border: 1px black solid;
+   
+}
+.border {
+    border: var(--border);
 }
 
 p {
@@ -147,7 +151,8 @@ nav {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     display: flex;
 }
 .infoWrap{
@@ -176,6 +181,9 @@ section {
 .subHeadings {
     font-family: var(--hf);
     font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .centered {
     text-align: center;
@@ -222,12 +230,63 @@ section {
     background-position: center;
 }
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=TEACHERS==-=-=-=-=-=-=--=-=-*/
-#teacherWrapper {
+#teachersSection {
     display: flex;
+    flex-direction: column;
+    flex: 1;
+   
+}
+#teacherWrapper {
+    display: grid;
+    grid-template-columns:  auto auto auto;
+   
+
+}
+#tracyWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+   
+}
+#leilaniWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
     
 }
-
-
+#historyWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    
+}
+#tracyImg {
+    background-image: url(../images/tracy.jpg);
+    background-size: cover;
+    background-position: top;
+   height: 200px;
+   width: 200px;
+}
+#leilaniImg {
+    background-image: url(../images/tracy_lielanie.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 200px;
+    width: 200px;
+}
+#historyImg {
+    background-image: url(../images/SandyDavis.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 200px;
+    width: 200px;
+}
 
 
 
@@ -297,7 +356,7 @@ section {
     align-items: center;
     background-color: black;
     min-height: 10vh;
-    margin: 0 10px:
+   
 }
 .feet {
     color: white;
