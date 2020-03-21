@@ -223,14 +223,15 @@ section {
 /*-=-=-=--=-=-=-=-=-=--=-=-=-=-=-SCEDULE -=-=-=-=--=-=-=-=-=-*/
 #sceduleSection{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
 }
 #sceduleInfo {
     grid-column: 2/3;
 }
 #sceduleImg {
     background-image: url(../images/david-hofmann-4QPVQuf0WMQ-unsplash.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: none;
     background-position: top center;
     grid-column: 1/2;
 }
@@ -240,7 +241,7 @@ section {
     grid-template-columns: 60% 40%;
 }
 #enrolemtFormWrapper {
-    width: 50%;
+    width: 60%;
     border: 1px black solid;
 }
 #enrolmentImg{
@@ -264,4 +265,16 @@ section {
     width: 50%;
     margin-left: auto;
     height: 100vh;
+}
+/*-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=ATTIRE-=-=--=-=-=-=-=-=-=-=-=*/
+#attireSection{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#attireImg {
+    background-image: url(../images/agility-1850711_1280.jpg);
+    background-size: cover;
+    background-position: center top;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
