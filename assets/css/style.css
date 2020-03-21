@@ -38,6 +38,9 @@ body {
 p {
     padding: 0 0.5em;
 }
+ul {
+    list-style: none;
+}
 .centered {
     text-align: center;
 }
@@ -502,7 +505,10 @@ textarea {
     margin-left: auto;
     height: 100vh;
 }
-
+.locations {
+    display: flex;
+    flex-direction: column;
+}
 /*-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=ATTIRE-=-=--=-=-=-=-=-=-=-=-=*/
 #attireHeading {
     background-color: yellow;
