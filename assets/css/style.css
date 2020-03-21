@@ -161,10 +161,9 @@ section {
 }
 .imageDiv {
    height: 100vh;
-   width: 200%;
-   background-image: url(../images/ballerina-standing-backstage-before-going-on-stage.jpg);
-   background-size: cover;
-   background-position: center;
+   width: 100%;
+ 
+   
 }
 .headings {
     font-family: var(--hf);
@@ -181,6 +180,11 @@ section {
 
 /*-=-=-=-=-=-=-=-=-=-=-=WELCOME PAGE-=-=-=-=-=-=---=-=-*/
 
+
+#welcomeSection {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
 #welcomeSubHead{
     margin-top: -0.7em;
     margin-bottom: .7em;
@@ -191,4 +195,9 @@ section {
 }
 #welcomeWrap {
     background-image: linear-gradient(to bottom right,  rgb(189, 235, 229), white);
+}
+#welcomeImg {
+    background-image: url(../images/ballerina-standing-backstage-before-going-on-stage.jpg);
+    background-size: cover;
+    background-position: center;
 }
