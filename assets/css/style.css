@@ -190,7 +190,7 @@ section {
     margin-bottom: .7em;
 }
 #welcomePara{
-    line-height: 27.5px;
+    line-height: 22.5px;
     color: var(--lg);
 }
 #welcomeWrap {
@@ -198,6 +198,23 @@ section {
 }
 #welcomeImg {
     background-image: url(../images/ballerina-standing-backstage-before-going-on-stage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*-=-=-==-=-=-=-=-=-=-=-=-=-TESTIMONIALS-=-=-=-=-=-==-=-*/
+
+#testimonialsSection {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#testimonials {
+    grid-column: 2/3;
+}
+#testimonialsImg {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(../images/three-little-ballet-girls-.jpg);
     background-size: cover;
     background-position: center;
 }
