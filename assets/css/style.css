@@ -279,6 +279,10 @@ section {
 }
 
 /*-=-=-==-=-=-=-=-=-=-=-=-=-TESTIMONIALS-=-=-=-=-=-==-=-*/
+#testimonilHeading {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
 
 #testimonialsSection {
     display: grid;
@@ -287,6 +291,7 @@ section {
 
 #testimonials {
     grid-column: 2/3;
+    border-left: 1px black solid;
 }
 
 #testimonialsImg {
@@ -319,6 +324,9 @@ blockquote p {
 }
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=TEACHERS==-=-=-=-=-=-=--=-=-*/
+#teacherHeading {
+    border-top: 1px black solid;
+}
 #teachersSection {
     display: flex;
     flex-direction: column;
@@ -477,6 +485,7 @@ textarea {
 #locationsHeading {
     background-color: rgb(255, 229, 170);
     border-bottom: 1px black solid;
+    border-top: 1px black solid;
 }
 #locationSection {
     display: grid;
