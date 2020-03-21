@@ -388,6 +388,11 @@ blockquote p {
 
 
 /*-=-=-=--=-=-=-=-=-=--=-=-=-=-=-SCEDULE -=-=-=-=--=-=-=-=-=-*/
+#scheduleHeading {
+    background-color: black;
+    color: var(--offwhite);
+    border-bottom: 1px var(--offwhite) solid;
+}
 #sceduleSection {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -466,10 +471,24 @@ textarea {
 
 
 /*-=-=-=-=-==-=-=-=-=--=-=-=-=-=-=-=--LOCATIONS-=-=-=-=-=-=-=-=--=*/
+#locationsHeading {
+    background-color: rgb(255, 229, 170);
+    border-bottom: 1px black solid;
+}
 #locationSection {
     display: grid;
     grid-template-columns: 40% 60%;
 }
+#map {
+        width: 400px;
+        height: 250px;
+        background-image: url(../images/googleMapPic.png);
+        background-size: cover;
+        background-position: center;
+        margin: 1em auto;
+        border: 2px white solid;
+    }
+
 
 #locationImg {
     background-image: url(../images/Dancer_on_rock-min.jpg);
@@ -479,7 +498,7 @@ textarea {
 }
 
 #locationWrapper {
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     height: 100vh;
 }
