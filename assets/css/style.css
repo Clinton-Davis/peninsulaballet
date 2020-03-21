@@ -279,3 +279,15 @@ section {
     grid-column: 2/3;
     grid-row: 1/2;
 }
+/*-=-=-==-=-=-=--=-=-=-=-=-=--=-=-=-=-=-FOOTER==-=-=-=-=-=-=-=-==-=-=-=*/
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    min-height: 10vh;
+}
+.feet {
+    color: white;
+    font-family: var(--mf);
+}
