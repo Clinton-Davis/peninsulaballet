@@ -67,6 +67,9 @@ ul {
 
 /*-=-=-=-=-=-=-=-=-=-=NAV BAR-=-=-=-=-=-=-=-=-=-=--*/
 nav {
+    position: fixed;
+    top: 0px;
+    min-width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -280,6 +283,7 @@ section {
 
 /*-=-=-==-=-=-=-=-=-=-=-=-=-TESTIMONIALS-=-=-=-=-=-==-=-*/
 #testimonilHeading {
+    
     border-top: 1px black solid;
     border-bottom: 1px black solid;
 }
