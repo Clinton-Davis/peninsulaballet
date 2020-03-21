@@ -157,6 +157,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
+    border: 1px black solid;
     
 }
 .imageDiv {
@@ -219,12 +221,32 @@ section {
     background-position: center;
 }
 /*-=-=-=--=-=-=-=-=-=--=-=-=-=-=-SCEDULE -=-=-=-=--=-=-=-=-=-*/
-#scedule{
+#sceduleSection{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 60% 40%;
+}
+#sceduleInfo {
+    grid-column: 2/3;
 }
 #sceduleImg {
     background-image: url(../images/david-hofmann-4QPVQuf0WMQ-unsplash.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
+    grid-column: 1/2;
 }
+/*-=-=-==-=-=-=-=-=-=-=-=-=-=--=--=ENROLMENT-=-=-=--=-=-=-=-=-=-*/
+#enrolmentSection {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#enrolemtFormWrapper {
+    width: 50%;
+    border: 1px black solid;
+}
+#enrolmentImg{
+    background-image: url(../images/Little_dancer.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/3;
+}
+/*-=-=-=-=-==-=-=-=-=--=-=-=-=-=-=-=--LOCATIONS-=-=-=-=-=-=-=-=--=*/
