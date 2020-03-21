@@ -1,11 +1,14 @@
 /**--------------------------------Genural Stylesing--------------------------------*/
-
+html {
+    height: auto;
+}
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-weight: 300;
+    font-family: var(--mf);
 }
 
 body {
@@ -278,7 +281,24 @@ section {
     background-size: cover;
     background-position: center;
 }
-
+blockquote {
+    background: rgb(238, 237, 237);
+    border-left: 10px solid rgb(204, 204, 204);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: rgb(187, 185, 185);
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=TEACHERS==-=-=-=-=-=-=--=-=-*/
 #teachersSection {
     display: flex;
