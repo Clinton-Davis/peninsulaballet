@@ -179,10 +179,11 @@ section {
 
 }
 .subHeadings {
+    display: flex;
+    justify-content: center;
     font-family: var(--hf);
     font-size: 3rem;
-    margin-left: auto;
-    margin-right: auto;
+ 
     
 }
 .centered {
@@ -314,12 +315,21 @@ section {
 #enrolemtFormWrapper {
     width: 60%;
     border: 1px black solid;
+    padding: 0.7em;
 }
 #enrolmentImg{
     background-image: url(../images/Little_dancer.jpg);
     background-size: cover;
     background-position: center;
     grid-column: 1/3;
+}
+.checkBox {
+    display: flex;
+    flex-direction: column;
+}
+.form-control {
+    display: flex;
+    justify-content: space-between;
 }
 /*-=-=-=-=-==-=-=-=-=--=-=-=-=-=-=-=--LOCATIONS-=-=-=-=-=-=-=-=--=*/
 #locationSection {
@@ -338,6 +348,9 @@ section {
     height: 100vh;
 }
 /*-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=ATTIRE-=-=--=-=-=-=-=-=-=-=-=*/
+#attireHeading {
+   background-color: yellow;
+}
 #attireSection{
     display: grid;
     grid-template-columns: 60% 40%;
