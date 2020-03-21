@@ -221,6 +221,17 @@ section {
     background-size: cover;
     background-position: center;
 }
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=TEACHERS==-=-=-=-=-=-=--=-=-*/
+#teacherWrapper {
+    display: flex;
+    
+}
+
+
+
+
+
+
 /*-=-=-=--=-=-=-=-=-=--=-=-=-=-=-SCEDULE -=-=-=-=--=-=-=-=-=-*/
 #sceduleSection{
     display: grid;
@@ -231,7 +242,7 @@ section {
 }
 #sceduleImg {
     background-image: url(../images/david-hofmann-4QPVQuf0WMQ-unsplash.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: none;
     background-position: top center;
     grid-column: 1/2;
@@ -282,10 +293,11 @@ section {
 /*-=-=-==-=-=-=--=-=-=-=-=-=--=-=-=-=-=-FOOTER==-=-=-=-=-=-=-=-==-=-=-=*/
 .footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
     min-height: 10vh;
+    margin: 0 10px:
 }
 .feet {
     color: white;
