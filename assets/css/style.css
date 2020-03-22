@@ -59,6 +59,8 @@ ul {
     font-size: 1em;
     font-weight: 400;
     border-radius: 10px;
+    background-color: var(--offwhite);
+    border: 1px white solid;
 }
 
 .headFont {
