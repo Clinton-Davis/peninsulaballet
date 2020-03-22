@@ -84,12 +84,20 @@ nav {
 .logo {
     color: rgba(255, 255, 255, 0.767);
     text-transform: capitalize;
-   
+    display:flex;
+    justify-content: space-evenly;
+
 }
 #navLogo {
     font-size: 2rem;
     color: var(--white);
     text-decoration: none;
+}
+#navHeading {
+    font-size: 1rem;
+    color: var(--white);
+    text-decoration: none;
+    font-family: var(--mf);
 }
 .nav-links {
     display: flex;
