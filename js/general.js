@@ -6,8 +6,7 @@ $(function() {
        $("#navHeading").fadeIn(500);
        
        
-       
-      
+
     });
 
 

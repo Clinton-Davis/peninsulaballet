@@ -448,6 +448,13 @@ blockquote p {
     background-position: top center;
     grid-column: 1/2;
 }
+table {
+    min-width: 300px;
+}
+thead {
+  text-align: left;
+  text-transform: uppercase;
+}
 
 /*-=-=-==-=-=-=-=-=-=-=-=-=-=--=--=ENROLMENT-=-=-=--=-=-=-=-=-=-*/
 #enrolHeading {
