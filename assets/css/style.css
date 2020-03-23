@@ -70,6 +70,9 @@ ul {
 .textShadow {
     text-shadow: 1px 1px rgb(255, 254, 254);
 }
+.textShadowB {
+   text-shadow:  1px 1px black;
+}
 /*-=-=-=-=-=-=-=-=-=-=NAV BAR-=-=-=-=-=-=-=-=-=-=--*/
 nav {
     position: fixed;
@@ -464,6 +467,7 @@ thead {
     background-color: rgba(83, 74, 67, 1);
     border-bottom: 1px black solid;
     color: var(--offwhite);
+    
 }
 
 #enrolmentSection {

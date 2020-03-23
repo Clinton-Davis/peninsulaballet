@@ -8,24 +8,22 @@
   <title>Peninsula Ballet shcool</title>
   <link rel="shortcut icon" type="image/png" href="../assets/images/logo2.0.png">
 
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Italianno|Roboto:300,300i,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets\css\style.css" type="text/css" />
 </head>
 
 <body>
   <!--NAV-->
-  <nav >
+  <nav>
     <div class="logo">
       <h4><a id="navLogo" class="scroll headFont" href="#welcomeSection">Peninsula Ballet</a></h4>
-      
+
     </div>
     <ul class="nav-links">
-    
-      <li><a id="testiLink"class="scroll headFont" href="#testimonilHeading">Testimonials</a></li>
+
+      <li><a id="testiLink" class="scroll headFont" href="#testimonilHeading">Testimonials</a></li>
       <li><a class="scroll headFont" href="#teacherHeading">Teachers</a></li>
       <li><a class="scroll headFont" href="#scheduleHeading">Schedule</a></li>
       <li><a class="scroll headFont" href="#enrolHeading">Enrolment</a></li>
@@ -38,7 +36,8 @@
       <div class="line3"></div>
     </div>
   </nav>
-  <!--The Benefits-->
+
+  <!--welcome Section-->
   <section id="welcomeSection">
     <div class="" id="welcomeWrap">
       <div class="infoCol">
@@ -57,10 +56,10 @@
           leads to perseverance and a huge boost in self-confidence when they get it
           right.
           These are just a few of the benefits that will stay with them for life.</p>
-          <div class="btn">
-            <a class="scroll" href="#enrolHeading">ENROL</a>
-          </div>
+        <div class="btn">
+          <a class="scroll" href="#enrolHeading">ENROL</a>
         </div>
+      </div>
     </div>
     <div id="welcomeImg" class="imageDiv"></div>
 
@@ -115,10 +114,10 @@
     <div id="testimonialsImg"></div>
   </section>
 
-  <!--Teacher-History-->
+  <!--Teacher and History-->
   <h2 id="teacherHeading" class="subHeadings textShadow ">Our Teachers</h2>
   <section id="teachersSection">
-    
+
     <div id="teacherWrapper">
       <div id="tracyWrap" class="border">
         <div id="tracyImg"></div>
@@ -213,7 +212,7 @@
       <table class="">
         <thead>
           <tr>
-            <th scope="" >Class</th>
+            <th scope="">Class</th>
             <th scope="" class="tRight">Times</th>
           </tr>
         </thead>
@@ -393,124 +392,126 @@
   <!--Enrolment Form-->
   <h2 id="enrolHeading" class="subHeadings">Enrolment Form </h2>
   <section id="enrolmentSection">
-    <div id="enrolmentImg"><!--Full width Img-->
+    <div id="enrolmentImg">
+      <!--Full width Img-->
       <div id="enrolemtFormWrapper" class="">
         <div>
-        <form class="formInputs">
-          <label for="first-name">First Name</label>
-          <input type="text" class="inputStyle" id="first-name" placeholder="First name" required>
-          <label for="last-name">Last Name</label>
-          <input type="text" class="inputStyle" id="last-name" placeholder="Last name" required>
-          <label for="dateOfbirth">Date of Birth</label>
-          <input type="text" class="inputStyle" id="" placeholder="Date of Birth" required>
-          <label for="age">Age</label>
-          <input type="text" class="inputStyle" id="age" placeholder="Age" required>
-          <label for="guardian-name">Parent/Guardian Name:</label>
-          <input type="text" class="inputStyle" id="guardian-name" placeholder="Parent/Guardian Name" required>
-          <label for="contact-number">Contact Number</label>
-          <input type="text" class="inputStyle" id="contact-number" placeholder="Contact Number" required>
-          <label for="emergency-number">Emergency Number</label>
-          <input type="text" class="inputStyle" id="emergency-number" placeholder="Emergency Number" required>
-          <label for="parent-email">Email address</label>
-          <input type="email" class="inputStyle" id="parent-email" placeholder="name@example.com" required>
+          <form class="formInputs">
+            <label for="first-name">First Name</label>
+            <input type="text" class="inputStyle" id="first-name" placeholder="First name" required>
+            <label for="last-name">Last Name</label>
+            <input type="text" class="inputStyle" id="last-name" placeholder="Last name" required>
+            <label for="dateOfbirth">Date of Birth</label>
+            <input type="text" class="inputStyle" id="" placeholder="Date of Birth" required>
+            <label for="age">Age</label>
+            <input type="text" class="inputStyle" id="age" placeholder="Age" required>
+            <label for="guardian-name">Parent/Guardian Name:</label>
+            <input type="text" class="inputStyle" id="guardian-name" placeholder="Parent/Guardian Name" required>
+            <label for="contact-number">Contact Number</label>
+            <input type="text" class="inputStyle" id="contact-number" placeholder="Contact Number" required>
+            <label for="emergency-number">Emergency Number</label>
+            <input type="text" class="inputStyle" id="emergency-number" placeholder="Emergency Number" required>
+            <label for="parent-email">Email address</label>
+            <input type="email" class="inputStyle" id="parent-email" placeholder="name@example.com" required>
 
-          <label class="centered">Any Emotional Or Physical Limitations, Or Injurys:</label>
-          <textarea type="text" rows="3" col="4" class="inputStyle" id="issues"
-            placeholder="Emotional Or Physical Limitations.">
+            <label class="centered">Any Emotional Or Physical Limitations, Or Injurys:</label>
+            <textarea type="text" rows="3" col="4" class="inputStyle" id="issues"
+              placeholder="Emotional Or Physical Limitations.">
           </textarea>
-        </form>
-      </div>
-      <div class="termanconditons">
-        <h2 class="topics centered textShadow ">Terms and Conditions of Enrolment</h2>
-        <ul class="conditions">
-          <li>Ballet fees may be paid PER MONTH on the 1st of the month, ORPER TERM IN ADVANCE in the first two weeks of
-            the ballet term</li>
-          <li>Ballet terms follow the Western Cape Education Department (WCED) School terms, and may commence in the
-            second weekof the WCED school term.</li>
-          <li>EFT payments may be made into: <br>The Peninsula Ballet School<br>Business Savings Account 622961
-            99675<br>FNB Longbeach Mall<br>With the reference as student’s name. <br>CASH payments are also accepted
-          </li>
-          <li>Regular and committed attendance is encouraged, and is important for progress. A formal watching day is
-            held at the end of each term to view student progress.</li>
-          <li>Please note there are unfortunately <b>No Refunds</b> for missed classes</li>
-          <li>RAD registered teachers are trained in Safe Dance Practice, and while upholding this ethic, the Peninsula
-            Ballet School will <b>Not</b> be held responsible for any losses which may occur, or any injury sustained,
-            on the premises, or any venue occupied by the studio</li>
-          <li>Please also note the parent/guardian is responsible for informing the teacher of any limitation (physical,
-            emotional), which may prevent full participation in class.</li>
-        </ul>
-      </div>
-      <div id="checkBox">
-        <h3 class="topics centered">Check Box</h3>
+          </form>
+        </div>
+        <div class="termanconditons">
+          <h2 class="topics centered textShadowB">Terms and Conditions of Enrolment</h2>
+          <ul class="conditions">
+            <li>Ballet fees may be paid PER MONTH on the 1st of the month, ORPER TERM IN ADVANCE in the first two weeks
+              of
+              the ballet term</li>
+            <li>Ballet terms follow the Western Cape Education Department (WCED) School terms, and may commence in the
+              second weekof the WCED school term.</li>
+            <li>EFT payments may be made into: <br>The Peninsula Ballet School<br>Business Savings Account 622961
+              99675<br>FNB Longbeach Mall<br>With the reference as student’s name. <br>CASH payments are also accepted
+            </li>
+            <li>Regular and committed attendance is encouraged, and is important for progress. A formal watching day is
+              held at the end of each term to view student progress.</li>
+            <li>Please note there are unfortunately <b>No Refunds</b> for missed classes</li>
+            <li>RAD registered teachers are trained in Safe Dance Practice, and while upholding this ethic, the
+              Peninsula
+              Ballet School will <b>Not</b> be held responsible for any losses which may occur, or any injury sustained,
+              on the premises, or any venue occupied by the studio</li>
+            <li>Please also note the parent/guardian is responsible for informing the teacher of any limitation
+              (physical,
+              emotional), which may prevent full participation in class.</li>
+          </ul>
+        </div>
+        <div id="checkBox" class="textShadowB">
+          <h3 class="topics centered">Check Box</h3>
 
-        <input class="" type="checkbox" value="" id="termsandConditions" required>
-        <label class="" for="termsandConditions">
-          I have read, and accept, the terms of enrolment.
-        </label><br>
+          <input class="" type="checkbox" value="" id="termsandConditions" required>
+          <label class="" for="termsandConditions">
+            I have read, and accept, the terms of enrolment.
+          </label><br>
 
-        <input class="" type="checkbox" value="" id="balletFeesBox" required>
-        <label class="" for="balletFeesBox">
-          I am responsible for settling the Ballet fees.
-        </label><br>
+          <input class="" type="checkbox" value="" id="balletFeesBox" required>
+          <label class="" for="balletFeesBox">
+            I am responsible for settling the Ballet fees.
+          </label><br>
 
-        <input class="" type="checkbox" value="" id="virtualSign" required>
-        <label class="" for="virtualSign">
-          I acknowledge that checking this box is my virtual signature.
-        </label><br>
-        <button type="submit" id="enrollBtn" class="btn textShadow ">Sign Up</button>
+          <input class="" type="checkbox" value="" id="virtualSign" required>
+          <label class="" for="virtualSign">
+            I acknowledge that checking this box is my virtual signature.
+          </label><br>
+          <button type="submit" id="enrollBtn" class="btn textShadow ">Sign Up</button>
+        </div>
+
       </div>
-     
-    </div>
-   
+
   </section>
 
   <!--Locations-->
   <h2 id="locationsHeading" class="subHeadings">Studio Loacations</h2>
   <section id="locationSection">
     <div id="locationImg">
-    
+
       <div id="locationWrapper" class="">
         <div id="map"></div>
         <div class="locations centered">
-        <h3>Fish Hoek</h3>
-        <p>St Kirans Presbyterian church
-          7th Ave & Recreation Road</p>
+          <h3>Fish Hoek</h3>
+          <p>St Kirans Presbyterian church
+            7th Ave & Recreation Road</p>
 
-        <h3>Muizenberg</h3>
-        <p>Muizenberg Junior School main Rd</p>
+          <h3>Muizenberg</h3>
+          <p>Muizenberg Junior School main Rd</p>
 
-        <h3>Kommetjie</h3>
-        <p> Wellness Centre in Ruby Rd</p>
+          <h3>Kommetjie</h3>
+          <p> Wellness Centre in Ruby Rd</p>
 
-        <h3>Kirstenhof</h3>
-        <p> 43 Pollsmoor Road <i>(Educare enrolled childrenOnly.)</i></p>
+          <h3>Kirstenhof</h3>
+          <p> 43 Pollsmoor Road <i>(Educare enrolled childrenOnly.)</i></p>
 
-        <h3>Outlets</h3>
-        <ul class="">
-          <li><a href="https://bit.ly/35XtGVP" target="_blank"> Danztuff
-              at Westlake Business Park</a>
-          </li>
-          <li><a href="https://bit.ly/2BCEJ8W" target="_blank"> Ballet
-              World in Rhondebosch</a>
-          </li>
-          <li><a href="https://bit.ly/2NfowvA" target="_blank"> Ballet
-              Steps inPlumstead</a>
-          </li>
-          <li><a href="https://bit.ly/364TUpe" target="_blank"> Oggi
-              Dancewear</a>
-          </li>
-        </ul>
+          <h3>Outlets</h3>
+          <ul class="">
+            <li><a href="https://bit.ly/35XtGVP" target="_blank"> Danztuff
+                at Westlake Business Park</a>
+            </li>
+            <li><a href="https://bit.ly/2BCEJ8W" target="_blank"> Ballet
+                World in Rhondebosch</a>
+            </li>
+            <li><a href="https://bit.ly/2NfowvA" target="_blank"> Ballet
+                Steps inPlumstead</a>
+            </li>
+            <li><a href="https://bit.ly/364TUpe" target="_blank"> Oggi
+                Dancewear</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
   </section>
-
-
 
   <!--Attire-->
   <h2 id="attireHeading" class="subHeadings">Attire</h2>
   <section id="attireSection">
     <div id="attireImg"></div>
-    <div id="attireInfo"class="infoCol">
+    <div id="attireInfo" class="infoCol">
       <h3 class="subHeadings textShadow ">What To Wear</h3>
       <p>
         Functional clothing is a prerequisite for learning to dance.
@@ -557,21 +558,17 @@
         are functional.
         If boys are sporting longer hair, it too, should be pulled back.</p>
 
-      
+
     </div>
   </section>
+
   <footer class="footer">
-    <div class="feet">CopyCright</div>
+    <div class="feet">CopyRight© 2020</div>
     <div class="feet">Contact Us</div>
     <div class="feet">
       <div class="feet">Web Design:</div>
       <div class="feet feet-bg">
-        <a
-          href="https://github.com/Clinton-Davis"
-          class="feet-bg"
-          target="_blank"
-          >Clinton Davis</a
-        >
+        <a href="https://github.com/Clinton-Davis" class="feet-bg" target="_blank">Clinton Davis</a>
       </div>
     </div>
   </footer>
