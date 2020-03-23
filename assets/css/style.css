@@ -68,7 +68,7 @@ ul {
     font-size: 1.5rem;
 }
 .textShadow {
-    text-shadow: 1px 1px rgb(231, 203, 203);
+    text-shadow: 1px 1px rgb(255, 254, 254);
 }
 /*-=-=-=-=-=-=-=-=-=-=NAV BAR-=-=-=-=-=-=-=-=-=-=--*/
 nav {
@@ -451,6 +451,9 @@ blockquote p {
 table {
     min-width: 300px;
 }
+.tRight {
+    text-align: right;
+}
 thead {
   text-align: left;
   text-transform: uppercase;
@@ -590,4 +593,31 @@ textarea {
 .feet {
     color: var(--white);
     font-family: var(--mf);
+}
+/* BG on web page desinger*/
+.feet-bg {
+	background-image: linear-gradient(
+		-45deg,
+		rgb(27, 240, 8),
+		rgb(250, 95, 95),
+		rgb(94, 102, 241)
+	);
+	color: transparent;
+	font-weight: 800;
+	background-size: 400%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	animation: foot-animation 6s ease-in-out infinite alternate;
+	-webkit-animation: foot-animation 6s ease-in-out infinite alternate;
+}
+@keyframes foot-animation {
+	0% {
+		background-position: left;
+	}
+	50% {
+		background-position: right;
+	}
+	100% {
+		background-position: left;
+	}
 }
