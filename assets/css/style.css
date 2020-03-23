@@ -67,7 +67,9 @@ ul {
     font-family: var(--hf);
     font-size: 1.5rem;
 }
-
+.textShadow {
+    text-shadow: 1px 1px rgb(231, 203, 203);
+}
 /*-=-=-=-=-=-=-=-=-=-=NAV BAR-=-=-=-=-=-=-=-=-=-=--*/
 nav {
     position: fixed;
@@ -552,8 +554,14 @@ textarea {
 #attireSection {
     display: grid;
     grid-template-columns: 60% 40%;
+   
 }
 
+#attireInfo {
+    background-image: linear-gradient(to bottom right, rgb(153, 122, 104), rgb(231, 203, 203));
+    
+   
+}
 #attireImg {
     background-image: url(../images/agility-1850711_1280.jpg);
     background-size: cover;
