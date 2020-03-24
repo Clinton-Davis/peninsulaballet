@@ -409,7 +409,7 @@ blockquote p {
 }
 
 #leilaniImg {
-    background-image: url(../images/tracy_lielanie.jpg);
+    background-image: url(../images/lielanie.jpg);
     background-size: cover;
     background-position: top;
     height: 200px;
@@ -497,7 +497,7 @@ thead {
 .formInputs {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     max-width: 300px;
 }
 
@@ -519,6 +519,10 @@ textarea {
 }
 .inputStyle {
     min-width: 250px;
+}
+
+.formGrid {
+    grid-column: 2/3;
 }
 
 
