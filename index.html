@@ -403,47 +403,95 @@
       <!--Full width Img-->
       <div id="enrolemtFormWrapper" class="">
 
-          <!--Form goes here-->
-          <form onsubmit="return sendMail(this);" id="mainform">
-            <input
-              type="text"
-              name="name"
-              class="form-control formHeight"
-              id="fullname"
-              placeholder="Name"
-              required
-            />
-            <input
-              type="email"
-              name="emailaddress"
-              class="form-control formHeight"
-              id="emailaddress"
-              placeholder="Email"
-              required
-            />
-            <textarea
-              rows="5"
-              name="Message"
-              class="form-control formHeight"
-              id="message"
-              placeholder="Message Here"
-              required
-            ></textarea>
-            <button
-              type="submit"
-              class="opt-btn formHeight banger"
-              id="contact-send"
-              onclick="validation()"
-            >
-              Send
-            </button>
-          </form>
-        
+        <!--Form goes here-->
+        <form onsubmit="return sendMail(this);" id="mainform">
+          <label>First name</label>
+          <input type="text" id="first_name" class="inputStyle" placeholder="First name" required>
+
+          <label>Last name</label>
+          <input type="text" id="last_name" class="inputStyle" placeholder="Last name" required>
+
+          <label>Email address</label>
+          <input type="email" id="from_email" class="inputStyle" placeholder="name@example.com" required>
+
+          <label for="dateOfbirth">Date of Birth</label>
+          <input type="text" id="dateOfbirth" class="inputStyle" placeholder="Date of Birth" required>
+
+
+          <label for="age">Age</label>
+          <input type="text" id="age" class="inputStyle" placeholder="Age" required>
+
+          <label for="guardian-name">Parent/Guardian Name:</label>
+          <input type="text" id="guardian_name" class="inputStyle" placeholder="Parent/Guardian Name" required>
+
+          <label for="contact-number">Contact Number</label>
+          <input type="text" id="contact_number" class="inputStyle" placeholder="Contact Number" required>
+
+          <label for="emergency-number">Emergency Number</label>
+          <input type="text" id="emergency_number" class="inputStyle" placeholder="Emergency Number" required>
+
+          <label class="centered">Any Emotional Or Physical Limitations, Or Injurys:</label>
+          <textarea type="text" id="issues" rows="3" col="4" class="inputStyle"
+            placeholder="Emotional Or Physical Limitations.">
+           </textarea>
+      </div>
+
+      <div class="termanconditons">
+        <h2 class="topics centered textShadowB">Terms and Conditions of Enrolment</h2>
+        <ul class="conditions">
+          <li>Ballet fees may be paid PER MONTH on the 1st of the month, ORPER TERM IN ADVANCE in the first two
+            weeks
+            of the ballet term</li>
+          <li>Ballet terms follow the Western Cape Education Department (WCED) School terms, and may commence in the
+            second weekof the WCED school term.</li>
+          <li>EFT payments may be made: Details will follow after enroling <br>
+            CASH payments are also accepted.
+          </li>
+          <li>Regular and committed attendance is encouraged, and is important for progress. A formal watching day
+            is
+            held at the end of each term to view student progress.</li>
+          <li>Please note there are unfortunately <b>NO REFUNDS</b> for missed classes</li>
+          <li>RAD registered teachers are trained in Safe Dance Practice, and while upholding this ethic, the
+            Peninsula Ballet School will <b>NOT</b> be held responsible for any losses which may occur, or any
+            injury
+            sustained,
+            on the premises, or any venue occupied by the studio</li>
+          <li>Please also note the parent/guardian is responsible for informing the teacher of any limitation
+            (physical, emotional), which may prevent full participation in class.</li>
+        </ul>
+      </div>
+      <div id="checkBox" class="textShadowB">
+        <h3 class="topics centered">Check Box</h3>
+
+        <input class="" type="checkbox" value="" id="termsandConditions" required>
+        <label class="" for="termsandConditions">
+          I have read, and accept, the terms of enrolment.
+        </label><br>
+
+        <input class="" type="checkbox" value="" id="balletFeesBox" required>
+        <label class="" for="balletFeesBox">
+          I am responsible for settling the Ballet fees.
+        </label><br>
+
+        <input class="" type="checkbox" value="" id="virtualSign" required>
+        <label class="" for="virtualSign">
+          I acknowledge that checking this box is my virtual signature.
+        </label><br>
+        <button type="submit">
+          Send
+        </button>
+        </form>
+        <!--<input type="text" class="form-control formHeight" id="fullname" placeholder="Name" required />
+        <input type="email" class="form-control formHeight" id="emailaddress" placeholder="Email" required />
+        <textarea rows="5" class="form-control formHeight" id="message" placeholder="Message Here" required></textarea>
+        <button type="submit" class="opt-btn formHeight banger" id="contact-send" onclick="validation()">
+          Send
+        </button>
+        </form>-->
+
 
       </div>
-     
     </div>
-
   </section>
 
   <!--Locations-->
@@ -560,78 +608,3 @@
 </body>
 
 </html>
-
- <!-- <form id="enrolform" onsubmit="return sendMail(this);">
-            <label>First name</label>
-            <input type="text" name="first_name" class="inputStyle"  placeholder="First name" required>
-           
-            <label>Email address</label>
-            <input type="email" name="from-email" class="inputStyle"  placeholder="name@example.com" required>
-          <label for="dateOfbirth">Date of Birth</label>
-             <label>Last name</label>
-            <input type="text" name="last_name" class="inputStyle"  placeholder="Last name" required>
-            <input type="text" name="dateOfbirth" class="inputStyle"  placeholder="Date of Birth" required>
-            <label for="age">Age</label>
-            <input type="text" name="age" class="inputStyle"  placeholder="Age" required>
-            <label for="guardian-name">Parent/Guardian Name:</label>
-            <input type="text" name="guardian_name" class="inputStyle"  placeholder="Parent/Guardian Name" required>
-            <label for="contact-number">Contact Number</label>
-            <input type="text" name="contact-number" class="inputStyle"  placeholder="Contact Number" required>
-            <label for="emergency-number">Emergency Number</label>
-            <input type="text" name="emergency_number" class="inputStyle"  placeholder="Emergency Number" required>
-            
-
-            <label class="centered">Any Emotional Or Physical Limitations, Or Injurys:</label>
-            <textarea type="text" name="issues" rows="3" col="4" class="inputStyle" 
-              placeholder="Emotional Or Physical Limitations.">
-           </textarea>
-         
-         
-         
-            </div>
-
-          <div class="termanconditons">
-            <h2 class="topics centered textShadowB">Terms and Conditions of Enrolment</h2>
-            <ul class="conditions">
-              <li>Ballet fees may be paid PER MONTH on the 1st of the month, ORPER TERM IN ADVANCE in the first two
-                weeks
-                of the ballet term</li>
-              <li>Ballet terms follow the Western Cape Education Department (WCED) School terms, and may commence in the
-                second weekof the WCED school term.</li>
-              <li>EFT payments may be made: Details will follow after enroling <br>
-                CASH payments are also accepted.
-              </li>
-              <li>Regular and committed attendance is encouraged, and is important for progress. A formal watching day
-                is
-                held at the end of each term to view student progress.</li>
-              <li>Please note there are unfortunately <b>NO REFUNDS</b> for missed classes</li>
-              <li>RAD registered teachers are trained in Safe Dance Practice, and while upholding this ethic, the
-                Peninsula Ballet School will <b>NOT</b> be held responsible for any losses which may occur, or any
-                injury
-                sustained,
-                on the premises, or any venue occupied by the studio</li>
-              <li>Please also note the parent/guardian is responsible for informing the teacher of any limitation
-                (physical, emotional), which may prevent full participation in class.</li>
-            </ul>
-          </div>
-          <div> id="checkBox" class="textShadowB">
-            <h3 class="topics centered">Check Box</h3>
-
-            <input class="" type="checkbox" value="" id="termsandConditions" required>
-            <label class="" for="termsandConditions">
-              I have read, and accept, the terms of enrolment.
-            </label><br>
-
-            <input class="" type="checkbox" value="" id="balletFeesBox" required>
-            <label class="" for="balletFeesBox">
-              I am responsible for settling the Ballet fees.
-            </label><br>
-
-            <input class="" type="checkbox" value="" id="virtualSign" required>
-            <label class="" for="virtualSign">
-              I acknowledge that checking this box is my virtual signature.
-            </label><br>
-            <button type="submit">
-              Send
-            </button>
-        </form>-->
