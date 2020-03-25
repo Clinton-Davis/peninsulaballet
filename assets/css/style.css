@@ -41,9 +41,12 @@ p {
     max-width: 500px;
     line-height: 20px;
 }
+
 ul {
     text-decoration: none;
+    list-style: none;
 }
+
 .centered {
     text-align: center;
 }
@@ -60,21 +63,29 @@ ul {
     font-family: var(--mf);
     font-size: 1em;
     font-weight: 400;
-    border-radius: 10px;
-    background-color: var(--offwhite);
-    border: 1px white solid;
+    border: 2.5px outset #F7F7F7;
+    border-radius: 10px;   
+    background: rgba(242, 246, 248, 1);
+    background: -moz-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242, 246, 248, 1)), color-stop(50%, rgba(216, 225, 231, 1)), color-stop(51%, rgba(181, 198, 208, 1)), color-stop(100%, rgba(224, 239, 249, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
 }
 
 .headFont {
     font-family: var(--hf);
     font-size: 1.5rem;
 }
+
 .textShadow {
     text-shadow: 1px 1px rgb(255, 254, 254);
 }
+
 .textShadowB {
-   text-shadow:  1px 1px black;
+    text-shadow: 1px 1px black;
 }
+
 /*-=-=-=-=-=-=-=-=-=-=NAV BAR-=-=-=-=-=-=-=-=-=-=--*/
 nav {
     position: fixed;
@@ -91,21 +102,24 @@ nav {
 .logo {
     color: rgba(255, 255, 255, 0.767);
     text-transform: capitalize;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
 
 }
+
 #navLogo {
     font-size: 2rem;
     color: var(--white);
     text-decoration: none;
 }
+
 #navHeading {
     font-size: 1rem;
     color: var(--white);
     text-decoration: none;
     font-family: var(--mf);
 }
+
 .nav-links {
     display: flex;
     width: 600px;
@@ -302,10 +316,15 @@ section {
     background-size: cover;
     background-position: center;
 }
-
+#enrolBtn {
+    margin: 1.3em 0px;
+    padding: 0.4em 1.4em;
+    font-size: 1.3em;
+    
+}
 /*-=-=-==-=-=-=-=-=-=-=-=-=-TESTIMONIALS-=-=-=-=-=-==-=-*/
 #testimonilHeading {
-    
+
     border-top: 1px black solid;
     border-bottom: 1px black solid;
 }
@@ -358,6 +377,7 @@ blockquote p {
 #teacherHeading {
     border-top: 1px black solid;
 }
+
 #teachersSection {
     display: flex;
     flex-direction: column;
@@ -435,6 +455,7 @@ blockquote p {
     color: var(--offwhite);
     border-bottom: 1px var(--offwhite) solid;
 }
+
 #sceduleSection {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -453,15 +474,18 @@ blockquote p {
     background-position: top center;
     grid-column: 1/2;
 }
+
 table {
     min-width: 300px;
 }
+
 .tRight {
     text-align: right;
 }
+
 thead {
-  text-align: left;
-  text-transform: uppercase;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 /*-=-=-==-=-=-=-=-=-=-=-=-=-=--=--=ENROLMENT-=-=-=--=-=-=-=-=-=-*/
@@ -469,7 +493,7 @@ thead {
     background-color: rgba(83, 74, 67, 1);
     border-bottom: 1px black solid;
     color: var(--offwhite);
-    
+
 }
 
 #enrolmentSection {
@@ -497,7 +521,7 @@ thead {
 .formInputs {
     display: flex;
     flex-direction: column;
-    
+
     max-width: 300px;
 }
 
@@ -517,12 +541,16 @@ textarea {
     border-radius: 5px;
 
 }
+
 .inputStyle {
     min-width: 250px;
 }
-.conditionStyle{
+
+.conditionStyle {
     list-style: upper-roman;
+    line-height: 1.3em;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -536,19 +564,21 @@ form {
     border-bottom: 1px black solid;
     border-top: 1px black solid;
 }
+
 #locationSection {
     display: grid;
     grid-template-columns: 40% 60%;
 }
+
 #map {
-        width: 400px;
-        height: 250px;
-        background-image: url(../images/googleMapPic.png);
-        background-size: cover;
-        background-position: center;
-        margin: 1em auto;
-        border: 2px white solid;
-    }
+    width: 400px;
+    height: 250px;
+    background-image: url(../images/googleMapPic.png);
+    background-size: cover;
+    background-position: center;
+    margin: 1em auto;
+    border: 2px white solid;
+}
 
 
 #locationImg {
@@ -563,10 +593,12 @@ form {
     margin-left: auto;
     height: 100vh;
 }
+
 .locations {
     display: flex;
     flex-direction: column;
 }
+
 /*-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=ATTIRE-=-=--=-=-=-=-=-=-=-=-=*/
 #attireHeading {
     background-color: var(--lightBlack);
@@ -577,14 +609,15 @@ form {
 #attireSection {
     display: grid;
     grid-template-columns: 60% 40%;
-   
+
 }
 
 #attireInfo {
     background-image: linear-gradient(to bottom right, rgb(153, 122, 104), rgb(231, 203, 203));
-    
-   
+
+
 }
+
 #attireImg {
     background-image: url(../images/agility-1850711_1280.jpg);
     background-size: cover;
@@ -592,7 +625,10 @@ form {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-
+#video {
+    text-decoration: none;
+    color: var(--lightBlack);
+}
 /*-=-=-==-=-=-=--=-=-=-=-=-=--=-=-=-=-=-FOOTER==-=-=-=-=-=-=-=-==-=-=-=*/
 .footer {
     display: flex;
@@ -607,30 +643,32 @@ form {
     color: var(--white);
     font-family: var(--mf);
 }
+
 /* BG on web page desinger*/
 .feet-bg {
-	background-image: linear-gradient(
-		-45deg,
-		rgb(27, 240, 8),
-		rgb(250, 95, 95),
-		rgb(94, 102, 241)
-	);
-	color: transparent;
-	font-weight: 800;
-	background-size: 400%;
-	background-clip: text;
-	-webkit-background-clip: text;
-	animation: foot-animation 6s ease-in-out infinite alternate;
-	-webkit-animation: foot-animation 6s ease-in-out infinite alternate;
+    background-image: linear-gradient(-45deg,
+            rgb(27, 240, 8),
+            rgb(250, 95, 95),
+            rgb(94, 102, 241));
+    color: transparent;
+    font-weight: 800;
+    background-size: 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: foot-animation 6s ease-in-out infinite alternate;
+    -webkit-animation: foot-animation 6s ease-in-out infinite alternate;
 }
+
 @keyframes foot-animation {
-	0% {
-		background-position: left;
-	}
-	50% {
-		background-position: right;
-	}
-	100% {
-		background-position: left;
-	}
+    0% {
+        background-position: left;
+    }
+
+    50% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: left;
+    }
 }
