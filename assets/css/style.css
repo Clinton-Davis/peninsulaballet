@@ -42,7 +42,7 @@ p {
     line-height: 20px;
 }
 ul {
-    list-style: none;
+    text-decoration: none;
 }
 .centered {
     text-align: center;
@@ -520,9 +520,12 @@ textarea {
 .inputStyle {
     min-width: 250px;
 }
-
-.formGrid {
-    grid-column: 2/3;
+.conditionStyle{
+    list-style: upper-roman;
+}
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 
