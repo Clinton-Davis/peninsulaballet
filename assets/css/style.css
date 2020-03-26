@@ -58,13 +58,14 @@ ul {
 
 .btn {
     padding: 0.5em;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
     margin: 0 auto;
     margin-left: auto;
     font-family: var(--mf);
     font-size: 1em;
     font-weight: 400;
     border: 2.5px outset #F7F7F7;
-    border-radius: 10px;   
+    border-radius: 10px;
     background: rgba(242, 246, 248, 1);
     background: -moz-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242, 246, 248, 1)), color-stop(50%, rgba(216, 225, 231, 1)), color-stop(51%, rgba(181, 198, 208, 1)), color-stop(100%, rgba(224, 239, 249, 1)));
@@ -72,18 +73,19 @@ ul {
     background: -o-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
     background: -ms-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgba(181, 198, 208, 1) 51%, rgba(224, 239, 249, 1) 100%);
 }
+
 .btn:hover {
-    border: 2.5px inset #F7F7F7; 
-    background: rgba(242,246,248,1);
-    background: rgba(242,246,248,1);
-    background: -moz-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 55%, rgba(216,225,231,1) 56%, rgba(224,239,249,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(55%, rgba(181,198,208,1)), color-stop(56%, rgba(216,225,231,1)), color-stop(100%, rgba(224,239,249,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 55%, rgba(216,225,231,1) 56%, rgba(224,239,249,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 55%, rgba(216,225,231,1) 56%, rgba(224,239,249,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 55%, rgba(216,225,231,1) 56%, rgba(224,239,249,1) 100%);
-    background: linear-gradient(135deg, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 55%, rgba(216,225,231,1) 56%, rgba(224,239,249,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
+    border: 2.5px inset #F7F7F7;
+    background: rgba(242, 246, 248, 1);
+    background: rgba(242, 246, 248, 1);
+    background: -moz-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(181, 198, 208, 1) 55%, rgba(216, 225, 231, 1) 56%, rgba(224, 239, 249, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242, 246, 248, 1)), color-stop(55%, rgba(181, 198, 208, 1)), color-stop(56%, rgba(216, 225, 231, 1)), color-stop(100%, rgba(224, 239, 249, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(181, 198, 208, 1) 55%, rgba(216, 225, 231, 1) 56%, rgba(224, 239, 249, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(181, 198, 208, 1) 55%, rgba(216, 225, 231, 1) 56%, rgba(224, 239, 249, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(181, 198, 208, 1) 55%, rgba(216, 225, 231, 1) 56%, rgba(224, 239, 249, 1) 100%);
+    background: linear-gradient(135deg, rgba(242, 246, 248, 1) 0%, rgba(181, 198, 208, 1) 55%, rgba(216, 225, 231, 1) 56%, rgba(224, 239, 249, 1) 100%);
 }
+
 .headFont {
     font-family: var(--hf);
     font-size: 1.5rem;
@@ -327,12 +329,14 @@ section {
     background-size: cover;
     background-position: center;
 }
+
 #enrolBtn {
     margin: 1.3em 0px;
     padding: 0.4em 1.4em;
     font-size: 1.3em;
-    
+
 }
+
 /*-=-=-==-=-=-=-=-=-=-=-=-=-TESTIMONIALS-=-=-=-=-=-==-=-*/
 #testimonilHeading {
 
@@ -636,10 +640,12 @@ form {
     grid-column: 2/3;
     grid-row: 1/2;
 }
+
 #video {
     text-decoration: none;
     color: var(--lightBlack);
 }
+
 /*-=-=-==-=-=-=--=-=-=-=-=-=--=-=-=-=-=-FOOTER==-=-=-=-=-=-=-=-==-=-=-=*/
 .footer {
     display: flex;
