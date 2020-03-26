@@ -389,11 +389,19 @@ blockquote p {
 }
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=TEACHERS==-=-=-=-=-=-=--=-=-*/
+.imgWrap {
+    display: flex;
+    justify-content: space-around;
+}
+
 #teacherHeading {
     border-top: 1px black solid;
 }
 
 #teachersSection {
+    background-image: url(../images/adam-walker-KRIfJDXgsiQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -401,8 +409,8 @@ blockquote p {
 }
 
 #teacherWrapper {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  
+   
 
 
 }
@@ -435,7 +443,10 @@ blockquote p {
 }
 
 #tracyImg {
-    background-image: url(../images/tracy.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url();
     background-size: cover;
     background-position: top;
     height: 200px;
@@ -444,6 +455,9 @@ blockquote p {
 }
 
 #leilaniImg {
+    display: flex;
+    justify-content: center;
+    align-items: end;
     background-image: url(../images/lielanie.jpg);
     background-size: cover;
     background-position: top;
@@ -453,12 +467,15 @@ blockquote p {
 }
 
 #historyImg {
+    display: flex;
+    justify-content: center;
+    align-items: end;
     background-image: url(../images/SandyDavis.jpg);
     background-size: cover;
     background-position: top;
     height: 200px;
     width: 200px;
-    margin: 1em 0px;
+    margin: 1em auto;
 }
 
 
