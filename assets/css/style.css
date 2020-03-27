@@ -75,6 +75,7 @@ ul {
 }
 
 .btn:hover {
+    
     border: 2.5px inset #F7F7F7;
     background: rgba(242, 246, 248, 1);
     background: rgba(242, 246, 248, 1);
@@ -84,6 +85,10 @@ ul {
     background: -o-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(181, 198, 208, 1) 55%, rgba(216, 225, 231, 1) 56%, rgba(224, 239, 249, 1) 100%);
     background: -ms-linear-gradient(-45deg, rgba(242, 246, 248, 1) 0%, rgba(181, 198, 208, 1) 55%, rgba(216, 225, 231, 1) 56%, rgba(224, 239, 249, 1) 100%);
     background: linear-gradient(135deg, rgba(242, 246, 248, 1) 0%, rgba(181, 198, 208, 1) 55%, rgba(216, 225, 231, 1) 56%, rgba(224, 239, 249, 1) 100%);
+    -webkit-transition: all 250s;
+    -moz-transition: all 250s;
+    -ms-transition: all 250s;
+    -o-transition: all 250s;
 }
 
 .headFont {
@@ -673,6 +678,8 @@ form {
     background-size: cover;
     background-position: center top;
     grid-column: 1/3;
+    position: relative;
+   
 }
 
 #locationWrapper {
