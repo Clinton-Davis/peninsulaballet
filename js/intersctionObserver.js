@@ -33,11 +33,17 @@ const observer = new IntersectionObserver(function (entries, observer) {
         //console.log(entry.target.attributes[0].nodeValue);
         function getNavColor(a_Color, bg_Color) {
             document.getElementById("nav").style.backgroundColor = (bg_Color);
+            document.getElementById("navBurgerBg").style.backgroundColor = (bg_Color);
             document.getElementById("navLogo").style.color = (a_Color);
             var x = document.getElementsByClassName("navColor");
             var i; for (i = 0; i < x.length; i++) {
                 x[i].style.color = (a_Color);
             }
+            var b = document.getElementsByClassName("navBgColor");
+            var c; for (c = 0; c < b.length; c++) {
+                b[c].style.backgroundColor = (a_Color);
+            }
+            
         }
     })
 }, options);
