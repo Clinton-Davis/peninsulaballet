@@ -708,8 +708,6 @@ form {
 
 #attireInfo {
     background-image: linear-gradient(to bottom right, rgb(153, 122, 104), rgb(231, 203, 203));
-
-
 }
 
 #attireImg {
@@ -719,7 +717,12 @@ form {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-
+.attire-p {
+    padding-bottom: 1em;
+}
+.attire-h {
+    padding-top: 0.5em;
+}
 #video {
     text-decoration: none;
     color: var(--lightBlack);
