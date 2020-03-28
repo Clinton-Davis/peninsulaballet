@@ -12,17 +12,25 @@ const observer = new IntersectionObserver(function (entries, observer) {
         if (!entry.isIntersecting) {
             return;
         } else if (entry.target.attributes[0].nodeValue == "welcomeSection") {
-            getNavColor("var(--white", "rgb(20, 41, 49)")
+            getNavColor("var(--white", "rgb(20, 41, 49)");
+
         } else if (entry.target.attributes[0].nodeValue == "testimonialsSection") {
-            getNavColor("var(--lightBlack", "rgba(242, 246, 248, 1)")
+            getNavColor("var(--lightBlack", "rgba(242, 246, 248, 1)");
+
+        } else if (entry.target.attributes[0].nodeValue == "teachersSection") {
+            getNavColor("var(--lightBlack", "rgba(242, 246, 248, 1)");
+
         } else if (entry.target.attributes[0].nodeValue == "sceduleSection") {
-            getNavColor("var(--white", "rgb(0, 0, 0)")
+            getNavColor("var(--white", "rgb(0, 0, 0)");
+
         } else if (entry.target.attributes[0].nodeValue == "enrolmentSection") {
             getNavColor("var(--white", "rgba(83, 74, 67, 1)");
+
         } else if (entry.target.attributes[0].nodeValue == "locationSection") {
             getNavColor("rgb(0,0,0)", "rgb(255, 229, 170)");
+
         } else if (entry.target.attributes[0].nodeValue == "attireSection") {
-            getNavColor("var(--white", "var(--lightBlack)")
+            getNavColor("var(--white", "var(--lightBlack)");
         }
         //console.log(entry.target.attributes[0].nodeValue);
         //This function changes the colors of the nav and a tags when trigered buy the IntersectionObserver
