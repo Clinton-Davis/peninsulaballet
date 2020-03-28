@@ -1,15 +1,55 @@
 const welcome = document.querySelector('#welcomeSection');
+const sections = document.querySelectorAll('section');
 
 const options = {
     root: null,
     threshold: 0,
-    rootMargin: '-10px'
+    rootMargin: '-300px'
 };
 
 const observer = new IntersectionObserver(function(entries,observer) {
 entries.forEach(entry => {
-    console.log(entry.target)
+    if(!entry.isIntersecting) {
+        return;
+    }
+       else if(entry.target.attributes[0].nodeValue == "welcomeSection") {
+       getNavColor("var(--white","rgb(20, 41, 49)")      
+        console.log('Got wel'); 
+
+    } else if (entry.target.attributes[0].nodeValue == "testimonialsSection") {
+        getNavColor("var(--lightBlack","rgba(242, 246, 248, 1)")
+        console.log('Got Testie');
+
+    }  else if (entry.target.attributes[0].nodeValue == "sceduleSection") {
+        getNavColor("var(--white","rgb(0, 0, 0)")
+        console.log('Got sceduleSection');
+
+    } else if (entry.target.attributes[0].nodeValue == "enrolmentSection") {
+        getNavColor("var(--white","rgba(83, 74, 67, 1)");
+         console.log('Got TenrolmentSection');
+
+    } else if (entry.target.attributes[0].nodeValue == "locationSection") {
+        getNavColor("rgb(0,0,0)","rgb(255, 229, 170)");
+        console.log('Got locationSection');
+
+    } else if (entry.target.attributes[0].nodeValue == "attireSection") {
+        getNavColor("var(--white","var(--lightBlack)")
+         console.log('Got attireSection');
+    }  
+    
+    //console.log(entry.target.attributes[0].nodeValue);
+    function getNavColor(a_Color, bg_Color) {
+        document.getElementById("nav").style.backgroundColor = (bg_Color);
+        document.getElementById("navLogo").style.color = (a_Color);
+        var x = document.getElementsByTagName("A");
+        var i;
+        for (i = 0; i < x.length; i++) {
+         x[i].style.color = (a_Color);
+         } 
+    }
 })
 }, options);
 
-observer.observe(welcome);
+sections.forEach(section => {
+    observer.observe(section);
+});
