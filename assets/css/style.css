@@ -9,7 +9,7 @@ html {
     box-sizing: border-box;
     font-weight: 300;
     font-family: var(--mf);
-    
+
 }
 
 body {
@@ -30,7 +30,7 @@ body {
     --lightBlack: rgba(44, 43, 43, 1);
     --white: white;
     --black: black;
-    --transition: all 0.5s ease-in; 
+    --transition: all 0.5s ease-in;
 }
 
 .border {
@@ -132,7 +132,7 @@ nav {
     text-transform: capitalize;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 #navLogo {
@@ -165,6 +165,7 @@ a {
     font-weight: 400;
     list-style: none;
 }
+
 .navColor {
     transition: var(--transition);
     -webkit-transition: var(--transition);
@@ -172,6 +173,7 @@ a {
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
 }
+
 .burger {
     display: none;
     cursor: pointer;
@@ -188,6 +190,7 @@ a {
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
 }
+
 #navBurgerBg {
     transition: var(--transition);
     -webkit-transition: var(--transition);
@@ -195,6 +198,7 @@ a {
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
 }
+
 .toggle .line1 {
     transform: rotate(-405deg) translate(-5px, 5px);
     -webkit-transform: rotate(-405deg) translate(-5px, 5px);
@@ -390,7 +394,7 @@ section {
     border-top: 1px black solid;
     border-bottom: 1px black solid;
     position: relative;
-    z-index: 98;
+    z-index: 20;
 }
 
 #testimonialsSection {
@@ -406,8 +410,8 @@ section {
 
 .testimonal-Bg {
     background-image: linear-gradient(-45deg,
-  rgba(248, 219, 248, 0.5),
-  rgba(134, 185, 233, 0.5));
+            rgba(248, 219, 248, 0.5),
+            rgba(134, 185, 233, 0.5));
     background-size: 800%;
     animation: bg--animation 20s ease-in-out infinite alternate;
     -webkit-animation: bg--animation 20s ease-in-out infinite alternate;
@@ -421,7 +425,7 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
-    z-index: 90;
+    
 }
 
 blockquote {
@@ -459,7 +463,7 @@ blockquote p {
     border-bottom: 1px black solid;
     background-color: rgba(242, 246, 248, 1);
     position: relative;
-    z-index: 90;
+    z-index: 20;
 }
 
 #teachersSection {
@@ -491,9 +495,11 @@ blockquote p {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
+
 .card__content {
     position: relative;
 }
+
 .cardHeading {
     margin: 0.5em auto;
     display: flex;
@@ -518,6 +524,48 @@ blockquote p {
     margin-top: 3em;
 
 }
+
+.modal_wrap {
+    display: none;
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal_content {
+    background-color: rgba(181, 198, 208, 1);
+    margin: 15px auto;
+    padding: 20px;
+    border: var(--border);
+    width: 80%;
+    position: relative;
+    z-index: 99;
+}
+.modal_p {
+    margin-left: auto;
+    margin-right: auto;
+}
+.close,
+.close2,
+.close3 {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 #teacherWrapper {
     display: flex;

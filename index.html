@@ -128,18 +128,20 @@
 
     <div id="teacherWrapper">
       <!--tracyCard Strat-->
-      <div class="card__content">
-        <div id="tracyCard" class="cardFront">
-          <div id="tracyImg"> </div>
-          <h2 class="cardHeading">Tracy Chaston</h2>
-          <div class="cardBody">
-            <h3 class="cardSpace">Co-Owner of Peninsula Ballet</h3>
-            <h4 class="cardSpace">The Royal Academy of Dance<br> regestered teacher</h4>
-            <button class="cardBtn btn">Bio</button>
-          </div>
+      <div id="tracyCard" class="cardFront">
+        <div id="tracyImg"> </div>
+        <h2 class="cardHeading">Tracy Chaston</h2>
+        <div class="cardBody">
+          <h3 class="cardSpace">Co-Owner of Peninsula Ballet</h3>
+          <h4 class="cardSpace">The Royal Academy of Dance<br> regestered teacher</h4>
+          <button onclick="tracyBio()" id="tracyBtn" class="cardBtn btn">Bio</button>
         </div>
-        <div class="teacherBio">
-          <p hidden>
+      </div>
+      <div id="tracyModal" class="modal_wrap">
+
+        <div class="modal_content">
+          <span class="close">&times;</span>
+          <p class="modal_p" >
             My name is Tracy Chaston, and I am a co-owner and Ballet teacher at The
             Peninsula Ballet School.
             I have always wanted to teach ballet and started teacher training after
@@ -159,21 +161,23 @@
             a part of their lives is such a privilege for me. Transforming children and
             adults into dancers.</p>
         </div>
+
       </div>
       <!--tracyCard end-->
-      <!--Leilami Start-->
-      <div class="card__content">
-          <div id="leilaniCard" class="cardFront">
-          <div id="leilaniImg"></div>
-          <h2 class="cardHeading" id="">Leilani Beer </h2>
-          <div class="cardBody">
-            <h3 class="cardSpace">Co-Owner of Peninsula Ballet</h3>
-            <h4 class="cardSpace">The Royal Academy of Dance<br> regestered teacher</h4>
-            <button class="cardBtn btn">Bio</button>
-          </div>
 
-          <div id="leilaniBio" class="teachersBio">
-            <p hidden>My name is Leilani Beer and I teach RAD ballet and Alianza flamenco. I have
+      <!--Leilami Start-->
+      <div id="leilaniCard" class="cardFront">
+        <div id="leilaniImg"></div>
+        <h2 class="cardHeading" id="">Leilani Beer </h2>
+        <div class="cardBody">
+          <h3 class="cardSpace">Co-Owner of Peninsula Ballet</h3>
+          <h4 class="cardSpace">The Royal Academy of Dance<br> regestered teacher</h4>
+          <button onclick="leilaniBio()" id="leilaniBtn"class="cardBtn btn">Bio</button>
+        </div>
+        <div id="leilaniModal" class="modal_wrap">
+          <div class="modal_content">
+            <span class="close2">&times;</span>
+            <p>My name is Leilani Beer and I teach RAD ballet and Alianza flamenco. I have
               taught ballet for 13 years (2006-2019), and have in this
               past year begun teaching flamenco.
               In my personal capacity I have produced Resurrection (2015-2017) and
@@ -192,33 +196,37 @@
         </div>
       </div>
       <!--Leilami End-->
+
       <!--HistoryCard start-->
-      <div class="card__content">
       <div id="historyCard" class="cardFront">
         <div id="historyImg"></div>
         <h2 class="cardHeading centered " id="">Peninsula Ballet</h2>
         <h3 class="cardSpace centered">Brief History</h3>
         <div class="cardBody">
-          <button class="cardBtn historyCardBtn  btn">The History</button>
+          <button id="historyBtn" onclick="historyBio()" class="cardBtn historyCardBtn  btn">The History</button>
+        </div>
+        <div id="historyModal" class="modal_wrap">
+          <div class="modal_content">
+            <span class="close3">&times;</span>
+            <p>
+              In 1975, Sandra Davis started a Ballet School in Fish Hoek, she was a teaching
+              member of The Royal Academy of Dance.
+              She did many shows through the years and entered many R.A.D examinations, her
+              studio was well known.
+              Tracy and Leilani were both trained by Sandra at her studio.
+              In 1990 Tracy teamed up with Sandra and they taught together for many years until
+              Sandra sadly passed away. In 1999 Tracy took over the studio.
+              Leilani also opened a Ballet Studio in Fish Hoek, - The Leilani Beer School of
+              Ballet.
+              In 2011, Tracy and Leilani joined their respective studios and co-founded The
+              Peninsula Ballet School.
+            </p>
+          </div>
         </div>
       </div>
-      <p hidden>
-        In 1975, Sandra Davis started a Ballet School in Fish Hoek, she was a teaching
-        member of The Royal Academy of Dance.
-        She did many shows through the years and entered many R.A.D examinations, her
-        studio was well known.
-        Tracy and Leilani were both trained by Sandra at her studio.
-        In 1990 Tracy teamed up with Sandra and they taught together for many years until
-        Sandra sadly passed away. In 1999 Tracy took over the studio.
-        Leilani also opened a Ballet Studio in Fish Hoek, - The Leilani Beer School of
-        Ballet.
-        In 2011, Tracy and Leilani joined their respective studios and co-founded The
-        Peninsula Ballet School.
-      </p>
+      <!--history Card End-->
     </div>
-    <!--history Card End-->
     <!--TeacherWrapper End-->
-    </div>
   </section>
 
   <!--Schedule-->
@@ -628,6 +636,7 @@
   </footer>
 
   <script src="./js/general.js"></script>
+  <script src="./js/modal.js"></script>
   <script src="./js/intersctionObserver.js"></script>
   <script src="./js/email.js"></script>
   <script src="./js/nav.js"></script>
