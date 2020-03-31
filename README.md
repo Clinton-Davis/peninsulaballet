@@ -222,6 +222,9 @@ I hosted this site using GitHub pages, GitHub pages are part of GitHub. It is de
 I created the design of the web page, and I was heavily inspired by the 
 "The Whiskey Drop project".
 Photo by Naitian（Tony） Wang on Unsplash
+Photo by Etienne Boulanger on Unsplash
+Photo by Matthew Henry on Unsplash
+Photo by Gaelle Marcel on Unsplash
 Photo by Adam Walker on Unsplash
 ##### Content:
 All information and bios credited to Tracy Davis and Lielanie Beer.
@@ -231,6 +234,7 @@ All pictures used are from:
 * [Pixabay](https://pixabay.com/)
 * [Shutterstock](https://www.shutterstock.com/home) 
 * [Unsplash](https://unsplash.com/) 
+
 * [Stockfresh](https://stockfresh.com/)
 and have [CC licences](https://en.wikipedia.org/wiki/Creative_Commons_license) or paid Standard licences.
 
