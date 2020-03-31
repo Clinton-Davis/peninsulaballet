@@ -491,7 +491,9 @@ blockquote p {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
-
+.card__content {
+    position: relative;
+}
 .cardHeading {
     margin: 0.5em auto;
     display: flex;
