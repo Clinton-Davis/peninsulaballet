@@ -777,9 +777,7 @@ form {
 #map {
     width: 400px;
     height: 250px;
-    background-image: url(../images/googleMapPic.png);
-    background-size: cover;
-    background-position: center;
+   
 
     margin: 1em auto;
     border: 2px white solid;
