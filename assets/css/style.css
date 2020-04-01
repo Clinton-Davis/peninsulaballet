@@ -526,6 +526,9 @@ blockquote p {
 }
 
 .modal_wrap {
+    background-image: url(../images/ladyinGrassright.jpg);
+    background-position: bottom;
+    background-size: cover;
     display: none;
     position: fixed;
     z-index: 98;
@@ -538,10 +541,7 @@ blockquote p {
 }
 
 .modal_content {
-    background-image: url(../images/ladyinGrassright.jpg);
-    background-position: center;
-    background-size: cover;
-   
+    background-color: rgba(255, 255, 255, 0.582);
     margin: 8em auto;
     padding: 20px;
     border: var(--border);
