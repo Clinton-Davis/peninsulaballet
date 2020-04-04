@@ -886,3 +886,25 @@ form {
         background-position: left;
     }
 }
+@media (max-width: 900px) {
+    #welcomeWrap {
+        max-width: 70%;
+    }
+}
+@media (max-width: 750px) {
+    #welcomeWrap {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    #welcomeWrap {
+        max-width: 95%;
+  
+    }
+}
+@media (max-width: 380px) {
+    .headings {
+        font-size: 3.7rem;
+    }
+}

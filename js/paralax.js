@@ -1,5 +1,13 @@
 $(window).scroll(function() {
-    parallax();
+
+    var width = $(window).width();
+    console.log(width);  
+    if (width > 600) {
+        parallax();
+    } else {
+        return
+    }
+    
 }) 
 
 function parallax() {
