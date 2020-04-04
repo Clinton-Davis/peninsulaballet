@@ -886,11 +886,49 @@ form {
         background-position: left;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 920px) {
     #welcomeWrap {
         max-width: 70%;
+        background-position: bottom right;
+        margin-left: auto;
+        margin-right: auto;
     }
-}
+    #teacherWrapper {
+        display: block;
+    }
+    #testimonialsSection {
+        display: contents;
+        
+    }
+    .testimonal-Bg {
+        background-image: url(../images/three-little-ballet-girls-.jpg);
+        background-position: center;
+        background-size: cover;     
+        }
+    #sceduleInfo {
+        background-color: rgba(0, 0, 0, 0.5);
+            
+        }
+    #sceduleSection {
+        display: flex;
+        background-image: url(../images/david-hofmann-4QPVQuf0WMQ-unsplash.jpg);
+        background-position: center;
+        background-size: cover; 
+        }
+    #enrolemtFormWrapper {
+        width: 100%;
+        }
+        #enrolmentSection {
+            display: contents;
+           
+        }
+        #enrolmentImg {
+           
+          
+            background-position: bottom right;
+            
+           
+        }
 @media (max-width: 750px) {
     #welcomeWrap {
         max-width: 90%;

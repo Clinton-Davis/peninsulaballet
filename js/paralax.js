@@ -3,7 +3,7 @@ $(window).scroll(function() {
     if its not parallax is canceled */
     var width = $(window).width();
     console.log(width);  
-    if (width > 600) {
+    if (width > 900) {
         parallax();
     } else {
         return
