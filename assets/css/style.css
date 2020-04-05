@@ -704,9 +704,9 @@ thead {
 }
 
 #enrolmentImg {
-    background-image: url(../images/Little_dancer.jpg);
+    background-image: url(../images/Little_dancerD.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom right;
     background-attachment: fixed;
     grid-column: 1/3;
 }

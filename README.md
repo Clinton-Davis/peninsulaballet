@@ -222,6 +222,7 @@ I hosted this site using GitHub pages, GitHub pages are part of GitHub. It is de
 I created the design of the web page, and I was heavily inspired by the 
 "The Whiskey Drop project".
 Photo by Naitian（Tony） Wang on Unsplash
+Photo by Gez Xavier Mansfield on Unsplash
 Photo by Etienne Boulanger on Unsplash
 Photo by Matthew Henry on Unsplash
 Photo by Gaelle Marcel on Unsplash
