@@ -1,4 +1,4 @@
-const welcome = document.querySelector('#welcomeSection');
+/*const welcome = document.querySelector('#welcomeSection');*/
 const sections = document.querySelectorAll('section');
 
 const options = {
@@ -32,7 +32,7 @@ const observer = new IntersectionObserver(function (entries, observer) {
         } else if (entry.target.attributes[0].nodeValue == "attireSection") {
             getNavColor("var(--white", "var(--lightBlack)");
         }
-        //console.log(entry.target.attributes[0].nodeValue);
+        console.log(entry.target.attributes[0].nodeValue);
         //This function changes the colors of the nav and a tags when trigered buy the IntersectionObserver
         function getNavColor(a_Color, bg_Color) {
             document.getElementById("nav").style.backgroundColor = (bg_Color);

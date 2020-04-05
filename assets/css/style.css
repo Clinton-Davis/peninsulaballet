@@ -888,6 +888,9 @@ form {
         background-position: left;
     }
 }
+/* =-=-=-=---=-=-=-=-=-=-=-=-==-=-MEDIA QUARYS*/
+
+
 @media (max-width: 920px) {
     #welcomeWrap {
         max-width: 70%;
@@ -895,9 +898,13 @@ form {
         margin-left: auto;
         margin-right: auto;
     }
+
+
     #teacherWrapper {
         display: block;
     }
+
+
     #testimonialsSection {
         display: contents;
         
@@ -954,6 +961,9 @@ form {
 @media (max-width: 380px) {
     .headings {
         font-size: 3.7rem;
+    }
+    #welcomeWrap {
+        top: 25px;
     }
 }
 }
