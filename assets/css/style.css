@@ -814,19 +814,19 @@ form {
 #attireSection {
     display: grid;
     grid-template-columns: 60% 40%;
-    background-image: url(../images/agility-1850711_1280.jpg);
-    background-size: cover;
-    background-position: center top;
+ 
 
 }
 
 #attireInfo {
-   /* background-image: linear-gradient(to bottom right, rgb(153, 122, 104), rgb(231, 203, 203));*/
-   background-color: rgba(0, 0, 0, 0.6);
+   background-image: linear-gradient(to bottom right, rgb(153, 122, 104), rgb(231, 203, 203));
+   
 }
 
 #attireImg {
-    
+    background-image: url(../images/agility-1850711_1280.jpg);
+    background-size: cover;
+    background-position: center top;
     grid-column: 2/3;
     grid-row: 1/2;
 }
@@ -933,8 +933,10 @@ form {
             background-position: center;
         }
         #attireInfo {
+            background-image: none;
             background-color: rgba(0, 0, 0, 0.5);
             color: white;
+            text-shadow: 1px 1px var(--black);
         }
 
 @media (max-width: 750px) {
