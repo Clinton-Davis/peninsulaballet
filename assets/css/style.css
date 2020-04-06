@@ -164,6 +164,7 @@ a {
     text-decoration: none;
     font-weight: 400;
     list-style: none;
+    color: black;
 }
 
 .navColor {
@@ -774,15 +775,6 @@ form {
     grid-template-columns: 40% 60%;
 }
 
-#map {
-    width: 400px;
-    height: 250px;
-   
-
-    margin: 1em auto;
-    border: 2px white solid;
-}
-
 
 #locationImg {
     background-image: url(../images/Dancer_on_rock-min.jpg);
@@ -797,13 +789,48 @@ form {
     width: 60%;
     margin-left: auto;
     height: 100vh;
+    display: flex;
+    height: fit-content;
 }
 
-.locations {
+.studios{
     display: flex;
     flex-direction: column;
+    background-color: rgba(85, 84, 84, 0.486);
 }
-
+.studio {
+   
+    max-width: 300px;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.studio-wrap {
+    margin: 4em 0px;
+}
+.outlets {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.studio-btn {
+    padding: 0.5em;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    margin: 1.5em auto;
+    border-top: 1px solid black;
+    margin-left: auto;
+    font-family: var(--mf);
+    font-size: 1em;
+    font-weight: 400;
+    border: .5px outset #F7F7F7;
+    border-radius: 10px;
+    background-color: rgba(243, 238, 208, 0.1);
+}
 /*-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=ATTIRE-=-=--=-=-=-=-=-=-=-=-=*/
 #attireHeading {
     background-color: var(--lightBlack);
