@@ -1,8 +1,7 @@
 $(window).scroll(function() {
     /* This check to see if the page is bigger that 600px wide
     if its not parallax is canceled */
-    var width = $(window).width();
-    console.log(width);  
+    var width = $(window).width(); 
     if (width > 900) {
         parallax();
     } else {
