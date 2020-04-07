@@ -9,6 +9,8 @@
   <link rel="shortcut icon" type="image/png" href="../assets/images/logo2.0.png">
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Italianno|Roboto:300,300i,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets\css\style.css" type="text/css" />
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
@@ -538,49 +540,43 @@
     <div id="locationImg" class="">
 
       <div id="locationWrapper" class="">
-       
-      
-          <div class="studio studio-wrap centered">
-            <h3 class="subHeadings">Studios</h3>
-            <div id="" class="studio studio-btn">
+        <h3 class="subHeadings">Studios</h3>
+          <div id="studiosWrap" class="studio studio-wrap centered">
+           
+            <div id="fishHoek" class="studio studio-btn">
               <h3>Fish Hoek</h3>
-              <a href="https://bit.ly/2WksRlg" target="_blank">St Kirans Presbyterian church 
-                7th Ave & Recreation Road</a>
+              <div class="innerMap">
+              <h5>St Kirans Presbyterian church 
+                7th Ave & Recreation Road</h5>
+                <a href="https://bit.ly/2WksRlg" target="_blank">Google Maps Link</a>
+              </div>
             </div>
           
-            <div id="" class="studio studio-btn">
+            <div id="muizenBerg" class="studio studio-btn">
               <h3>Muizenberg</h3> 
-              <a href="https://bit.ly/2PqbcaH" target="_blank">Muizenberg Junior School main Rd</a>
+              <div class="innerMap">
+              <h5>Muizenberg Junior School main Rd</h5>
+              <a href="https://bit.ly/2PqbcaH" target="_blank">Google Maps Link</a>
+            </div>
             </div>
 
-            <div id="" class="studio studio-btn">
+            <div id="kommetJie" class="studio studio-btn">
              <h3>Kommetjie</h3>
-             <a href="https://bit.ly/36fsM7e" target="_blank">Wellness Centre in Ruby Rd</a>
+             <div class="innerMap">
+             <h5>Wellness Centre in Ruby Rd</h5>
+             <a href="https://bit.ly/36fsM7e" target="_blank">Google Maps Link</a>
+            </div>
             </div>
 
-            <div id="" class="studio studio-btn">
+            <div id="kirstenHof" class="studio studio-btn">
               <h3>Kirstenhof</h3>
-               <a href="https://bit.ly/2MRRSRI" target="_blank"> 43 Pollsmoor Road <br>
-               <i>(Educare enrolled childrenOnly.)</i></a>
+              <div class="innerMap">
+              <h5>43 Pollsmoor Road <br><i>(Educare enrolled childrenOnly.)</i></h5>
+               <a href="https://bit.ly/2MRRSRI" target="_blank">Google Maps Link</a>
+              </div>
             </div>
           </div>
           
-        <div class="studio studio-wrap outlets">
-          <h3 class="centered subHeadings">Outlets</h3>
-            <div class="studio centered studio-btn"><a href="https://bit.ly/35XtGVP" target="_blank"> Danztuff
-                at Westlake Business Park</a>
-            </div>
-            <div class="studio centered studio-btn"><a href="https://bit.ly/2BCEJ8W" target="_blank"> Ballet
-                World in Rhondebosch</a>
-            </div>
-            <div class="studio centered studio-btn"><a href="https://bit.ly/2NfowvA" target="_blank"> Ballet
-                Steps inPlumstead</a> 
-            </div>
-            <div class="studio centered studio-btn"><a href="https://bit.ly/364TUpe" target="_blank"> Oggi
-                Dancewear</a>
-            </div>
-        
-        </div>
         
       </div>
   </section>
@@ -606,7 +602,26 @@
         All clothing items can be purchased from a dancewear Outlets, either
         in store or online,
         however you may prefer to buy in-person in order to try different
-        sizes first.<br></p>
+        sizes first.</p>
+        <div id="outLets" class="textShadow">
+          <h3 class="centered subHeadings">Outlets</h3>
+          <div class="innerOutlets">
+            <div class="studio centered btn"><a href="https://bit.ly/35XtGVP" target="_blank"> Danztuff
+                at Westlake Business Park</a>
+            </div>
+            <div class="studio centered btn"><a href="https://bit.ly/2BCEJ8W" target="_blank"> Ballet
+                World in Rhondebosch</a>
+            </div>
+            <div class="studio centered btn"><a href="https://bit.ly/2NfowvA" target="_blank"> Ballet
+                Steps inPlumstead</a> 
+            </div>
+            <div class="studio centered btn"><a href="https://bit.ly/364TUpe" target="_blank"> Oggi
+                Dancewear</a>
+            </div>
+          </div>
+        
+        </div>
+        
 
       <h2 class="subHeadings textShadow attire-h">Ballet Shoes</h2><br>
       <p> Girls typically wear pink ballet slippers; boys require either black
@@ -654,7 +669,7 @@
   </footer>
   
 
-  <script src="./js/googleMaps.js"></script>
+  <script src="./js/acordian.js"></script>
   <script src="./js/modal.js"></script>
   <script src="./js/intersctionObserver.js"></script>
   <script src="./js/email.js"></script>
