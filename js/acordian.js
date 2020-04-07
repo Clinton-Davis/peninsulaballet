@@ -1,4 +1,8 @@
 $( function() {
+
+    
+    /** Accordion fuction make the studio loacation drop down and up */
+    
     $( "#fishHoek" ).accordion({
       active: false,
       collapsible: true

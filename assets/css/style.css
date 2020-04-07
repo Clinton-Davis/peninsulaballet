@@ -42,7 +42,9 @@ p {
     max-width: 550px;
     line-height: 20px;
 }
-
+.padding {
+    padding-top: 0.5em;
+}
 ul {
     text-decoration: none;
     list-style: none;
@@ -789,7 +791,6 @@ form {
     width: 60%;
     margin-left: auto;
     height: 100vh;
-    display: flex;
     height: fit-content;
 }
 
@@ -810,7 +811,7 @@ form {
     -o-border-radius: 20px;
 }
 .studio-wrap {
-    margin: 4em 0px;
+    margin: 1em 0px;
 }
 .outlets {
    
@@ -829,7 +830,12 @@ form {
     font-weight: 400;
     border: .5px outset #F7F7F7;
     border-radius: 10px;
-    background-color: rgba(243, 238, 208, 0.1);
+    background: rgba(252,234,187,1);
+background: -moz-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,234,187,1)), color-stop(50%, rgba(252,205,77,1)), color-stop(51%, rgba(248,181,0,1)), color-stop(100%, rgba(251,223,147,1)));
+background: -webkit-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
 }
 /*-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=ATTIRE-=-=--=-=-=-=-=-=-=-=-=*/
 #attireHeading {
