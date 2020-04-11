@@ -41,50 +41,41 @@ To show all the information in a clean and precise way, I decided to split up th
 ### Structure.
 <details>
 <summary>Landing page (index.html)</summary><br> 
-This is the first thing they would see. In this page, I wanted to give a general overall feed for the site, Elegant and simple with a direct link to the enrollment form and to enter the cite. 
+This is the first thing they would see. In this page, I wanted to give a general overall feed for the site, Elegant and simple with a direct link to the enrollment form and the benfists of doing Ballet. 
 </details>
 <br>
 <details>
-<summary>About page</summary><br>
-The About page with has all the reasons to do ballet, selling points and benefits, again with an elegant feel and easy to read the text. I also added a testimonial section to the page with quotes from social media.
+<summary>Testimonals Section</summary><br>
+The Testimonals Section with testimonial, to the page with quotes from social media.
 </details>
 <br>
 <details>
-<summary>Teachers Page</summary><br>
-Here you will be able to read the teachers bios and qualifications. There is also a history section on it,is a brief history of the school.
+<summary>Teachers Section</summary><br>
+Here you will be able to read the teachers bios. There is also a history section on it,is a brief history of the school.
  </details>
  <br>
 <details>
-<summary>Location page</summary><br>
+<summary>Location Section</summary><br>
 Has a list of the studios the physical address and a button that links to a Google maps page that gives a pin if they need direction.
 </details><br>
 <details>
-<summary>Schedule page</summary><br>
+<summary>Schedule Section</summary><br>
 This page has an easy to read table with the different classes and times at each studio.
  I added a download schedule pdf.
  </details>
  <br>
 <details>
-<summary>Contact Page</summary><br>
- This is a simple clean page with a downloadable enrollment form and email address for the teachers if any of the parents or studets have any questions.
- As per request from my client, I did not add a pricing page because the school has different prices for different Regions, Prices available on request.
+<summary>Enrollment Section</summary><br>
+ This is the emrolment page that sends all the details to the teachers so respond acordinly
 </details>
  <br>
  <details>
- <summary>Attire Page</summary><br>
+ <summary>Attire Section</summary><br>
  Ballet is an art-form with a set uniform for male and female, everything from hair to shoes has a strict rule on how and what to wear. This page gives an overview on how to tie hair (With Video) and where to go for the approriate iniforms — links to Outlets and videos on "how-to's".
  </details>
 
 ### Skeletons 
 #### Wireframe Mockups
-
-* [Landing page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/landing-page-(Index.html).png)
-* [About Page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/about-page.png)
-* [Tachers page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/teachers-page.png)
-* [Locations page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/locations.png)
-* [Schedule page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/schedule-page.png)
-* [Contact page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/contact-page%20.png)
-* [Attire page](https://github.com/Clinton-Davis/peninsulaballet/blob/master/wireframes/attire-page%20%20.png)
 
 
 ### Surface
@@ -98,7 +89,7 @@ The paragraphs font I chose is *Exo*. It is clear and easy to read and gives a m
 
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-* [Bootstrap v 4.3.1](https://getbootstrap.com/)
+* [JavaSript](https://en.wikipedia.org/wiki/JavaScript)
 * [CSSMatric](https://cssmatic.com/)
 * [Font-Awesome v 5.6.1](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
@@ -116,14 +107,12 @@ The paragraphs font I chose is *Exo*. It is clear and easy to read and gives a m
 ---
 ## Features
 
-- Collapsable Navbar - I used the bootstrap collapse [Navbar](https://getbootstrap.com/docs/4.3/components/navbar/) bar feature in screen-sized under 992px, this gives more room in the smaller devices. I was inspired by the Whiskey Drop project I did in Code institute.
+- Collapsable Navbar - This is a custom Navbar with smoth scrolloing between section and a time delay when opening th burger menu
 - Google Maps Links - I have links to various locations for outlets and physical address, From there they can get directions and links to other webpages.
-- Downloadable PDFs - there are hyperlinks to the downloadable Schedule PDF and enrollment form PDF.
-- NewsLetter Email input - to enter email address it they would like to get information on upcoming events and schedule changes
+- Enrolment form that is emailed to the hr department
 
 
 ### Features Left to Implement
-- In the future, I would like to implement a form where potential students can enrol straight from the website directly to my clients' email address.
 - I want to add a gallery page with pictures. I was asked to hold off on this until the client can get the proper release documents signed by the students
 - To make the newsletter email input work.
 
@@ -185,7 +174,7 @@ That fix has worked.
 ---
 
 ## Deployment
-I hosted this site using GitHub pages, GitHub pages are part of GitHub. It is deployed directly from the *master* branch or any *other branches* of your choosing. The beautiful thing about using GitHub Pages is that it updates the feed as you *git push* changes to brach you are using to deploy. 
+
 
 
 <details>
@@ -241,7 +230,6 @@ and have [CC licences](https://en.wikipedia.org/wiki/Creative_Commons_license) o
 
 ### Acknowledgements
 For the use of code and knowledge.
-- [Bootstrap v 4.3.1](https://getbootstrap.com/) for codesnippets for the responsive design [Grid system](https://getbootstrap.com/docs/4.3/layout/grid/)/ [Jumbotron ](https://getbootstrap.com/docs/4.3/components/jumbotron/) / [Cards](https://getbootstrap.com/docs/4.3/components/card/) / [Buttons](https://getbootstrap.com/docs/4.3/components/buttons/) / [Navbar](https://getbootstrap.com/docs/4.3/components/navbar/) / [Containers / fluid](https://getbootstrap.com/docs/4.3/layout/overview/#containers) / [Blockquotes](https://getbootstrap.com/docs/4.3/content/typography/#blockquotes)
 - [YouTube - Kevin Powell](https://www.youtube.com/user/KepowOb) for code snippets and [Sticky footer](https://bit.ly/2NAFAgW) advice
 - [CSS-Tricks](https://css-tricks.com/) website for help with [BackGround Image](https://css-tricks.com/perfect-full-page-background-image/) / [Overflow](https://css-tricks.com/the-css-overflow-property/) / [FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) / code and Documentation.
 - [W3Schools](https://www.w3schools.com/) for code snippets and documentation with [Creating a Custom Scrollbar](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp) / General research on HTML CSS and Bootstrap implementation.
