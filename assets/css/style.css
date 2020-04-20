@@ -112,13 +112,14 @@ nav {
     transition: var(--transition);
     position: fixed;
     top: 0px;
+   background-color: var(--offwhite);
     min-width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     z-index: 99;
-    -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.6);
     box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.6);
     -webkit-transition: var(--transition);
@@ -128,18 +129,9 @@ nav {
 }
 
 
-
-.logo {
-    color: rgba(255, 255, 255, 0.767);
-    text-transform: capitalize;
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
 #navLogo {
     font-size: 2rem;
-    color: var(--white);
+    color: var(--lightBlack);
     text-decoration: none;
     transition: var(--transition);
 }
@@ -185,7 +177,8 @@ a {
 .burger div {
     width: 20px;
     height: 2px;
-    background-color: var(--white);
+    background-color: var(--black);
+    
     margin: 5px;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
@@ -415,9 +408,9 @@ section {
     background-image: linear-gradient(-45deg,
             rgba(248, 219, 248, 0.5),
             rgba(134, 185, 233, 0.5));
-    background-size: 800%;
-    animation: bg--animation 20s ease-in-out infinite alternate;
-    -webkit-animation: bg--animation 20s ease-in-out infinite alternate;
+    background-size: 600%;
+    animation: bg--animation 50s ease-in-out infinite alternate;
+    -webkit-animation: bg--animation 50s ease-in-out infinite alternate;
 }
 
 #testimonialsImg {
@@ -809,15 +802,8 @@ form {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
-.studio-wrap {
-    
-}
-.outlets {
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
+
 .studio-btn {
     padding: 0.5em;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
@@ -880,6 +866,51 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
     margin: 10px;
     display: flex;
     background-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.attire-Btn {
+    padding: 10px 100xp;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    margin: 10px auto;
+    margin-left: auto;
+    font-family: var(--mf);
+    font-size: 2em;
+    font-weight: 400;
+    border: 2.5px outset #F7F7F7;
+    border-radius: 20px;
+    font-family: var(--hf);
+    background: rgba(231,203,203,1);
+    background: -moz-linear-gradient(-45deg, rgba(231,203,203,1) 0%, rgba(231,203,203,1) 33%, rgba(154,122,104,1) 64%, rgba(154,122,104,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(231,203,203,1)), color-stop(33%, rgba(231,203,203,1)), color-stop(64%, rgba(154,122,104,1)), color-stop(100%, rgba(154,122,104,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(231,203,203,1) 0%, rgba(231,203,203,1) 33%, rgba(154,122,104,1) 64%, rgba(154,122,104,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(231,203,203,1) 0%, rgba(231,203,203,1) 33%, rgba(154,122,104,1) 64%, rgba(154,122,104,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(231,203,203,1) 0%, rgba(231,203,203,1) 33%, rgba(154,122,104,1) 64%, rgba(154,122,104,1) 100%);
+    background: linear-gradient(135deg, rgba(231,203,203,1) 0%, rgba(231,203,203,1) 33%, rgba(154,122,104,1) 64%, rgba(154,122,104,1) 100%);
+
+    
+
+}
+#attire-Heading{
+    padding: 10px 100px;
+}
+
+.attire-Btn:hover {
+    border: 2.5px inset #F7F7F7;
+    background: rgba(154,122,104,1);
+    background: -moz-linear-gradient(-45deg, rgba(154,122,104,1) 0%, rgba(154,122,104,1) 34%, rgba(231,203,203,1) 67%, rgba(231,203,203,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(154,122,104,1)), color-stop(34%, rgba(154,122,104,1)), color-stop(67%, rgba(231,203,203,1)), color-stop(100%, rgba(231,203,203,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(154,122,104,1) 0%, rgba(154,122,104,1) 34%, rgba(231,203,203,1) 67%, rgba(231,203,203,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(154,122,104,1) 0%, rgba(154,122,104,1) 34%, rgba(231,203,203,1) 67%, rgba(231,203,203,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(154,122,104,1) 0%, rgba(154,122,104,1) 34%, rgba(231,203,203,1) 67%, rgba(231,203,203,1) 100%);
+    background: linear-gradient(135deg, rgba(154,122,104,1) 0%, rgba(154,122,104,1) 34%, rgba(231,203,203,1) 67%, rgba(231,203,203,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a7a68', endColorstr='#e7cbcb', GradientType=1 );
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
 }
 
 /*-=-=-==-=-=-=--=-=-=-=-=-=--=-=-=-=-=-FOOTER==-=-=-=-=-=-=-=-==-=-=-=*/
@@ -909,8 +940,8 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
     background-size: 400%;
     background-clip: text;
     -webkit-background-clip: text;
-    animation: bg--animation 6s ease-in-out infinite alternate;
-    -webkit-animation: bg--animation 6s ease-in-out infinite alternate;
+    animation: bg--animation 10s ease-in-out infinite alternate;
+    -webkit-animation: bg--animation 10s ease-in-out infinite alternate;
 }
 
 @keyframes bg--animation {
@@ -999,9 +1030,11 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
 @media (max-width: 380px) {
     .headings {
         font-size: 3.7rem;
+        margin-top: 11%;
     }
     #welcomeWrap {
         top: 25px;
     }
+   
 }
 }
