@@ -62,7 +62,7 @@ ul {
 .btn {
     padding: 0.5em;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
-    margin: 0 auto;
+    margin: 1px auto;
     margin-left: auto;
     font-family: var(--mf);
     font-size: 1em;
@@ -226,7 +226,7 @@ a {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: rgb(20, 41, 49);
+        background-color: var(--offwhite);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -344,7 +344,9 @@ section {
     line-height: 20.5px;
     color: var(--lg);
 }
-
+#top {
+    top:10vh;
+}
 #welcomeWrap {
     display: flex;
     flex-direction: column;
@@ -512,7 +514,7 @@ blockquote p {
 
 .cardBtn {
     margin: 1em auto;
-    padding: 0.2em 0.5em;
+    padding: 0.2em 1.5em;
 }
 
 .historyCardBtn {
@@ -764,22 +766,23 @@ form {
     border-top: 1px black solid;
 }
 
-#locationSection {
-   
-}
+
 
 
 #locationImg {
     background-image: url(../images/Dancer_on_rock-min.jpg);
     background-size: cover;
-    background-position: 0$;
+    background-position: left;
     width: 100%;
     position: relative;
 
 }
 
 #locationWrapper {
+    display: flex;
+    flex-direction: column;
    
+
     margin-left: auto;
     height: 100vh;
     height: fit-content;
@@ -793,12 +796,16 @@ form {
 .studio {
     max-width: 300px;
     padding: 0.5em 1em;
-    margin: 0.25em auto 0.25em auto;
+    margin-right: 20%;
+    margin-left: auto;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+#studioHeading {
+    padding-right: 2.1em;
 }
 
 
@@ -961,12 +968,11 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
 @media (max-width: 920px) {
     #welcomeWrap {
         max-width: 70%;
-        background-position: bottom right;
+        background-position: bottom left;
         margin-left: auto;
         margin-right: auto;
     }
-
-
+    
     #teacherWrapper {
         display: block;
     }
@@ -1016,9 +1022,23 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
             text-shadow: none;
         }
 
+        @media only screen and (orientation: landscape){
+        #top {
+            margin-top: 172px;  
+        }
+    }
 @media (max-width: 750px) {
     #welcomeWrap {
         max-width: 90%;
+    }
+    .studio{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .modal_content {
+        margin: 6em auto;
+        padding: 10px;
+        width: 95%;
     }
 }
 
@@ -1035,6 +1055,9 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
     }
     #welcomeWrap {
         top: 25px;
+    }
+    .modal_content {
+        margin: 4em auto;
     }
    
 }
