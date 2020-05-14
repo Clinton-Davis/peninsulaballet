@@ -42,9 +42,11 @@ p {
     max-width: 550px;
     line-height: 20px;
 }
+
 .padding {
     padding-top: 0.5em;
 }
+
 ul {
     text-decoration: none;
     list-style: none;
@@ -94,6 +96,37 @@ ul {
     -o-transition: var(--transition);
 }
 
+.ripple-surface {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple-surface span {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    animation: ripple 1200ms;
+    opacity: 0;
+    -webkit-animation: ripple 1200ms;
+}
+
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(10);
+    }
+}
+
 .headFont {
     font-family: var(--hf);
     font-size: 1.5rem;
@@ -112,14 +145,14 @@ nav {
     transition: var(--transition);
     position: fixed;
     top: 0px;
-   background-color: var(--offwhite);
+    background-color: var(--offwhite);
     min-width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     z-index: 99;
-  -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.6);
     box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.6);
     -webkit-transition: var(--transition);
@@ -167,6 +200,11 @@ a {
     -moz-transition: var(--transition);
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .burger {
@@ -344,9 +382,11 @@ section {
     line-height: 20.5px;
     color: var(--lg);
 }
+
 #top {
-    top:10vh;
+    top: 10vh;
 }
+
 #welcomeWrap {
     display: flex;
     flex-direction: column;
@@ -354,7 +394,7 @@ section {
     max-width: 60%;
     max-height: auto;
     position: relative;
-    
+
     z-index: 1;
     margin: 2em;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
@@ -422,7 +462,7 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
-    
+
 }
 
 blockquote {
@@ -552,13 +592,15 @@ blockquote p {
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
+
 .modal_p {
     margin-left: auto;
     margin-right: auto;
     line-height: 20px;
     color: var(--lightBlack);
 }
-.bioName{
+
+.bioName {
     font-size: 2rem;
     font-family: var(--hf);
     text-align: center;
@@ -571,6 +613,7 @@ blockquote p {
     margin-left: auto;
     margin-right: auto;
 }
+
 .close,
 .close2,
 .close3 {
@@ -781,18 +824,16 @@ form {
 #locationWrapper {
     display: flex;
     flex-direction: column;
-   
-
     margin-left: auto;
-    height: 100vh;
     height: fit-content;
 }
 
-.studios{
+.studios {
     display: flex;
     flex-direction: column;
     background-color: rgba(85, 84, 84, 0.486);
 }
+
 .studio {
     max-width: 300px;
     padding: 0.5em 1em;
@@ -804,6 +845,7 @@ form {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
 #studioHeading {
     padding-right: 2.1em;
 }
@@ -820,13 +862,14 @@ form {
     font-weight: 400;
     border: .5px outset #F7F7F7;
     border-radius: 10px;
-    background: rgba(252,234,187,1);
-background: -moz-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,234,187,1)), color-stop(50%, rgba(252,205,77,1)), color-stop(51%, rgba(248,181,0,1)), color-stop(100%, rgba(251,223,147,1)));
-background: -webkit-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
-background: -o-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
-background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+    background: rgba(252, 234, 187, 1);
+    background: -moz-linear-gradient(-45deg, rgba(252, 234, 187, 1) 0%, rgba(252, 205, 77, 1) 50%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252, 234, 187, 1)), color-stop(50%, rgba(252, 205, 77, 1)), color-stop(51%, rgba(248, 181, 0, 1)), color-stop(100%, rgba(251, 223, 147, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(252, 234, 187, 1) 0%, rgba(252, 205, 77, 1) 50%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(252, 234, 187, 1) 0%, rgba(252, 205, 77, 1) 50%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(252, 234, 187, 1) 0%, rgba(252, 205, 77, 1) 50%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
 }
+
 /*-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=ATTIRE-=-=--=-=-=-=-=-=-=-=-=*/
 #attireHeading {
     background-color: var(--lightBlack);
@@ -837,13 +880,13 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
 #attireSection {
     display: grid;
     grid-template-columns: 60% 40%;
- 
+
 
 }
 
 #attireInfo {
-   background-image: linear-gradient(to bottom right, rgb(153, 122, 104), rgb(231, 203, 203));
-   
+    background-image: linear-gradient(to bottom right, rgb(153, 122, 104), rgb(231, 203, 203));
+
 }
 
 #attireImg {
@@ -866,6 +909,7 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
     text-decoration: none;
     color: var(--lightBlack);
 }
+
 #outLet {
     padding: 2px 10px 1px 10px;
     margin: 10px;
@@ -886,31 +930,32 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
     border: 2.5px outset #F7F7F7;
     border-radius: 20px;
     font-family: var(--hf);
-    background: rgba(231,203,203,1);
-    background: -moz-linear-gradient(-45deg, rgba(231,203,203,1) 0%, rgba(231,203,203,1) 33%, rgba(154,122,104,1) 64%, rgba(154,122,104,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(231,203,203,1)), color-stop(33%, rgba(231,203,203,1)), color-stop(64%, rgba(154,122,104,1)), color-stop(100%, rgba(154,122,104,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(231,203,203,1) 0%, rgba(231,203,203,1) 33%, rgba(154,122,104,1) 64%, rgba(154,122,104,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(231,203,203,1) 0%, rgba(231,203,203,1) 33%, rgba(154,122,104,1) 64%, rgba(154,122,104,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(231,203,203,1) 0%, rgba(231,203,203,1) 33%, rgba(154,122,104,1) 64%, rgba(154,122,104,1) 100%);
-    background: linear-gradient(135deg, rgba(231,203,203,1) 0%, rgba(231,203,203,1) 33%, rgba(154,122,104,1) 64%, rgba(154,122,104,1) 100%);
+    background: rgba(231, 203, 203, 1);
+    background: -moz-linear-gradient(-45deg, rgba(231, 203, 203, 1) 0%, rgba(231, 203, 203, 1) 33%, rgba(154, 122, 104, 1) 64%, rgba(154, 122, 104, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(231, 203, 203, 1)), color-stop(33%, rgba(231, 203, 203, 1)), color-stop(64%, rgba(154, 122, 104, 1)), color-stop(100%, rgba(154, 122, 104, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(231, 203, 203, 1) 0%, rgba(231, 203, 203, 1) 33%, rgba(154, 122, 104, 1) 64%, rgba(154, 122, 104, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(231, 203, 203, 1) 0%, rgba(231, 203, 203, 1) 33%, rgba(154, 122, 104, 1) 64%, rgba(154, 122, 104, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(231, 203, 203, 1) 0%, rgba(231, 203, 203, 1) 33%, rgba(154, 122, 104, 1) 64%, rgba(154, 122, 104, 1) 100%);
+    background: linear-gradient(135deg, rgba(231, 203, 203, 1) 0%, rgba(231, 203, 203, 1) 33%, rgba(154, 122, 104, 1) 64%, rgba(154, 122, 104, 1) 100%);
 
-    
+
 
 }
-#attire-Heading{
+
+#attire-Heading {
     padding: 10px 100px;
 }
 
 .attire-Btn:hover {
     border: 2.5px inset #F7F7F7;
-    background: rgba(154,122,104,1);
-    background: -moz-linear-gradient(-45deg, rgba(154,122,104,1) 0%, rgba(154,122,104,1) 34%, rgba(231,203,203,1) 67%, rgba(231,203,203,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(154,122,104,1)), color-stop(34%, rgba(154,122,104,1)), color-stop(67%, rgba(231,203,203,1)), color-stop(100%, rgba(231,203,203,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(154,122,104,1) 0%, rgba(154,122,104,1) 34%, rgba(231,203,203,1) 67%, rgba(231,203,203,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(154,122,104,1) 0%, rgba(154,122,104,1) 34%, rgba(231,203,203,1) 67%, rgba(231,203,203,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(154,122,104,1) 0%, rgba(154,122,104,1) 34%, rgba(231,203,203,1) 67%, rgba(231,203,203,1) 100%);
-    background: linear-gradient(135deg, rgba(154,122,104,1) 0%, rgba(154,122,104,1) 34%, rgba(231,203,203,1) 67%, rgba(231,203,203,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a7a68', endColorstr='#e7cbcb', GradientType=1 );
+    background: rgba(154, 122, 104, 1);
+    background: -moz-linear-gradient(-45deg, rgba(154, 122, 104, 1) 0%, rgba(154, 122, 104, 1) 34%, rgba(231, 203, 203, 1) 67%, rgba(231, 203, 203, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(154, 122, 104, 1)), color-stop(34%, rgba(154, 122, 104, 1)), color-stop(67%, rgba(231, 203, 203, 1)), color-stop(100%, rgba(231, 203, 203, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(154, 122, 104, 1) 0%, rgba(154, 122, 104, 1) 34%, rgba(231, 203, 203, 1) 67%, rgba(231, 203, 203, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(154, 122, 104, 1) 0%, rgba(154, 122, 104, 1) 34%, rgba(231, 203, 203, 1) 67%, rgba(231, 203, 203, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(154, 122, 104, 1) 0%, rgba(154, 122, 104, 1) 34%, rgba(231, 203, 203, 1) 67%, rgba(231, 203, 203, 1) 100%);
+    background: linear-gradient(135deg, rgba(154, 122, 104, 1) 0%, rgba(154, 122, 104, 1) 34%, rgba(231, 203, 203, 1) 67%, rgba(231, 203, 203, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9a7a68', endColorstr='#e7cbcb', GradientType=1);
     transition: var(--transition);
     -webkit-transition: var(--transition);
     -moz-transition: var(--transition);
@@ -962,6 +1007,7 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
         background-position: left;
     }
 }
+
 /* =-=-=-=---=-=-=-=-=-=-=-=-==-=-MEDIA QUARYS*/
 
 
@@ -972,7 +1018,7 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     #teacherWrapper {
         display: block;
     }
@@ -980,85 +1026,100 @@ background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,
 
     #testimonialsSection {
         display: contents;
-        
+
     }
+
     .testimonal-Bg {
         background-image: url(../images/three-little-ballet-girls-.jpg);
         background-position: center;
-        background-size: cover;     
-        }
+        background-size: cover;
+    }
+
     #sceduleInfo {
         background-color: rgba(0, 0, 0, 0.5);
-            
-        }
+
+    }
+
     #sceduleSection {
         display: flex;
         background-image: url(../images/david-hofmann-4QPVQuf0WMQ-unsplash.jpg);
         background-position: center;
-        background-size: cover; 
-        }
-        #enrolemtFormWrapper {
-             width: 100%;
-        }
-        #enrolmentSection {
-            display: contents;
-        }
-        #enrolmentImg {     
-            background-position: bottom right;
-        }
-        #attireSection {
-            display: flex;
-            background-image: url(../images/agility-1850711_1280.jpg);
-            background-size: cover;
-            background-position: center;
-        }
-        #attireInfo {
-            background-image: none;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            text-shadow: 1px 1px var(--black);
-        }
-        .textShadow {
-            text-shadow: none;
-        }
+        background-size: cover;
+    }
 
-        @media only screen and (orientation: landscape){
+    #enrolemtFormWrapper {
+        width: 100%;
+    }
+
+    #enrolmentSection {
+        display: contents;
+    }
+
+    #enrolmentImg {
+        background-position: bottom right;
+    }
+
+    #attireSection {
+        display: flex;
+        background-image: url(../images/agility-1850711_1280.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #attireInfo {
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        text-shadow: 1px 1px var(--black);
+    }
+
+    .textShadow {
+        text-shadow: none;
+    }
+
+    @media only screen and (orientation: landscape) {
         #top {
-            margin-top: 172px;  
+            margin-top: 172px;
         }
     }
-@media (max-width: 750px) {
-    #welcomeWrap {
-        max-width: 90%;
-    }
-    .studio{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .modal_content {
-        margin: 6em auto;
-        padding: 10px;
-        width: 95%;
-    }
-}
 
-@media (max-width: 600px) {
-    #welcomeWrap {
-        max-width: 95%;
-  
+    @media (max-width: 750px) {
+        #welcomeWrap {
+            max-width: 90%;
+        }
+
+        .studio {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .modal_content {
+            margin: 6em auto;
+            padding: 10px;
+            width: 95%;
+        }
     }
-}
-@media (max-width: 380px) {
-    .headings {
-        font-size: 3.7rem;
-        margin-top: 11%;
+
+    @media (max-width: 600px) {
+        #welcomeWrap {
+            max-width: 95%;
+
+        }
     }
-    #welcomeWrap {
-        top: 25px;
+
+    @media (max-width: 380px) {
+        .headings {
+            font-size: 3.7rem;
+            margin-top: 11%;
+        }
+
+        #welcomeWrap {
+            top: 25px;
+        }
+
+        .modal_content {
+            margin: 4em auto;
+        }
+
     }
-    .modal_content {
-        margin: 4em auto;
-    }
-   
-}
 }
