@@ -9,7 +9,6 @@ html {
     box-sizing: border-box;
     font-weight: 300;
     font-family: var(--mf);
-
 }
 
 body {
@@ -140,7 +139,7 @@ ul {
     text-shadow: 1px 1px black;
 }
 
-/*-=-=-=-=-=-=-=-=-=-=NAV BAR-=-=-=-=-=-=-=-=-=-=--*/
+/* NAV BAR */
 nav {
     transition: var(--transition);
     position: fixed;
@@ -242,7 +241,6 @@ a {
 
 .toggle .line2 {
     opacity: 0;
-
 }
 
 .toggle .line3 {
@@ -253,7 +251,7 @@ a {
     -o-transform: rotate(405deg) translate(-5px, -5px);
 }
 
-/*-=-=-=-BURGER ANIMATIONS*/
+/* BURGER ANIMATIONS */
 @media screen and (max-width: 790px) {
     body {
         overflow-x: hidden;
@@ -335,22 +333,16 @@ section {
     align-items: center;
     overflow-x: hidden;
     justify-content: center;
-
-
 }
 
 .imageDiv {
     height: 100vh;
     width: 100%;
-
-
 }
 
 .headings {
     font-family: var(--hf);
     font-size: 4.3rem;
-
-
 }
 
 .subHeadings {
@@ -358,15 +350,13 @@ section {
     justify-content: center;
     font-family: var(--hf);
     font-size: 2.3rem;
-
-
 }
 
 .centered {
     text-align: center;
 }
 
-/*-=-=-=-=-=-=-=-=-=-=-=WELCOME PAGE-=-=-=-=-=-=---=-=-*/
+/* WELCOME PAGE */
 
 
 #welcomeSection {
@@ -375,7 +365,6 @@ section {
 
 #welcomeSubHead {
     margin-top: -0.7em;
-
 }
 
 #welcomePara {
@@ -425,7 +414,7 @@ section {
 
 }
 
-/*-=-=-==-=-=-=-=-=-=-=-=-=-TESTIMONIALS-=-=-=-=-=-==-=-*/
+/* TESTIMONIALS */
 #testimonilHeading {
     background-color: rgba(242, 246, 248, 1);
     border-top: 1px black solid;
@@ -442,7 +431,8 @@ section {
 #testimonials {
     grid-column: 2/3;
     position: relative;
-    top: 0em
+    top: 0;
+    height: 100%;
 }
 
 .testimonal-Bg {
@@ -492,7 +482,7 @@ blockquote p {
     display: inline;
 }
 
-/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=TEACHERS==-=-=-=-=-=-=--=-=-*/
+/* TEACHERS */
 
 
 #teacherHeading {
@@ -515,7 +505,6 @@ blockquote p {
     align-items: center;
     justify-content: space-evenly;
     flex: 1;
-
 }
 
 .cardFront {
@@ -559,7 +548,6 @@ blockquote p {
 
 .historyCardBtn {
     margin-top: 3em;
-
 }
 
 .modal_wrap {
@@ -630,11 +618,9 @@ blockquote p {
     cursor: pointer;
 }
 
-
 #teacherWrapper {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 #tracyImg {
@@ -681,7 +667,7 @@ blockquote p {
 
 
 
-/*-=-=-=--=-=-=-=-=-=--=-=-=-=-=-SCEDULE -=-=-=-=--=-=-=-=-=-*/
+/* SCEDULE */
 #scheduleHeading {
     background-color: black;
     color: var(--offwhite);
@@ -703,7 +689,6 @@ blockquote p {
     background-image: url(../images/david-hofmann-4QPVQuf0WMQ-unsplash.jpg);
     background-size: cover;
     background-repeat: none;
-
     grid-column: 1/2;
 }
 
@@ -720,12 +705,11 @@ thead {
     text-transform: uppercase;
 }
 
-/*-=-=-==-=-=-=-=-=-=-=-=-=-=--=--=ENROLMENT-=-=-=--=-=-=-=-=-=-*/
+/* ENROLMENT */
 #enrolHeading {
     background-color: rgba(83, 74, 67, 1);
     border-bottom: 1px black solid;
     color: var(--offwhite);
-
 }
 
 #enrolmentSection {
@@ -802,7 +786,7 @@ form {
 
 
 
-/*-=-=-=-=-==-=-=-=-=--=-=-=-=-=-=-=--LOCATIONS-=-=-=-=-=-=-=-=--=*/
+/* LOCATIONS */
 #locationsHeading {
     background-color: rgb(255, 229, 170);
     border-bottom: 1px black solid;
@@ -867,7 +851,7 @@ form {
     background: -ms-linear-gradient(-45deg, rgba(252, 234, 187, 1) 0%, rgba(252, 205, 77, 1) 50%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
 }
 
-/*-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-==-=ATTIRE-=-=--=-=-=-=-=-=-=-=-=*/
+/* ATTIRE */
 #attireHeading {
     background-color: var(--lightBlack);
     border-bottom: 1px black solid;
@@ -934,9 +918,6 @@ form {
     background: -o-linear-gradient(-45deg, rgba(231, 203, 203, 1) 0%, rgba(231, 203, 203, 1) 33%, rgba(154, 122, 104, 1) 64%, rgba(154, 122, 104, 1) 100%);
     background: -ms-linear-gradient(-45deg, rgba(231, 203, 203, 1) 0%, rgba(231, 203, 203, 1) 33%, rgba(154, 122, 104, 1) 64%, rgba(154, 122, 104, 1) 100%);
     background: linear-gradient(135deg, rgba(231, 203, 203, 1) 0%, rgba(231, 203, 203, 1) 33%, rgba(154, 122, 104, 1) 64%, rgba(154, 122, 104, 1) 100%);
-
-
-
 }
 
 #attire-Heading {
@@ -960,7 +941,7 @@ form {
     -o-transition: var(--transition);
 }
 
-/*-=-=-==-=-=-=--=-=-=-=-=-=--=-=-=-=-=-FOOTER==-=-=-=-=-=-=-=-==-=-=-=*/
+/* FOOTER */
 .footer {
     display: flex;
     justify-content: space-around;
@@ -1005,7 +986,7 @@ form {
     }
 }
 
-/* =-=-=-=---=-=-=-=-=-=-=-=-==-=-MEDIA QUARYS*/
+/* MEDIA QUARYS */
 
 
 @media (max-width: 920px) {
