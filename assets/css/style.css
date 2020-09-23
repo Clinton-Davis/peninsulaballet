@@ -60,6 +60,10 @@ ul {
     margin: 0.5em 0;
 }
 
+.text-wht {
+    color: rgb(247, 247, 247);
+}
+
 .btn {
     padding: 0.5em;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
@@ -160,6 +164,29 @@ nav {
     -o-transition: var(--transition);
 }
 
+#covid {
+    position: absolute;
+    top: 14%;
+    right: 2%;
+    max-width: 25rem;
+    z-index: 9999;
+}
+
+.CovidWrap {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, rgb(189, 235, 229), rgba(255, 255, 255));
+    max-height: auto;
+    position: relative;
+    z-index: 1;
+    padding: 7px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 
 #navLogo {
     font-size: 2rem;
@@ -361,6 +388,8 @@ section {
 
 #welcomeSection {
     display: flex;
+    position: relative;
+    top: 7%;
 }
 
 #welcomeSubHead {
@@ -376,7 +405,9 @@ section {
     top: 10vh;
 }
 
-#welcomeWrap {
+
+
+.welcomeWrap {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to bottom right, rgb(189, 235, 229), rgba(255, 255, 255, 0.493));
@@ -990,7 +1021,7 @@ form {
 
 
 @media (max-width: 920px) {
-    #welcomeWrap {
+    .welcomeWrap {
         max-width: 70%;
         background-position: bottom left;
         margin-left: auto;
@@ -1062,7 +1093,7 @@ form {
     }
 
     @media (max-width: 750px) {
-        #welcomeWrap {
+        .welcomeWrap {
             max-width: 90%;
         }
 
@@ -1079,9 +1110,9 @@ form {
     }
 
     @media (max-width: 600px) {
-        #welcomeWrap {
+        .welcomeWrap {
             max-width: 95%;
-
+            padding-top: 3rem;
         }
     }
 
@@ -1091,8 +1122,9 @@ form {
             margin-top: 11%;
         }
 
-        #welcomeWrap {
+        .welcomeWrap {
             top: 25px;
+
         }
 
         .modal_content {
