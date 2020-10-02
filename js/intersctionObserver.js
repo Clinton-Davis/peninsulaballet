@@ -31,6 +31,9 @@ const observer = new IntersectionObserver(function (entries, observer) {
 
         } else if (entry.target.attributes[0].nodeValue == "attireSection") {
             getNavColor("var(--white", "var(--lightBlack)");
+
+        } else if (entry.target.attributes[0].nodeValue == "Covid-19") {
+            getNavColor("rgb(0,0,0)", "rgb(217, 190, 233)");
         }
         console.log(entry.target.attributes[0].nodeValue);
         //This function changes the colors of the nav and a tags when trigered buy the IntersectionObserver
@@ -39,11 +42,15 @@ const observer = new IntersectionObserver(function (entries, observer) {
             document.getElementById("navBurgerBg").style.backgroundColor = (bg_Color);
             document.getElementById("navLogo").style.color = (a_Color);
             var x = document.getElementsByClassName("navColor");
-            var i; for (i = 0; i < x.length; i++) {
-                x[i].style.color = (a_Color);}
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.color = (a_Color);
+            }
             var b = document.getElementsByClassName("navBgColor");
-            var c; for (c = 0; c < b.length; c++) {
-                b[c].style.backgroundColor = (a_Color);} 
+            var c;
+            for (c = 0; c < b.length; c++) {
+                b[c].style.backgroundColor = (a_Color);
+            }
         }
     })
 }, options);

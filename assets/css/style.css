@@ -23,7 +23,7 @@ body {
     --fw3: 300;
     --fw4: 400;
     /* --fw = Fonts weight*/
-    --lg: rgba(87, 87, 87, 0.9);
+    --lg: rgba(59, 59, 59, 0.9);
     --border: 1px black solid;
     --offwhite: rgb(218, 216, 216);
     --lightBlack: rgba(44, 43, 43, 1);
@@ -32,14 +32,28 @@ body {
     --transition: all 0.5s ease-in;
 }
 
-.border {
-    border: var(--border);
-}
-
 p {
     padding: 0 0.7em;
     max-width: 550px;
     line-height: 20px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.border {
+    border: var(--border);
+}
+
+
+.bg-black-a {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.bg-black-b {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .padding {
@@ -54,10 +68,6 @@ p {
     line-height: 1.5rem;
 }
 
-ul {
-    text-decoration: none;
-    list-style: none;
-}
 
 .centered {
     text-align: center;
@@ -66,6 +76,10 @@ ul {
 /* Topics are one lower than subHeadings*/
 .topics {
     margin: 0.5em 0;
+}
+
+.vert-aline {
+    vertical-align: middle;
 }
 
 .text-wht {
@@ -141,6 +155,11 @@ ul {
 .headFont {
     font-family: var(--hf);
     font-size: 1.5rem;
+}
+
+.headFont-lg {
+    font-family: var(--hf);
+    font-size: 2.5rem;
 }
 
 .textShadow {
@@ -379,7 +398,6 @@ section {
 
 /* WELCOME PAGE */
 
-
 #welcomeSection {
     display: flex;
     position: relative;
@@ -399,8 +417,6 @@ section {
     top: 10vh;
 }
 
-
-
 .welcomeWrap {
     display: flex;
     flex-direction: column;
@@ -408,8 +424,7 @@ section {
     max-width: 60%;
     max-height: auto;
     position: relative;
-
-    z-index: 1;
+    z-index: 45;
     margin: 2em;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
@@ -428,15 +443,14 @@ section {
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    z-index: 50;
+    z-index: 44;
 
 }
 
 #enrolBtn {
-    margin: 1.3em 0px;
+    margin-bottom: 1.3em;
     padding: 0.4em 1.4em;
     font-size: 1.3em;
-
 }
 
 /* TESTIMONIALS */
@@ -477,7 +491,7 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
-
+    z-index: 47;
 }
 
 blockquote {
@@ -509,7 +523,6 @@ blockquote p {
 
 /* TEACHERS */
 
-
 #teacherHeading {
     border-top: 1px black solid;
     border-bottom: 1px black solid;
@@ -535,7 +548,7 @@ blockquote p {
 .cardFront {
     margin: 2em;
     width: 255px;
-    height: 425px;
+    height: 452px;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
     border: 1px black solid;
     background-color: rgb(223, 223, 223);
@@ -688,8 +701,6 @@ blockquote p {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-
-
 
 
 /* SCEDULE */
@@ -966,7 +977,7 @@ form {
     -o-transition: var(--transition);
 }
 
-/* COVID */
+/* COVID-19 */
 
 .CovidWrap {
     display: flex;
@@ -985,6 +996,11 @@ form {
 
 #Covid-19 {
     display: block;
+}
+
+#covidHeading {
+    background: rgb(217, 190, 233);
+
 }
 
 .coidImg {
@@ -1152,7 +1168,7 @@ form {
 
     @media only screen and (orientation: landscape) {
         #top {
-            margin-top: 172px;
+            margin-top: 34px;
         }
     }
 
