@@ -12,7 +12,7 @@ The overall goal is to get more new students and give information to the existin
 
 ---
 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Netlify Status](https://api.netlify.com/api/v1/badges/10354c29-56de-4e3e-a7f1-cec8fcf95f2a/deploy-status)](https://app.netlify.com/sites/zealous-franklin-48c672/deploys)
 
 ---
 
