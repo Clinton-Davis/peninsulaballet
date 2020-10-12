@@ -7,7 +7,7 @@ const navSlide = () => {
         nav.classList.toggle('nav-active');
 
         //Animate Links
-    navLinks.forEach((link, index) =>{
+    navLinks.forEach((link, index) => {
         if (link.style.animation) {
             link.style.animation = '';
         }else {
