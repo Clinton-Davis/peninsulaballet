@@ -6,14 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Peninsula Ballet shcool</title>
-  <link rel="shortcut icon" type="image/png" href="../assets/images/logo2.0.png">
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+  <link rel="icon" type="image/png" href="./assets/images/favicon.png"/>
+
   <link href="https://fonts.googleapis.com/css?family=Italianno|Roboto:300,300i,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets\css\style.css" type="text/css" />
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
   <!--EmailJs Scripts-->
   <script type="text/javascript">
     (function () {
@@ -51,12 +53,12 @@
   <section id="welcomeSection">
 
     <div id="welcomeImg" class="imageDiv ">
-      <div class="infoCol parallax-box welcomeWrap">
+      <div class="infoCol welcomeWrap">
         <h1 id="top" class="headings textShadow ">Peninsula Ballet</h1>
         <h2 class="subHeadings textShadow " id="welcomeSubHead">Passionate about teaching</h2>
 
         <h2 class="subHeadings textShadow ">The Benefits</h2>
-        <p class="centered" id="welcomePara">There are so many benefits to learning ballet, besides having fun and
+        <p class="text-center" id="welcomePara">There are so many benefits to learning ballet, besides having fun and
           making good
           friends, it promotes healthy living as it is great exercise.<br>
           Being flexible is very important in ballet, it helps stop injury
@@ -212,16 +214,16 @@
       <!--HistoryCard start-->
       <div id="historyCard" class="cardFront">
         <div id="historyImg"></div>
-        <h2 class="cardHeading centered headFont-lg " id="">Peninsula Ballet</h2>
-        <h3 class="cardSpace centered">Brief History</h3>
+        <h2 class="cardHeading text-center headFont-lg " id="">Peninsula Ballet</h2>
+        <h3 class="cardSpace text-center">Brief History</h3>
         <div class="cardBody">
           <button id="historyBtn" class="ripple-surface cardBtn historyCardBtn padding_btm  btn">The History</button>
         </div>
         <div id="historyModal" class="modal_wrap">
           <div class="modal_content">
             <span class="ripple-surface close3">&times;</span>
-            <p class="modal_p centered">
-              <div class="centered"><span class="bioName centered"> A Brief History</span></div>
+            <p class="modal_p text-center">
+              <div class="text-center"><span class="bioName text-center"> A Brief History</span></div>
               In 1975, Sandra Davis started the Peninsula Ballet School in Fish Hoek, she was a teaching
               member of The Royal Academy of Dance.<br>
               She did many shows through the years and entered many R.A.D examinations, her
@@ -245,12 +247,12 @@
   <!--Schedule-->
   <h2 id="scheduleHeading" class="subHeadings">Scedules</h2>
   <section id="sceduleSection">
-    <div id="sceduleImg" class="parallax-bg"></div>
+    <div id="sceduleImg"></div>
     <div id="sceduleInfo" class="infoCol infoWrap bg-black-a">
-      <h4 class="topics centered">Class times and days may vary depending on the Ballet School's yearly calendar.<br>
+      <h4 class="topics text-center">Class times and days may vary depending on the Ballet School's yearly calendar.<br>
         (Show, Eisteddfod or Exam rehearsals) </h4>
       <h2 class="">Fish Hoek Classes (Tracy & Leilani)</h2>
-      <p class="centered">Grade 2's, 4's and Intermediate Foundation has Flamenco classes every second week. </p>
+      <p class="text-center">Grade 2's, 4's and Intermediate Foundation has Flamenco classes every second week. </p>
       <h2 class="day">MONDAY</h2>
       <table class="">
         <thead>
@@ -489,14 +491,14 @@
           <label for="emergency-number">Emergency Number</label>
           <input type="text" id="emergency_number" class="inputStyle" placeholder="Emergency Number" required>
 
-          <label class="centered">Any Emotional Or Physical Limitations, Or Injurys:</label>
+          <label class="text-center">Any Emotional Or Physical Limitations, Or Injurys:</label>
           <textarea type="text" id="issues" rows="3" col="4" class="inputStyle"
             placeholder="Emotional Or Physical Limitations.">
            </textarea>
 
 
           <div class="termanconditons">
-            <h2 class="topics centered textShadowB">Terms and Conditions of Enrolment</h2>
+            <h2 class="topics text-center textShadowB">Terms and Conditions of Enrolment</h2>
             <ul class="conditionStyle">
               <li>Ballet fees may be paid PER MONTH on the 1st of the month, ORPER TERM IN ADVANCE in the first two
                 weeks
@@ -522,7 +524,7 @@
             </ul>
           </div>
           <div id="checkBox" class="textShadowB">
-            <h3 class="topics centered">Check Box</h3>
+            <h3 class="topics text-center">Check Box</h3>
 
             <input class="" type="checkbox" value="" id="termsandConditions" required>
             <label class="" for="termsandConditions">
@@ -553,10 +555,10 @@
     <div id="locationImg" class="">
 
       <div id="locationWrapper" class="">
-        <h3 id="studioHeading" class="subHeadings studio centered">Ballet Studios</h3>
-        <p class="studio centered">Due to the Covid-19 pandemic some classes are available online. <br>The Fish Hoek and
+        <h3 id="studioHeading" class="subHeadings studio text-center">Ballet Studios</h3>
+        <p class="studio text-center">Due to the Covid-19 pandemic some classes are available online. <br>The Fish Hoek and
           Kommetjie studios are open.</p>
-        <div id="studiosWrap" class="studio studio-wrap centered">
+        <div id="studiosWrap" class="studio studio-wrap text-center">
 
           <div id="fishHoek" class=" studio studio-btn">
             <h3>Fish Hoek</h3>
@@ -652,11 +654,11 @@
         This is the classic ballerina bun, although many other variations
         are functional.
         If boys are sporting longer hair, it too, should be pulled back.</p>
-      <p>Click on the Outlets Button for a list of Outlets</p>
+      
 
       <div class="">
-        <h3 id="attire-Heading" class="ripple-surface centered subHeadings">Outlets</h3>
-        <ul class="">
+        <h3 id="attire-Heading" class="ripple-surface text-center subHeadings">Outlets</h3>
+        <ul class="text-center">
           <li><a href="https://bit.ly/35XtGVP" class="ripple-surface" target="_blank">
               Danztuff
               at Westlake Business Park</a>
@@ -697,23 +699,23 @@
             Safety
             Regulations</h1>
           <br>
-          <h3 class="centered">Unfortunately we live in a time with the Covid-19
-            <h3 class="centered">which has put a disruption on everyone's lives.
+          <h3 class="text-center">Unfortunately we live in a time with the Covid-19
+            <h3 class="text-center">which has put a disruption on everyone's lives.
             </h3>
-            <h3 class="centered">To be able to operate at some level we have had to keep to government and world health
+            <h3 class="text-center">To be able to operate at some level we have had to keep to government and world health
               safety regulations. This is to protect you and your loved ones.</h3>
-            <h3 class="centered">Please adhere to the regulations a all times</h3>
+            <h3 class="text-center">Please adhere to the regulations a all times</h3>
             <br>
             <ul class="line-height">
-              <li>Hand sanitizer is required on entry of the studio and temperature will be taken.</li>
-              <li>Facemasks and/or face shields are to be worn for the duration of their lessons.(Facemasks prefered)
+              <li>~ Hand sanitizer <span class="bold">is required</span>  on entry of the studio and temperature will be taken.</li>
+              <li>~ Facemasks and/or face shields are to be worn for the duration of their lessons.(Facemasks prefered)
               </li>
-              <li>No parents or siblings are allowed into the studio. </li>
-              <li>The windows and doors are kept open to encourage air flow.</li>
-              <li>And a one way entrance and exit system is employed.</li>
+              <li>~ No parents or siblings are allowed into the studio. </li>
+              <li>~ The windows and doors are kept open to encourage air flow.</li>
+              <li>~ A one way entrance and exit system is employed.</li>
             </ul>
             <br>
-            <h3 class="centered">Thank you for your cooperation, we are all in this together</h3>
+            <h3 class="text-center">Thank you for your cooperation, we are all in this together</h3>
         </div>
       </div>
     </div>
@@ -721,14 +723,13 @@
 
   <!--FOOTER-->
   <footer class="footer">
-
-    <div class="feet">CopyRight© 2020&nbsp;<a class="feet" href="https://icons8.com/icon/7lBpcu4DbmwV/protection-mask">
-        icon by Icons8</a></div>
+    <img id="logo" src="./assets/images/logo.jpg" alt="logo">
+    <div class="feet">CopyRight© 2020&nbsp;</div>
     <a href="mailto:southpeninsulaballet@gmail.com?Subject=Contact From Website" class="feet">Contact Us</a>
     <div class="feet">
-      <div class="feet">Web Design:</div>
+      <div class="feet"><small>Web Design:</small> </div>
       <div class="feet feet-bg">
-        <a href="https://github.com/Clinton-Davis" class="feet-bg" target="_blank">Clinton Davis</a><img
+        <a href="https://github.com/Clinton-Davis" class="feet-bg" target="_blank"><small> Clinton Davis</small></a><img
           class="vert-aline " src="https://img.icons8.com/fluent/22/000000/github.png" alt="GitHub" />
       </div>
     </div>
@@ -741,7 +742,6 @@
   <script src="./js/intersctionObserver.js"></script>
   <script src="./js/email.js"></script>
   <script src="./js/nav.js"></script>
-  <script src="./js/paralax.js"></script>
   <script src="./js/scroling.js"></script>
 </body>
 
