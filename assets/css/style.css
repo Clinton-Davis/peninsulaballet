@@ -839,7 +839,7 @@ form {
 #locationImg {
     background-image: url(../images/Dancer_on_rock-min.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: top;
     width: 100%;
     position: relative;
 }
@@ -870,7 +870,7 @@ form {
 }
 
 #studioHeading {
-    padding-right: 2.1em;
+    /* padding-right: 2.1em; */
 }
 
 .studio-btn {
