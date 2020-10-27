@@ -62,6 +62,9 @@ ul {
 .padding_btm {
   padding-bottom: 0.5em;
 }
+.padding_btm1 {
+  padding-bottom: 1em;
+}
 .mr1 {
   margin-right: 0.5rem;
 }
@@ -255,7 +258,9 @@ ul {
 .textShadowB {
   text-shadow: 1px 1px black;
 }
-
+.vht {
+  vertical-align: bottom;
+}
 /* NAV BAR */
 nav {
   transition: var(--transition);
@@ -640,11 +645,11 @@ blockquote p {
   border: 1px black solid;
   background-color: rgb(223, 223, 223);
   border: 2.5px outset rgb(117, 115, 115);
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .card__content {
@@ -939,9 +944,10 @@ form {
   -o-border-radius: 20px;
 }
 
-/* #studioHeading {
-    padding-right: 2.1em;
-} */
+#studioHeading {
+  margin-left: 50%;
+  margin-right: 50%;
+}
 
 .studio-btn {
   padding: 0.5em;
@@ -1005,7 +1011,7 @@ form {
   grid-template-columns: 60% 40%;
 }
 
-#attireInfo {
+.attireInfo {
   background-image: linear-gradient(
     to bottom right,
     rgb(153, 122, 104),
@@ -1343,7 +1349,7 @@ form {
     background-position: center;
   }
 
-  #attireInfo {
+  .attireInfo {
     background-image: none;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
