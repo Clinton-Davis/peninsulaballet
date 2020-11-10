@@ -9,8 +9,8 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
   <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
 
@@ -469,34 +469,33 @@
 
         <!--Form goes here-->
         <form onsubmit="return sendMail(this);" id="mainform">
-          <label>First name</label>
+          <label for="first_name"></label>
           <input type="text" id="first_name" class="inputStyle" placeholder="First name" required>
 
-          <label>Last name</label>
+          <label for=""></label>
           <input type="text" id="last_name" class="inputStyle" placeholder="Last name" required>
 
-          <label>Email address</label>
+          <label for="last_name"></label>
           <input type="email" id="from_email" class="inputStyle" placeholder="name@example.com" required>
 
-          <label for="dateOfbirth">Date of Birth</label>
+          <label for="dateOfbirth"></label>
           <input type="text" id="dateOfbirth" class="inputStyle" placeholder="Date of Birth" required>
 
 
-          <label for="age">Age</label>
+          <label for="age"></label>
           <input type="text" id="age" class="inputStyle" placeholder="Age" required>
 
-          <label for="guardian-name">Parent/Guardian Name:</label>
+          <label for="guardian-name"></label>
           <input type="text" id="guardian_name" class="inputStyle" placeholder="Parent/Guardian Name" required>
 
-          <label for="contact-number">Contact Number</label>
+          <label for="contact-number"></label>
           <input type="text" id="contact_number" class="inputStyle" placeholder="Contact Number" required>
 
-          <label for="emergency-number">Emergency Number</label>
+          <label for="emergency-number"></label>
           <input type="text" id="emergency_number" class="inputStyle" placeholder="Emergency Number" required>
 
-          <label class="text-center">Any Emotional Or Physical Limitations, Or Injurys:</label>
-          <textarea type="text" id="issues" rows="3" col="4" class="inputStyle"
-            placeholder="Emotional Or Physical Limitations.">
+          <label class="text-center">Please state below if any Emotional Or Physical Limitations, Or Injurys.</label>
+          <textarea type="text" id="issues" rows="4" col="4">
            </textarea>
 
 
@@ -543,8 +542,8 @@
             <label class="" for="virtualSign">
               I acknowledge that checking this box is my virtual signature.
             </label><br>
-            <button type="submit" class="ripple-surface btn">
-              Send
+            <button id="enroll_btn" type="submit" class="ripple-surface btn">
+              Send Application
             </button>
         </form>
       </div>
@@ -704,7 +703,7 @@
               safety regulations. This is to protect you and your loved ones.</h3>
             <h3 class="text-center">Please adhere to the regulations a all times</h3>
             <br>
-            <ul class="line-height">
+            <ul class="line-height mt1">
               <li>~ Hand sanitizer <span class="bold">is required</span> on entry of the studio and temperature will be
                 taken.</li>
               <li>~ Facemasks and/or face shields are to be worn for the duration of their lessons.(Facemasks prefered)
@@ -714,7 +713,7 @@
               <li>~ A one way entrance and exit system is employed.</li>
             </ul>
             <br>
-            <h3 class="text-center">Thank you for your cooperation, we are all in this together</h3>
+            <h3 class="text-center mt1">Thank you for your cooperation, we are all in this together</h3>
         </div>
       </div>
     </div>
@@ -735,13 +734,12 @@
   </footer>
 
 
-  <script src="./js/acordian.js"></script>
-  <script src="./js/ripple.js"></script>
+
   <script src="./js/modal.js"></script>
   <script src="./js/intersctionObserver.js"></script>
   <script src="./js/email.js"></script>
   <script src="./js/nav.js"></script>
-  <script src="./js/scroling.js"></script>
+  <script src="./js/scroling_ripple.js"></script>
 </body>
 
 </html>
