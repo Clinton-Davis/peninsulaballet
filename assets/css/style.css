@@ -897,6 +897,10 @@ input {
 textarea {
   background-color: var(--offwhite);
   border-radius: 5px;
+  max-width: 500px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .inputStyle {
@@ -907,10 +911,10 @@ textarea {
   height: 2em;
 }
 
-label {
+/* label {
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .conditionStyle {
   list-style: upper-roman;
