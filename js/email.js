@@ -29,10 +29,11 @@ function sendMail(contactForm) {
 function submitForm() {
   const checkBox = document.getElementById("checkBox");
   const button = checkBox.querySelector("button");
+  const mainForm = document.getElementById("mainform");
   button.addEventListener("click", submitForm);
   button.innerText = "Thank you";
   button.removeEventListener("click", submitForm);
   button.disabled = true;
   button.remove.class("ripple-surface");
-  console.log("got here");
+  mainForm.reset();
 }

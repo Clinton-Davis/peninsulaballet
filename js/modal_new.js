@@ -7,13 +7,14 @@ const close = teacherWrapper.querySelectorAll("span");
 
 for (const prop of btn) {
   prop.addEventListener("click", function (e) {
-    if (e.target.id === "tracyBtn") {
+    const targetName = e.target;
+    if (targetName.id === "tracyBtn") {
       tracyModal.style.display = "block";
     }
-    if (e.target.id === "leilaniBtn") {
+    if (targetName.id === "leilaniBtn") {
       leilaniModal.style.display = "block";
     }
-    if (e.target.id === "historyBtn") {
+    if (targetName.id === "historyBtn") {
       historyModal.style.display = "block";
     }
   });
