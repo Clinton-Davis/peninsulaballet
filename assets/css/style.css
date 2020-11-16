@@ -713,7 +713,7 @@ blockquote p {
   margin: 8em auto;
   padding: 20px;
   border: var(--border);
-  width: 70%;
+  width: 50%;
   position: relative;
   z-index: 99;
   box-shadow: 1px 20px 25px rgba(0, 0, 0, 0.3);
@@ -722,6 +722,11 @@ blockquote p {
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
 }
 
 .modal_p {
@@ -752,6 +757,7 @@ blockquote p {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .close:hover,
@@ -1320,7 +1326,13 @@ form {
     background-position: left;
   }
 }
-
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  opacity: 0;
+}
 /* MEDIA QUARYS */
 @media (max-width: 920px) {
   .welcomeWrap {

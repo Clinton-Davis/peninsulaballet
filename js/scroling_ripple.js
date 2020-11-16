@@ -22,4 +22,24 @@ $(function () {
       top: y,
     });
   });
+
+  $(".btt-link").click(function (e) {
+    $("html").animate(
+      {
+        scrollTop: 0,
+      },
+      1000
+    );
+  });
+});
+
+window.addEventListener("scroll", () => {
+  const btt = document.getElementById("backToTop");
+  const scrolled = window.scrollY;
+  console.log(scrolled);
+  if (scrolled > 500) {
+    btt.style.opacity = 1;
+  } else {
+    btt.style.opacity = 0;
+  }
 });

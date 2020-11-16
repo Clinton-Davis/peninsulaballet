@@ -2,24 +2,35 @@ const tracyModal = document.getElementById("tracyModal");
 const leilaniModal = document.getElementById("leilaniModal");
 const historyModal = document.getElementById("historyModal");
 const teacherWrapper = document.getElementById("teacherWrapper");
+const x = document.querySelectorAll(".close");
 const btn = teacherWrapper.querySelectorAll("button");
-const close = teacherWrapper.querySelectorAll("span");
 
-for (const prop of btn) {
-  prop.addEventListener("click", function (e) {
-    const targetName = e.target;
-    if (targetName.id === "tracyBtn") {
-      tracyModal.style.display = "block";
-    }
-    if (targetName.id === "leilaniBtn") {
-      leilaniModal.style.display = "block";
-    }
-    if (targetName.id === "historyBtn") {
-      historyModal.style.display = "block";
+//Opens Modal for selected btn
+btn.forEach((button) => {
+  button.addEventListener("click", function () {
+    switch (button.id) {
+      case "tracyBtn":
+        tracyModal.style.display = "block";
+        break;
+      case "leilaniBtn":
+        leilaniModal.style.display = "block";
+        break;
+      case "historyBtn":
+        historyModal.style.display = "block";
+        break;
     }
   });
-}
+});
 
+//Close Modal on selected Modal
+x.forEach((x) => {
+  x.addEventListener("click", () => {
+    const close = x.parentNode.parentElement;
+    close.style.display = "none";
+  });
+});
+
+//Closed Modals on window click
 window.onclick = function (event) {
   if (event.target == tracyModal) {
     tracyModal.style.display = "none";
