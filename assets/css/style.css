@@ -899,7 +899,13 @@ input {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-
+#bot-img {
+  width: 75px;
+  height: 25px;
+  margin-top: 1rem;
+  /* margin: 0.5rem auto; */
+  display: block;
+}
 textarea {
   background-color: var(--offwhite);
   border-radius: 5px;

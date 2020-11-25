@@ -1,29 +1,36 @@
 function sendMail(contactForm) {
-  emailjs
-    .send("southpeninsulaballet", "peninsulaballet", {
-      first_name: contactForm.first_name.value,
-      last_name: contactForm.last_name.value,
-      from_email: contactForm.from_email.value,
-      dateOfbirth: contactForm.dateOfbirth.value,
-      age: contactForm.age.value,
-      guardian_name: contactForm.guardian_name.value,
-      contact_number: contactForm.contact_number.value,
-      emergency_number: contactForm.emergency_number.value,
-      issues: contactForm.issues.value,
-    })
+  const awnser = "notabot";
+  if (contactForm.notBot.value === awnser) {
+    emailjs
+      .send("southpeninsulaballet", "peninsulaballet", {
+        first_name: contactForm.first_name.value,
+        last_name: contactForm.last_name.value,
+        from_email: contactForm.from_email.value,
+        dateOfbirth: contactForm.dateOfbirth.value,
+        age: contactForm.age.value,
+        guardian_name: contactForm.guardian_name.value,
+        contact_number: contactForm.contact_number.value,
+        emergency_number: contactForm.emergency_number.value,
+        issues: contactForm.issues.value,
+      })
 
-    .then(
-      function (responce) {
-        if (responce.status === 200) {
-          submitForm();
-          // console.log("SUCCESS", responce);
+      .then(
+        function (responce) {
+          if (responce.status === 200) {
+            submitForm();
+            console.log("SUCCESS", responce);
+          }
+        },
+        function (error) {
+          console.error("FAILED", error);
         }
-      },
-      function (error) {
-        console.error("FAILED", error);
-      }
+      );
+    return false;
+  } else {
+    alert(
+      "You got that a bit wrong, Are you a Bot? if not try again please .."
     );
-  return false;
+  }
 }
 
 function submitForm() {
