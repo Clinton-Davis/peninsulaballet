@@ -1234,6 +1234,7 @@ form {
 
 #Covid-19 {
   display: block;
+  height: fit-content;
 }
 
 #covidHeading {
@@ -1509,5 +1510,8 @@ video {
       width: 95%;
       max-height: auto;
     }
-  }
+    /* #eventsHeading {
+      padding-top: 12rem;
+    }
+  } */
 }
