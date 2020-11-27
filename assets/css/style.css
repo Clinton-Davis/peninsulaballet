@@ -1501,5 +1501,13 @@ video {
     .modal_content {
       margin: 4em auto;
     }
+    .gallery {
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      width: 98%;
+    }
+    video {
+      width: 95%;
+      max-height: auto;
+    }
   }
 }
