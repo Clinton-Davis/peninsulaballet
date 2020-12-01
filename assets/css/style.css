@@ -516,7 +516,7 @@ section {
 
 #welcomePara {
   line-height: 20.5px;
-  color: var(--lg);
+  color: rgb(51, 51, 51);
 }
 
 #top {
@@ -844,6 +844,7 @@ blockquote p {
   grid-column: 2/3;
   background-color: black;
   color: var(--offwhite);
+  font-size: 1.1rem;
 }
 
 #sceduleImg {
@@ -1331,7 +1332,7 @@ video {
 .event-list-container h2 {
   color: white;
   font-family: var(--hf);
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   margin: 4rem 0rem 2rem 0rem;
 }
@@ -1340,6 +1341,8 @@ video {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
+  letter-spacing: 0.02em;
+  font-size: 1.1em;
 }
 /* FOOTER */
 #logo {
