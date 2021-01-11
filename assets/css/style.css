@@ -525,14 +525,14 @@ section {
 
 .welcomeWrap {
   display: flex;
-  top: -20px;
+  top: -31px;
   flex-direction: column;
   background-image: linear-gradient(
     to bottom right,
     rgb(189, 235, 229),
     rgba(255, 255, 255, 0.493)
   );
-  max-width: 60%;
+  max-width: 45rem;
   max-height: auto;
   position: relative;
   z-index: 45;
@@ -566,7 +566,17 @@ section {
 #enrolBtn a {
   text-decoration: underline;
 }
-
+.celebration {
+  display: flex;
+  text-align: center;
+}
+.celebration img {
+  margin: 0 0.3rem 0 0.2rem;
+}
+.celebration h3 {
+  font-family: var(--hf);
+  font-size: 2rem;
+}
 /* TESTIMONIALS */
 #testimonilHeading {
   background-color: rgba(242, 246, 248, 1);
@@ -1462,60 +1472,59 @@ video {
   .textShadow {
     text-shadow: none;
   }
+}
+@media only screen and (orientation: landscape) {
+  #top {
+    margin-top: 34px;
+  }
+}
 
-  @media only screen and (orientation: landscape) {
-    #top {
-      margin-top: 34px;
-    }
+@media (max-width: 750px) {
+  .welcomeWrap {
+    max-width: 90%;
   }
 
-  @media (max-width: 750px) {
-    .welcomeWrap {
-      max-width: 90%;
-    }
-
-    .studio {
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .modal_content {
-      margin: 6em auto;
-      padding: 10px;
-      width: 95%;
-    }
+  .studio {
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  @media (max-width: 600px) {
-    .welcomeWrap {
-      max-width: 95%;
-    }
+  .modal_content {
+    margin: 6em auto;
+    padding: 10px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 600px) {
+  .welcomeWrap {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 380px) {
+  .headings {
+    font-size: 3.7rem;
+    margin-top: 11%;
   }
 
-  @media (max-width: 380px) {
-    .headings {
-      font-size: 3.7rem;
-      margin-top: 11%;
-    }
+  .welcomeWrap {
+    top: -34px;
+  }
 
-    .welcomeWrap {
-      top: 25px;
-    }
-
-    .modal_content {
-      margin: 4em auto;
-    }
-    .gallery {
-      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-      width: 98%;
-    }
-    video {
-      width: 95%;
-      max-height: auto;
-    }
-    /* #eventsHeading {
+  .modal_content {
+    margin: 4em auto;
+  }
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    width: 98%;
+  }
+  video {
+    width: 95%;
+    max-height: auto;
+  }
+  /* #eventsHeading {
       padding-top: 12rem;
     }
   } */
-  }
 }
