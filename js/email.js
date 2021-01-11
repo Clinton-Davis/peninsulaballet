@@ -13,7 +13,6 @@ function sendMail(contactForm) {
         emergency_number: contactForm.emergency_number.value,
         issues: contactForm.issues.value,
       })
-
       .then(
         function (responce) {
           if (responce.status === 200) {
