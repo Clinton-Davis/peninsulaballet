@@ -1,9 +1,9 @@
 /** Genural Stylesing */
 :root {
-  --hf: "Italianno", sans-serif;
-  /* --hf = Heading Fonts*/
-  --mf: "Roboto", sans-serif;
-  /* --mf = Main Fonts*/
+  --Italianno: "Italianno", sans-serif;
+  /* --Italianno = Heading Fonts*/
+  --Roboto: "Roboto", sans-serif;
+  /* --Roboto = Main Fonts*/
   --fw3: 300;
   --fw4: 400;
   /* --fw = Fonts weight*/
@@ -24,7 +24,7 @@ html {
   padding: 0px;
   box-sizing: border-box;
   font-weight: 300;
-  font-family: var(--mf);
+  font-family: var(--Roboto);
 }
 
 body {
@@ -122,7 +122,7 @@ ul {
 }
 
 .bold {
-  font-family: var(--mf);
+  font-family: var(--Roboto);
   font-weight: var(--fw3);
 }
 
@@ -131,7 +131,7 @@ ul {
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
   margin: 1px auto;
   margin-left: auto;
-  font-family: var(--mf);
+  font-family: var(--Roboto);
   font-size: 1em;
   font-weight: 400;
   border: 2.5px outset #f7f7f7;
@@ -261,12 +261,12 @@ ul {
 }
 
 .headFont {
-  font-family: var(--hf);
+  font-family: var(--Italianno);
   font-size: 1.5rem;
 }
 
 .headFont-lg {
-  font-family: var(--hf);
+  font-family: var(--Italianno);
   font-size: 2.5rem;
 }
 
@@ -320,7 +320,7 @@ nav {
   font-size: 1rem;
   color: var(--white);
   text-decoration: none;
-  font-family: var(--mf);
+  font-family: var(--Roboto);
 }
 
 .nav-links {
@@ -488,14 +488,14 @@ section {
 }
 
 .headings {
-  font-family: var(--hf);
+  font-family: var(--Italianno);
   font-size: 4.3rem;
 }
 
 .subHeadings {
   display: flex;
   justify-content: center;
-  font-family: var(--hf);
+  font-family: var(--Italianno);
   font-size: 2.3rem;
 }
 
@@ -571,7 +571,7 @@ section {
   text-align: center;
 }
 .celebration h3 {
-  font-family: var(--hf);
+  font-family: var(--Italianno);
   font-size: 2rem;
 }
 .leftFire {
@@ -781,7 +781,7 @@ blockquote p {
 
 .bioName {
   font-size: 2rem;
-  font-family: var(--hf);
+  font-family: var(--Italianno);
   text-align: center;
   padding: 0.1em;
 }
@@ -1031,7 +1031,7 @@ form {
   margin: 1.2em auto;
   border-top: 1px solid black;
   margin-left: auto;
-  font-family: var(--mf);
+  font-family: var(--Roboto);
   font-size: 1em;
   font-weight: 400;
   border: 0.5px outset #f7f7f7;
@@ -1130,12 +1130,12 @@ form {
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
   margin: 10px auto;
   margin-left: auto;
-  font-family: var(--mf);
+  font-family: var(--Roboto);
   font-size: 2em;
   font-weight: 400;
   border: 2.5px outset #f7f7f7;
   border-radius: 20px;
-  font-family: var(--hf);
+  font-family: var(--Italianno);
   background: rgba(231, 203, 203, 1);
   background: -moz-linear-gradient(
     -45deg,
@@ -1358,7 +1358,7 @@ video {
 }
 .event-list-container h2 {
   color: white;
-  font-family: var(--hf);
+  font-family: var(--Italianno);
   font-size: 4rem;
   text-align: center;
   margin: 4rem 0rem 2rem 0rem;
@@ -1390,7 +1390,7 @@ video {
 
 .feet {
   color: var(--white);
-  font-family: var(--mf);
+  font-family: var(--Roboto);
 }
 
 /* BG on web page desinger*/
